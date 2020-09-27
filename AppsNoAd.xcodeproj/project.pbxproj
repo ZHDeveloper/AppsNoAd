@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0214931D251D8A5500B4263E /* PARSHomePageADFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */; };
+		02149321251D8B6500B4263E /* JKNScreenADViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149320251D8B6500B4263E /* JKNScreenADViewController.h */; };
+		02149324251D8BF600B4263E /* JKNFloatAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149323251D8BF600B4263E /* JKNFloatAdView.h */; };
+		02149328251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149327251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h */; };
+		0214932B251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214932A251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h */; };
+		02149331251D9C5200B4263E /* LaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149330251D9C5200B4263E /* LaunchViewController.h */; };
+		02149334251D9CF000B4263E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149333251D9CF000B4263E /* BaseViewController.h */; };
+		02149337251D9FF200B4263E /* PNConnectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149336251D9FF200B4263E /* PNConnectionViewController.h */; };
+		0214933B251DA24F00B4263E /* ConnectADSmallCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214933A251DA24F00B4263E /* ConnectADSmallCell.h */; };
+		0214933E251DA26100B4263E /* PNMemberBNewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214933D251DA26100B4263E /* PNMemberBNewCell.h */; };
+		02149341251DC8C800B4263E /* PNLaunchADShowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149340251DC8C800B4263E /* PNLaunchADShowView.h */; };
+		0214934D251DCAF600B4263E /* MVSingleAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */; };
+		02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A354251353D200F1EA96 /* UIKit.framework */; };
+		02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A356251353D200F1EA96 /* Foundation.framework */; };
+		02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */; };
+		02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A361251353D200F1EA96 /* AppsNoAd.mm */; };
+		02C1A374251355AA00F1EA96 /* XCNativeAdViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A36E251355AA00F1EA96 /* XCNativeAdViewModel.h */; };
+		02C1A375251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A36F251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h */; };
+		02C1A376251355AA00F1EA96 /* ZYSplashFeedAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A370251355AA00F1EA96 /* ZYSplashFeedAdView.h */; };
+		02C1A377251355AA00F1EA96 /* ZYAdInfoFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A371251355AA00F1EA96 /* ZYAdInfoFlow.h */; };
+		02C1A378251355AA00F1EA96 /* ZYUIPostsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A372251355AA00F1EA96 /* ZYUIPostsTableViewCell.h */; };
+		02C1A379251355AA00F1EA96 /* XCNativeAdData.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A373251355AA00F1EA96 /* XCNativeAdData.h */; };
+		02C1A37D251355ED00F1EA96 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A37B251355ED00F1EA96 /* Utils.h */; };
+		02C1A37E251355ED00F1EA96 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A37C251355ED00F1EA96 /* Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0214931A251D88A400B4263E /* PARSAdvertPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARSAdvertPopupView.h; sourceTree = "<group>"; };
+		0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARSHomePageADFloatView.h; sourceTree = "<group>"; };
+		02149320251D8B6500B4263E /* JKNScreenADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNScreenADViewController.h; sourceTree = "<group>"; };
+		02149323251D8BF600B4263E /* JKNFloatAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNFloatAdView.h; sourceTree = "<group>"; };
+		02149327251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUIFeedNativeAdTableViewCell.h; sourceTree = "<group>"; };
+		0214932A251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNativeAdV2TableViewCell.h; sourceTree = "<group>"; };
+		0214932E251D987A00B4263E /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		02149330251D9C5200B4263E /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		02149333251D9CF000B4263E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		02149336251D9FF200B4263E /* PNConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNConnectionViewController.h; sourceTree = "<group>"; };
+		0214933A251DA24F00B4263E /* ConnectADSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectADSmallCell.h; sourceTree = "<group>"; };
+		0214933D251DA26100B4263E /* PNMemberBNewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNMemberBNewCell.h; sourceTree = "<group>"; };
+		02149340251DC8C800B4263E /* PNLaunchADShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLaunchADShowView.h; sourceTree = "<group>"; };
+		02149344251DC9C300B4263E /* MVSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVSplashScreenViewController.h; sourceTree = "<group>"; };
+		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
+		02C1A351251353D200F1EA96 /* AppsNoAd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppsNoAd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C1A354251353D200F1EA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02C1A356251353D200F1EA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		02C1A35D251353D200F1EA96 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		02C1A35F251353D200F1EA96 /* AppsNoAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppsNoAd-Prefix.pch"; path = "../AppsNoAd-Prefix.pch"; sourceTree = "<group>"; };
+		02C1A360251353D200F1EA96 /* AppsNoAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppsNoAd.xm; sourceTree = "<group>"; };
+		02C1A361251353D200F1EA96 /* AppsNoAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppsNoAd.mm; sourceTree = "<group>"; };
+		02C1A366251353D200F1EA96 /* AppsNoAd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppsNoAd.plist; sourceTree = "<group>"; };
+		02C1A36E251355AA00F1EA96 /* XCNativeAdViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNativeAdViewModel.h; sourceTree = "<group>"; };
+		02C1A36F251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNativeAdViewModelHelper.h; sourceTree = "<group>"; };
+		02C1A370251355AA00F1EA96 /* ZYSplashFeedAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSplashFeedAdView.h; sourceTree = "<group>"; };
+		02C1A371251355AA00F1EA96 /* ZYAdInfoFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAdInfoFlow.h; sourceTree = "<group>"; };
+		02C1A372251355AA00F1EA96 /* ZYUIPostsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUIPostsTableViewCell.h; sourceTree = "<group>"; };
+		02C1A373251355AA00F1EA96 /* XCNativeAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNativeAdData.h; sourceTree = "<group>"; };
+		02C1A37B251355ED00F1EA96 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		02C1A37C251355ED00F1EA96 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSplashViewController.h; sourceTree = "<group>"; };
+		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
+		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
+		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C1A34D251353D200F1EA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */,
+				02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */,
+				02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02149319251D88A400B4263E /* PALifeApp */ = {
+			isa = PBXGroup;
+			children = (
+				02149323251D8BF600B4263E /* JKNFloatAdView.h */,
+				02149320251D8B6500B4263E /* JKNScreenADViewController.h */,
+				0214931A251D88A400B4263E /* PARSAdvertPopupView.h */,
+				0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */,
+			);
+			path = PALifeApp;
+			sourceTree = "<group>";
+		};
+		0214932D251D987A00B4263E /* PeanutWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				0214933A251DA24F00B4263E /* ConnectADSmallCell.h */,
+				0214933D251DA26100B4263E /* PNMemberBNewCell.h */,
+				02149333251D9CF000B4263E /* BaseViewController.h */,
+				02149330251D9C5200B4263E /* LaunchViewController.h */,
+				0214932E251D987A00B4263E /* MainTabBarController.h */,
+				02149336251D9FF200B4263E /* PNConnectionViewController.h */,
+				02149340251DC8C800B4263E /* PNLaunchADShowView.h */,
+			);
+			path = PeanutWiFi;
+			sourceTree = "<group>";
+		};
+		02149343251DC9C300B4263E /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */,
+				02149344251DC9C300B4263E /* MVSplashScreenViewController.h */,
+			);
+			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		02C1A346251353D200F1EA96 = {
+			isa = PBXGroup;
+			children = (
+				02C1A35A251353D200F1EA96 /* AppsNoAd */,
+				02C1A353251353D200F1EA96 /* Frameworks */,
+				02C1A352251353D200F1EA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C1A352251353D200F1EA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A351251353D200F1EA96 /* AppsNoAd.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C1A353251353D200F1EA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A354251353D200F1EA96 /* UIKit.framework */,
+				02C1A356251353D200F1EA96 /* Foundation.framework */,
+				02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02C1A35A251353D200F1EA96 /* AppsNoAd */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A37A251355C700F1EA96 /* Utils */,
+				02C1A36C251355AA00F1EA96 /* Headers */,
+				02C1A360251353D200F1EA96 /* AppsNoAd.xm */,
+				02C1A361251353D200F1EA96 /* AppsNoAd.mm */,
+				02C1A35B251353D200F1EA96 /* Package */,
+				02C1A35E251353D200F1EA96 /* Supporting Files */,
+			);
+			path = AppsNoAd;
+			sourceTree = "<group>";
+		};
+		02C1A35B251353D200F1EA96 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A35C251353D200F1EA96 /* DEBIAN */,
+				02C1A363251353D200F1EA96 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		02C1A35C251353D200F1EA96 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A35D251353D200F1EA96 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		02C1A35E251353D200F1EA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A35F251353D200F1EA96 /* AppsNoAd-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02C1A363251353D200F1EA96 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A364251353D200F1EA96 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		02C1A364251353D200F1EA96 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A365251353D200F1EA96 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		02C1A365251353D200F1EA96 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A366251353D200F1EA96 /* AppsNoAd.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		02C1A36C251355AA00F1EA96 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				02EEC91B25202EED00080848 /* ZhiXing */,
+				02149343251DC9C300B4263E /* MovieApp */,
+				0214932D251D987A00B4263E /* PeanutWiFi */,
+				02149319251D88A400B4263E /* PALifeApp */,
+				02C1A37F25135BFD00F1EA96 /* DingTalk */,
+				02C1A36D251355AA00F1EA96 /* ZuiYou */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		02C1A36D251355AA00F1EA96 /* ZuiYou */ = {
+			isa = PBXGroup;
+			children = (
+				0214932A251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h */,
+				02149327251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h */,
+				02C1A36E251355AA00F1EA96 /* XCNativeAdViewModel.h */,
+				02C1A36F251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h */,
+				02C1A370251355AA00F1EA96 /* ZYSplashFeedAdView.h */,
+				02C1A371251355AA00F1EA96 /* ZYAdInfoFlow.h */,
+				02C1A372251355AA00F1EA96 /* ZYUIPostsTableViewCell.h */,
+				02C1A373251355AA00F1EA96 /* XCNativeAdData.h */,
+			);
+			path = ZuiYou;
+			sourceTree = "<group>";
+		};
+		02C1A37A251355C700F1EA96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A37B251355ED00F1EA96 /* Utils.h */,
+				02C1A37C251355ED00F1EA96 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		02C1A37F25135BFD00F1EA96 /* DingTalk */ = {
+			isa = PBXGroup;
+			children = (
+				02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */,
+			);
+			path = DingTalk;
+			sourceTree = "<group>";
+		};
+		02EEC91B25202EED00080848 /* ZhiXing */ = {
+			isa = PBXGroup;
+			children = (
+				02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */,
+				02EEC91D25202EED00080848 /* TKApp.h */,
+				02EEC91E25202EED00080848 /* ZTAdImageView.h */,
+			);
+			path = ZhiXing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02C1A34E251353D200F1EA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02149341251DC8C800B4263E /* PNLaunchADShowView.h in Headers */,
+				0214934D251DCAF600B4263E /* MVSingleAnimatedImageView.h in Headers */,
+				02149331251D9C5200B4263E /* LaunchViewController.h in Headers */,
+				02C1A377251355AA00F1EA96 /* ZYAdInfoFlow.h in Headers */,
+				0214933B251DA24F00B4263E /* ConnectADSmallCell.h in Headers */,
+				02149337251D9FF200B4263E /* PNConnectionViewController.h in Headers */,
+				02149328251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h in Headers */,
+				02149324251D8BF600B4263E /* JKNFloatAdView.h in Headers */,
+				0214931D251D8A5500B4263E /* PARSHomePageADFloatView.h in Headers */,
+				02C1A375251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h in Headers */,
+				02C1A378251355AA00F1EA96 /* ZYUIPostsTableViewCell.h in Headers */,
+				0214933E251DA26100B4263E /* PNMemberBNewCell.h in Headers */,
+				02C1A379251355AA00F1EA96 /* XCNativeAdData.h in Headers */,
+				02149334251D9CF000B4263E /* BaseViewController.h in Headers */,
+				0214932B251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h in Headers */,
+				02149321251D8B6500B4263E /* JKNScreenADViewController.h in Headers */,
+				02C1A374251355AA00F1EA96 /* XCNativeAdViewModel.h in Headers */,
+				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
+				02C1A376251355AA00F1EA96 /* ZYSplashFeedAdView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02C1A350251353D200F1EA96 /* AppsNoAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C1A369251353D200F1EA96 /* Build configuration list for PBXNativeTarget "AppsNoAd" */;
+			buildPhases = (
+				02C1A34B251353D200F1EA96 /* ShellScript */,
+				02C1A34C251353D200F1EA96 /* Sources */,
+				02C1A34D251353D200F1EA96 /* Frameworks */,
+				02C1A34E251353D200F1EA96 /* Headers */,
+				02C1A34F251353D200F1EA96 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppsNoAd;
+			productName = AppsNoAd;
+			productReference = 02C1A351251353D200F1EA96 /* AppsNoAd.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C1A347251353D200F1EA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				TargetAttributes = {
+					02C1A350251353D200F1EA96 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 02C1A34A251353D200F1EA96 /* Build configuration list for PBXProject "AppsNoAd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C1A346251353D200F1EA96;
+			productRefGroup = 02C1A352251353D200F1EA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C1A350251353D200F1EA96 /* AppsNoAd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C1A34B251353D200F1EA96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		02C1A34F251353D200F1EA96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C1A34C251353D200F1EA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */,
+				02C1A37E251355ED00F1EA96 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02C1A367251353D200F1EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"AppsNoAd\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C1A368251353D200F1EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"AppsNoAd\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		02C1A36A251353D200F1EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALHYNRR3TV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppsNoAd/AppsNoAd-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02C1A36B251353D200F1EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALHYNRR3TV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppsNoAd/AppsNoAd-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C1A34A251353D200F1EA96 /* Build configuration list for PBXProject "AppsNoAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C1A367251353D200F1EA96 /* Release */,
+				02C1A368251353D200F1EA96 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C1A369251353D200F1EA96 /* Build configuration list for PBXNativeTarget "AppsNoAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C1A36A251353D200F1EA96 /* Release */,
+				02C1A36B251353D200F1EA96 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C1A347251353D200F1EA96 /* Project object */;
+}
