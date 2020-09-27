@@ -143,7 +143,7 @@
 
 - (void)addChildViewController:(UIViewController *)vc {
     NSArray *titles = @[@"首页", @"地铁"];
-    if (![titles containsObject:vc.tabBarItem.title]) return;
+    if (![titles containsObject:vc.tabBarItem.title])return;
     %orig;
 }
 
@@ -232,6 +232,195 @@
 
 %end
 
+/// ========================> 腾讯视频 <========================
+%group Live4iPhone
+
+%hook QLVMChannelViewController
+
+- (bool)hasHeaderDragRefresh {
+    return NO;
+}
+
+%end
+
+%hook QLTeenGuardianPromptAssistant
+
+- (void)tryToShowNewStartPromptView:(id)arg1 { }
+
+%end
+
+%hook QADSplashWindow
+
+- (void)setSplashViewController:(id)arg1 { }
+
+%end
+
+%hook TADSplashBaseViewController
+
+- (void)setSplashItem:(id)arg1 { }
+
+%end
+
+%hook QADSplashSDK
+
+- (bool)isQADSplashEnabled {
+    return NO;
+}
+
+%end
+
+%hook FLPatch
+
+- (id)apiVersion {
+    return @"2";
+}
+
+%end
+
+%hook QNBQQPlayerPlugin
+
+- (void)pauseVideoNeedAds:(bool)arg1 {
+    %orig(NO);
+}
+
+%end
+
+%hook QNBUAVIPActivityEntryViewModel
+
+- (double)lengthInScrollDirectionWithLengthInFixedDirection:(double)arg1 {
+    return 0;
+}
+
+%end
+
+%hook QNBUAPRPageCarouselCell
+
+- (void)setSectionViewModel:(id)arg1 { }
+
+%end
+
+%hook QNBUAPRCommonLandScapeViewModel
+
+- (double)lengthInScrollDirectionWithLengthInFixedDirection:(double)arg1 {
+    return 0;
+}
+
+%end
+
+%hook QLONAGalleryAdPosterView
+
+- (void)insertFocusAdOrderInfoForPosterList:(id)arg1 {
+    %orig(nil);
+}
+
+%end
+
+%hook QLJCEONAVideoAdPoster
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLJCEONAAdPoster
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLJCEONAAppList
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLJCEONARecommendList
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLJCEONALeftImageRightTextAdPoster
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLJCEAdInsideVideoItem
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QNBUAFocusVideoBlockViewModel
+
+- (void)setAdFocusController:(id)arg1 { }
+
+%end
+
+%hook QNBUAFocusAdBlockViewModel
+
+- (id)initWithBlockData:(id)arg1 sectionModel:(id)arg2 optional:(bool)arg3 {
+    return nil;
+}
+
+%end
+
+%hook TVKWaterMarkModel
+
+- (void)setWaterInfos:(id)arg1 { }
+
+%end
+
+%hook QLVNOperationViewModel
+
+- (void)updateVCoinData { }
+- (void)updateCreationVNData { }
+- (void)updateOtherVNDataByKey { }
+- (void)updateOtherVNData { }
+- (void)updateThirdVNData { }
+- (void)updateInterestVNData { }
+
+%end
+
+%hook QLVNUserCenterRecommendFeedViewModel
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook QLONAInnerAdRecommendBannerCell
+
+- (long long)collectionView:(id)arg1 numberOfItemsInSection:(long long)arg2 {
+    return 0;
+}
+
+%end
+
+%hook QADFeedBaseViewModel
+
+- (void)setAdFeedInfo:(id)arg1 {
+    %orig(nil);
+}
+
+%end
+
+
+%end
+
 
 /// ========================> 初始化 <========================
 %ctor {
@@ -241,4 +430,5 @@
     %init(PeanutWiFi);
     %init(MovieApp);
     %init(ZhiXing);
+    %init(Live4iPhone);
 }

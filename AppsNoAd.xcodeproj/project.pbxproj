@@ -7,28 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0214931D251D8A5500B4263E /* PARSHomePageADFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */; };
-		02149321251D8B6500B4263E /* JKNScreenADViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149320251D8B6500B4263E /* JKNScreenADViewController.h */; };
-		02149324251D8BF600B4263E /* JKNFloatAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149323251D8BF600B4263E /* JKNFloatAdView.h */; };
-		02149328251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149327251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h */; };
-		0214932B251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214932A251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h */; };
-		02149331251D9C5200B4263E /* LaunchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149330251D9C5200B4263E /* LaunchViewController.h */; };
-		02149334251D9CF000B4263E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149333251D9CF000B4263E /* BaseViewController.h */; };
-		02149337251D9FF200B4263E /* PNConnectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149336251D9FF200B4263E /* PNConnectionViewController.h */; };
-		0214933B251DA24F00B4263E /* ConnectADSmallCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214933A251DA24F00B4263E /* ConnectADSmallCell.h */; };
-		0214933E251DA26100B4263E /* PNMemberBNewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214933D251DA26100B4263E /* PNMemberBNewCell.h */; };
-		02149341251DC8C800B4263E /* PNLaunchADShowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02149340251DC8C800B4263E /* PNLaunchADShowView.h */; };
-		0214934D251DCAF600B4263E /* MVSingleAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */; };
 		02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A354251353D200F1EA96 /* UIKit.framework */; };
 		02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A356251353D200F1EA96 /* Foundation.framework */; };
 		02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */; };
 		02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A361251353D200F1EA96 /* AppsNoAd.mm */; };
-		02C1A374251355AA00F1EA96 /* XCNativeAdViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A36E251355AA00F1EA96 /* XCNativeAdViewModel.h */; };
-		02C1A375251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A36F251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h */; };
-		02C1A376251355AA00F1EA96 /* ZYSplashFeedAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A370251355AA00F1EA96 /* ZYSplashFeedAdView.h */; };
-		02C1A377251355AA00F1EA96 /* ZYAdInfoFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A371251355AA00F1EA96 /* ZYAdInfoFlow.h */; };
-		02C1A378251355AA00F1EA96 /* ZYUIPostsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A372251355AA00F1EA96 /* ZYUIPostsTableViewCell.h */; };
-		02C1A379251355AA00F1EA96 /* XCNativeAdData.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A373251355AA00F1EA96 /* XCNativeAdData.h */; };
 		02C1A37D251355ED00F1EA96 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A37B251355ED00F1EA96 /* Utils.h */; };
 		02C1A37E251355ED00F1EA96 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A37C251355ED00F1EA96 /* Utils.m */; };
 /* End PBXBuildFile section */
@@ -271,25 +253,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02149341251DC8C800B4263E /* PNLaunchADShowView.h in Headers */,
-				0214934D251DCAF600B4263E /* MVSingleAnimatedImageView.h in Headers */,
-				02149331251D9C5200B4263E /* LaunchViewController.h in Headers */,
-				02C1A377251355AA00F1EA96 /* ZYAdInfoFlow.h in Headers */,
-				0214933B251DA24F00B4263E /* ConnectADSmallCell.h in Headers */,
-				02149337251D9FF200B4263E /* PNConnectionViewController.h in Headers */,
-				02149328251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h in Headers */,
-				02149324251D8BF600B4263E /* JKNFloatAdView.h in Headers */,
-				0214931D251D8A5500B4263E /* PARSHomePageADFloatView.h in Headers */,
-				02C1A375251355AA00F1EA96 /* ZYNativeAdViewModelHelper.h in Headers */,
-				02C1A378251355AA00F1EA96 /* ZYUIPostsTableViewCell.h in Headers */,
-				0214933E251DA26100B4263E /* PNMemberBNewCell.h in Headers */,
-				02C1A379251355AA00F1EA96 /* XCNativeAdData.h in Headers */,
-				02149334251D9CF000B4263E /* BaseViewController.h in Headers */,
-				0214932B251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h in Headers */,
-				02149321251D8B6500B4263E /* JKNScreenADViewController.h in Headers */,
-				02C1A374251355AA00F1EA96 /* XCNativeAdViewModel.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
-				02C1A376251355AA00F1EA96 /* ZYSplashFeedAdView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
