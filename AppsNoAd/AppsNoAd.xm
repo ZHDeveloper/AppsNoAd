@@ -23,6 +23,10 @@
 
 #import "TKApp.h"
 
+#import "KHStartController.h"
+
+#import "EMKLaunchADViewController.h"
+
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -418,17 +422,44 @@
 
 %end
 
+%end
+
+/// ========================> 康合上医 <========================
+%group KHealthDoctor
+
+%hook KHStartController
+
+- (void)services_getAD {
+    [self kh_goHomeWithAnimDelay:0.0];
+}
+
+%end
+
+%end
+
+/// ========================> 饿了么 <========================
+%group Eleme
+
+%hook EMKLaunchADViewController
+
+- (void)viewDidLoad {
+    [self didClickCloseButton];
+}
+
+%end
 
 %end
 
 
 /// ========================> 初始化 <========================
 %ctor {
+    %init(Eleme);
     %init(ZuiYou);
+    %init(ZhiXing);
+    %init(MovieApp);
     %init(DingTalk);
     %init(PALifeApp);
     %init(PeanutWiFi);
-    %init(MovieApp);
-    %init(ZhiXing);
     %init(Live4iPhone);
+    %init(KHealthDoctor);
 }

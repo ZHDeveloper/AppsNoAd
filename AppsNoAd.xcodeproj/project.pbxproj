@@ -31,6 +31,9 @@
 		02149340251DC8C800B4263E /* PNLaunchADShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLaunchADShowView.h; sourceTree = "<group>"; };
 		02149344251DC9C300B4263E /* MVSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVSplashScreenViewController.h; sourceTree = "<group>"; };
 		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
+		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
+		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
+		028059A42520806600DD4B49 /* NVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVMViewController.h; sourceTree = "<group>"; };
 		02C1A351251353D200F1EA96 /* AppsNoAd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppsNoAd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1A354251353D200F1EA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02C1A356251353D200F1EA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +103,23 @@
 				02149344251DC9C300B4263E /* MVSplashScreenViewController.h */,
 			);
 			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		0280599E25207C9400DD4B49 /* KHealthDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				0280599F25207C9400DD4B49 /* KHStartController.h */,
+			);
+			path = KHealthDoctor;
+			sourceTree = "<group>";
+		};
+		028059A125207FA500DD4B49 /* Eleme */ = {
+			isa = PBXGroup;
+			children = (
+				028059A42520806600DD4B49 /* NVMViewController.h */,
+				028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */,
+			);
+			path = Eleme;
 			sourceTree = "<group>";
 		};
 		02C1A346251353D200F1EA96 = {
@@ -194,11 +214,13 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				02EEC91B25202EED00080848 /* ZhiXing */,
-				02149343251DC9C300B4263E /* MovieApp */,
-				0214932D251D987A00B4263E /* PeanutWiFi */,
-				02149319251D88A400B4263E /* PALifeApp */,
+				028059A125207FA500DD4B49 /* Eleme */,
 				02C1A37F25135BFD00F1EA96 /* DingTalk */,
+				0280599E25207C9400DD4B49 /* KHealthDoctor */,
+				02149343251DC9C300B4263E /* MovieApp */,
+				02149319251D88A400B4263E /* PALifeApp */,
+				0214932D251D987A00B4263E /* PeanutWiFi */,
+				02EEC91B25202EED00080848 /* ZhiXing */,
 				02C1A36D251355AA00F1EA96 /* ZuiYou */,
 			);
 			path = Headers;
