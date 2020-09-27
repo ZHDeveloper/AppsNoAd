@@ -168,6 +168,8 @@
     return isAdCell ? 0 : %orig;
 }
 
+- (void)gotoNewsVC { }
+
 %end
 
 %hook ConnectADSmallCell
