@@ -98,6 +98,7 @@
 - (void)viewWillAppear:(_Bool)arg1;
 - (void)viewDidAppear:(_Bool)arg1;
 - (void)viewDidLoad;
+- (void)reportIntegralTasks;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -177,15 +177,28 @@
 
 - (void)viewDidLoad {
     %orig;
-    [[%c(ReportTaskService) sharedInstance] integralTaskReport:0 type:3 handlerBlock:nil];
+    [self reportIntegralTasks];
     [self refreshHeadSignStatus];
 }
 
 - (void)connectSuccessCallback {
     %orig;
-    [[%c(ReportTaskService) sharedInstance] integralTaskReport:0 type:3 handlerBlock:nil];
+    [self reportIntegralTasks];
     [self refreshHeadSignStatus];
 }
+
+%new
+- (void)reportIntegralTasks {
+    /// 签到任务
+    [[%c(ReportTaskService) sharedInstance] integralTaskReport:0 type:3 handlerBlock:nil];
+    /// 1、文章任务 2、视频任务 3、小说任务 4、视频任务 5、Wifi连接 6、分享任务 7、广告任务
+    for (int i = 1; i<8; i++) {
+        [[%c(ReportTaskService) sharedInstance] integralTaskReport:i type:1 handlerBlock:nil];
+        [[%c(ReportTaskService) sharedInstance] integralTaskReport:i type:2 handlerBlock:nil];
+    }
+}
+
+- (void)showSignToust:(id)arg1 { }
 
 %end
 
