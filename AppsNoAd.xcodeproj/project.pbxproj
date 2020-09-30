@@ -31,6 +31,7 @@
 		02149340251DC8C800B4263E /* PNLaunchADShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLaunchADShowView.h; sourceTree = "<group>"; };
 		02149344251DC9C300B4263E /* MVSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVSplashScreenViewController.h; sourceTree = "<group>"; };
 		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
+		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
 		028059A42520806600DD4B49 /* NVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVMViewController.h; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 				0214932E251D987A00B4263E /* MainTabBarController.h */,
 				02149336251D9FF200B4263E /* PNConnectionViewController.h */,
 				02149340251DC8C800B4263E /* PNLaunchADShowView.h */,
+				0259CB59252339570035631B /* ReportTaskService.h */,
 			);
 			path = PeanutWiFi;
 			sourceTree = "<group>";

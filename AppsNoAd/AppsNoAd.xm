@@ -17,6 +17,7 @@
 #import "LaunchViewController.h"
 #import "PNMemberBNewCell.h"
 #import "ConnectADSmallCell.h"
+#import "ReportTaskService.h"
 #import "PNConnectionViewController.h"
 
 #import "MVSplashScreenViewController.h"
@@ -151,6 +152,10 @@
     %orig;
 }
 
+- (BOOL)hiddenStateBar {
+    return NO;
+}
+
 %end
 
 %hook LaunchViewController
@@ -169,6 +174,18 @@
 }
 
 - (void)gotoNewsVC { }
+
+- (void)viewDidLoad {
+    %orig;
+    [[%c(ReportTaskService) sharedInstance] integralTaskReport:0 type:3 handlerBlock:nil];
+    [self refreshHeadSignStatus];
+}
+
+- (void)connectSuccessCallback {
+    %orig;
+    [[%c(ReportTaskService) sharedInstance] integralTaskReport:0 type:3 handlerBlock:nil];
+    [self refreshHeadSignStatus];
+}
 
 %end
 
