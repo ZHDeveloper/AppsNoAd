@@ -28,6 +28,8 @@
 
 #import "EMKLaunchADViewController.h"
 
+#import "SWCityPageVC.h"
+
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -482,6 +484,36 @@
 
 %end
 
+/// ========================> 天气通 <========================
+%group WeatherPro
+
+%hook SWCityFeedVC
+
+- (struct CGSize)collectionView:(id)arg1 layout:(id)arg2 referenceSizeForFooterInSection:(long long)arg3 {
+    return CGSizeMake(0, 0);
+}
+
+
+%end
+
+%hook SWCityPageVC
+
+- (BOOL)isShowWeiboFeed {
+    return NO;
+}
+
+%end
+
+%hook SWTipsView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
+%end
+
 
 /// ========================> 初始化 <========================
 %ctor {
@@ -491,6 +523,7 @@
     %init(MovieApp);
     %init(DingTalk);
     %init(PALifeApp);
+    %init(WeatherPro);
     %init(PeanutWiFi);
     %init(Live4iPhone);
     %init(KHealthDoctor);

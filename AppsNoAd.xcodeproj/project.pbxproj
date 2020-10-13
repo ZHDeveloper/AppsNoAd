@@ -35,6 +35,10 @@
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
 		028059A42520806600DD4B49 /* NVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVMViewController.h; sourceTree = "<group>"; };
+		02A6FEE52535A1B000B99B94 /* SWCityFeedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCityFeedVC.h; sourceTree = "<group>"; };
+		02A6FEE62535A1C400B99B94 /* SWCityPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCityPageVC.h; sourceTree = "<group>"; };
+		02A6FEE82535A51F00B99B94 /* SWFeedAbstractVCContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFeedAbstractVCContentView.h; sourceTree = "<group>"; };
+		02A6FEE92535A56400B99B94 /* SWTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTipsView.h; sourceTree = "<group>"; };
 		02C1A351251353D200F1EA96 /* AppsNoAd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppsNoAd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1A354251353D200F1EA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02C1A356251353D200F1EA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +126,17 @@
 				028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */,
 			);
 			path = Eleme;
+			sourceTree = "<group>";
+		};
+		02A6FEE42535A19900B99B94 /* WeatherPro */ = {
+			isa = PBXGroup;
+			children = (
+				02A6FEE62535A1C400B99B94 /* SWCityPageVC.h */,
+				02A6FEE52535A1B000B99B94 /* SWCityFeedVC.h */,
+				02A6FEE92535A56400B99B94 /* SWTipsView.h */,
+				02A6FEE82535A51F00B99B94 /* SWFeedAbstractVCContentView.h */,
+			);
+			path = WeatherPro;
 			sourceTree = "<group>";
 		};
 		02C1A346251353D200F1EA96 = {
@@ -216,6 +231,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				02A6FEE42535A19900B99B94 /* WeatherPro */,
 				028059A125207FA500DD4B49 /* Eleme */,
 				02C1A37F25135BFD00F1EA96 /* DingTalk */,
 				0280599E25207C9400DD4B49 /* KHealthDoctor */,
