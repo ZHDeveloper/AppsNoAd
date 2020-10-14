@@ -34,6 +34,8 @@
 #import "ipcList.h"
 #import "AppsViewCell.h"
 
+#import "PARSDiscoverHomeViewControllerV7.h"
+
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -141,6 +143,16 @@
 
 - (id)initWithFrame:(struct CGRect)arg1 {
     return nil;
+}
+
+%end
+
+%hook PARSDiscoverHomeViewControllerV7
+
+- (void)doSthOnViewDidLoad { }
+
+- (_Bool)shouldShowAnyDoor {
+    return NO;
 }
 
 %end
@@ -574,6 +586,7 @@
         %init(DingTalk);
     }
     else if ([identify isEqualToString:PALifeApp]) {
+        PrintObject(@"HHH");
         %init(PALifeApp);
     }
     else if ([identify isEqualToString:WeatherPro]) {

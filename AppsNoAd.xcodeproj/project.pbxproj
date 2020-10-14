@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020235D12536EFA40051EDBB /* PARSDiscoverHomeViewControllerV7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARSDiscoverHomeViewControllerV7.h; sourceTree = "<group>"; };
 		02141ABC253688A8001735C7 /* VungleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VungleSDK.h; sourceTree = "<group>"; };
 		02141AD62536A37D001735C7 /* ADServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADServer.h; sourceTree = "<group>"; };
 		02141AD82536A5F1001735C7 /* AppsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsViewCell.h; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 				02149320251D8B6500B4263E /* JKNScreenADViewController.h */,
 				0214931A251D88A400B4263E /* PARSAdvertPopupView.h */,
 				0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */,
+				020235D12536EFA40051EDBB /* PARSDiscoverHomeViewControllerV7.h */,
 			);
 			path = PALifeApp;
 			sourceTree = "<group>";
