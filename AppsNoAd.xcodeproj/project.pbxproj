@@ -16,6 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02141ABC253688A8001735C7 /* VungleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VungleSDK.h; sourceTree = "<group>"; };
+		02141AD62536A37D001735C7 /* ADServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADServer.h; sourceTree = "<group>"; };
+		02141AD82536A5F1001735C7 /* AppsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsViewCell.h; sourceTree = "<group>"; };
+		02141ADB2536ADB2001735C7 /* ipcList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipcList.h; sourceTree = "<group>"; };
 		0214931A251D88A400B4263E /* PARSAdvertPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARSAdvertPopupView.h; sourceTree = "<group>"; };
 		0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARSHomePageADFloatView.h; sourceTree = "<group>"; };
 		02149320251D8B6500B4263E /* JKNScreenADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNScreenADViewController.h; sourceTree = "<group>"; };
@@ -76,6 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02141ABA25368891001735C7 /* AppCake */ = {
+			isa = PBXGroup;
+			children = (
+				02141AD62536A37D001735C7 /* ADServer.h */,
+				02141ADB2536ADB2001735C7 /* ipcList.h */,
+				02141AD82536A5F1001735C7 /* AppsViewCell.h */,
+				02141ABC253688A8001735C7 /* VungleSDK.h */,
+			);
+			path = AppCake;
+			sourceTree = "<group>";
+		};
 		02149319251D88A400B4263E /* PALifeApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +246,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				02141ABA25368891001735C7 /* AppCake */,
 				02A6FEE42535A19900B99B94 /* WeatherPro */,
 				028059A125207FA500DD4B49 /* Eleme */,
 				02C1A37F25135BFD00F1EA96 /* DingTalk */,

@@ -9,7 +9,7 @@
 
 inline void PrintObject(NSObject *obj) {
     NSLog(@"😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓");
-    NSLog(@"console: %@", obj);
+    NSLog(@"AppConsole: %@", obj);
     NSLog(@"😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓");
 }
 

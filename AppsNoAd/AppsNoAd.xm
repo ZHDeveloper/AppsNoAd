@@ -30,6 +30,10 @@
 
 #import "SWCityPageVC.h"
 
+#import "ADServer.h"
+#import "ipcList.h"
+#import "AppsViewCell.h"
+
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -514,10 +518,44 @@
 
 %end
 
+/// ========================> AppCake <========================
+%group AppCake
+
+%hook VungleSDK
+
++ (id)sharedSDK {
+    return nil;
+}
+
+%end
+
+%hook ADServer
+
++ (id)sharedServer {
+    return nil;
+}
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook AppsViewCell
+
+- (void)installApp:(id)arg1 {
+    NSNotification *notiObj = [[NSNotification alloc] initWithName:@"" object:nil userInfo:@{@"trackid": self.app.listIdentifier}];
+    [self adClosed:notiObj];
+}
+
+%end
+
+%end
 
 /// ========================> 初始化 <========================
 %ctor {
     %init(Eleme);
+    %init(AppCake);
     %init(ZuiYou);
     %init(ZhiXing);
     %init(MovieApp);
