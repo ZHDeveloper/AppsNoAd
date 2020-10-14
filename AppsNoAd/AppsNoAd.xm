@@ -554,15 +554,38 @@
 
 /// ========================> 初始化 <========================
 %ctor {
-    %init(Eleme);
-    %init(AppCake);
-    %init(ZuiYou);
-    %init(ZhiXing);
-    %init(MovieApp);
-    %init(DingTalk);
-    %init(PALifeApp);
-    %init(WeatherPro);
-    %init(PeanutWiFi);
-    %init(Live4iPhone);
-    %init(KHealthDoctor);
+    NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
+    if ([identify isEqualToString:Eleme]) {
+        %init(Eleme);
+    }
+    else if ([identify isEqualToString:AppCake]) {
+        %init(AppCake);
+    }
+    else if ([identify isEqualToString:ZuiYou]) {
+        %init(ZuiYou);
+    }
+    else if ([identify isEqualToString:ZhiXing]) {
+        %init(ZhiXing);
+    }
+    else if ([identify isEqualToString:MovieApp]) {
+        %init(MovieApp);
+    }
+    else if ([identify isEqualToString:DingTalk]) {
+        %init(DingTalk);
+    }
+    else if ([identify isEqualToString:PALifeApp]) {
+        %init(PALifeApp);
+    }
+    else if ([identify isEqualToString:WeatherPro]) {
+        %init(WeatherPro);
+    }
+    else if ([identify isEqualToString:PeanutWiFi]) {
+        %init(PeanutWiFi);
+    }
+    else if ([identify isEqualToString:Live4iPhone]) {
+        %init(Live4iPhone);
+    }
+    else if ([identify isEqualToString:KHealthDoctor]) {
+        %init(KHealthDoctor);
+    }
 }
