@@ -592,6 +592,14 @@
 
 %end
 
+%hook PHLaunchAd
+
++(void *)shareInstance {
+    return nil;
+}
+
+%end
+
 %end
 
 
