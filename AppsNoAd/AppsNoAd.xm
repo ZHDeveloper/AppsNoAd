@@ -564,6 +564,21 @@
 
 %end
 
+/// ========================> 平安健康 <========================
+%group PAHealth
+
+%hook PHVersionAPIManager
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%end
+
+
+
 /// ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -586,7 +601,6 @@
         %init(DingTalk);
     }
     else if ([identify isEqualToString:PALifeApp]) {
-        PrintObject(@"HHH");
         %init(PALifeApp);
     }
     else if ([identify isEqualToString:WeatherPro]) {
@@ -600,5 +614,8 @@
     }
     else if ([identify isEqualToString:KHealthDoctor]) {
         %init(KHealthDoctor);
+    }
+    else if ([identify isEqualToString:PAHealth]) {
+        %init(PAHealth);
     }
 }

@@ -60,7 +60,7 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class ADServer; @class TVKWaterMarkModel; @class QLJCEONAAdPoster; @class QADSplashSDK; @class DTSplashViewController; @class PARSAdvertPopupView; @class PARSDiscoverHomeViewControllerV7; @class QNBQQPlayerPlugin; @class MainTabBarController; @class KHStartController; @class QLVNUserCenterRecommendFeedViewModel; @class SWCityPageVC; @class QLTeenGuardianPromptAssistant; @class QLJCEONARecommendList; @class MVSplashScreenViewController; @class MVSingleAnimatedImageView; @class SWTipsView; @class LaunchViewController; @class JKNFloatAdView; @class PNConnectionViewController; @class FLPatch; @class ReportTaskService; @class QADSplashWindow; @class ConnectADSmallCell; @class XCNativeAdData; @class TADSplashBaseViewController; @class QNBUAFocusAdBlockViewModel; @class PARSHomePageADFloatView; @class ZYUIFeedNativeAdTableViewCell; @class QADFeedBaseViewModel; @class QLJCEONALeftImageRightTextAdPoster; @class QLVMChannelViewController; @class QLJCEONAVideoAdPoster; @class EMKLaunchADViewController; @class QNBUAVIPActivityEntryViewModel; @class PNLaunchADShowView; @class JKNScreenADViewController; @class QNBUAPRCommonLandScapeViewModel; @class QNBUAFocusVideoBlockViewModel; @class ZYAdInfoFlow; @class QLONAGalleryAdPosterView; @class SWCityFeedVC; @class VungleSDK; @class QLVNOperationViewModel; @class AppsViewCell; @class ZYNativeAdV2TableViewCell; @class QNBUAPRPageCarouselCell; @class TKApp; @class ZYSplashFeedAdView; @class QLONAInnerAdRecommendBannerCell; @class QLJCEONAAppList; @class PNMemberBNewCell; @class QLJCEAdInsideVideoItem; 
+@class QADFeedBaseViewModel; @class VungleSDK; @class QLVNOperationViewModel; @class PHUpgradeVersionView; @class EMKLaunchADViewController; @class PARSDiscoverHomeViewControllerV7; @class ConnectADSmallCell; @class PARSHomePageADFloatView; @class MVSingleAnimatedImageView; @class SWCityFeedVC; @class QADSplashSDK; @class LaunchViewController; @class QLONAInnerAdRecommendBannerCell; @class SWCityPageVC; @class QLJCEONALeftImageRightTextAdPoster; @class JKNScreenADViewController; @class ReportTaskService; @class PNMemberBNewCell; @class TVKWaterMarkModel; @class QLJCEONAAdPoster; @class ZYUIFeedNativeAdTableViewCell; @class QLJCEONARecommendList; @class ZYNativeAdV2TableViewCell; @class ADServer; @class QLJCEONAVideoAdPoster; @class TKApp; @class QNBUAPRPageCarouselCell; @class QLVMChannelViewController; @class PNConnectionViewController; @class TADSplashBaseViewController; @class MainTabBarController; @class ZYSplashFeedAdView; @class KHStartController; @class SWTipsView; @class JKNFloatAdView; @class QADSplashWindow; @class ZYAdInfoFlow; @class AppsViewCell; @class PNLaunchADShowView; @class QLTeenGuardianPromptAssistant; @class QLONAGalleryAdPosterView; @class DTSplashViewController; @class MVSplashScreenViewController; @class PHVersionAPIManager; @class FLPatch; @class QLVNUserCenterRecommendFeedViewModel; @class QNBUAFocusAdBlockViewModel; @class QLJCEAdInsideVideoItem; @class XCNativeAdData; @class QNBUAVIPActivityEntryViewModel; @class QNBUAPRCommonLandScapeViewModel; @class QNBUAFocusVideoBlockViewModel; @class QNBQQPlayerPlugin; @class QLJCEONAAppList; @class PARSAdvertPopupView; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
 #line 41 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
@@ -591,7 +591,30 @@ static void _logos_method$AppCake$AppsViewCell$installApp$(_LOGOS_SELF_TYPE_NORM
 
 
 
-static __attribute__((constructor)) void _logosLocalCtor_a09278dc(int __unused argc, char __unused **argv, char __unused **envp) {
+static PHUpgradeVersionView* (*_logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$)(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView*, SEL, struct CGRect, id, id, _Bool) _LOGOS_RETURN_RETAINED; static PHUpgradeVersionView* _logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView*, SEL, struct CGRect, id, id, _Bool) _LOGOS_RETURN_RETAINED; static PHVersionAPIManager* (*_logos_orig$PAHealth$PHVersionAPIManager$init)(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; static PHVersionAPIManager* _logos_method$PAHealth$PHVersionAPIManager$init(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; 
+
+
+
+static PHUpgradeVersionView* _logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView* __unused self, SEL __unused _cmd, struct CGRect arg1, id arg2, id arg3, _Bool arg4) _LOGOS_RETURN_RETAINED {
+    return _logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(self, _cmd, arg1, arg2, arg3, NO);
+}
+
+
+
+
+
+static PHVersionAPIManager* _logos_method$PAHealth$PHVersionAPIManager$init(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager* __unused self, SEL __unused _cmd) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+
+
+
+static __attribute__((constructor)) void _logosLocalCtor_106932aa(int __unused argc, char __unused **argv, char __unused **envp) {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
@@ -612,7 +635,6 @@ static __attribute__((constructor)) void _logosLocalCtor_a09278dc(int __unused a
         {Class _logos_class$DingTalk$DTSplashViewController = objc_getClass("DTSplashViewController"); { MSHookMessageEx(_logos_class$DingTalk$DTSplashViewController, @selector(viewDidLoad), (IMP)&_logos_method$DingTalk$DTSplashViewController$viewDidLoad, (IMP*)&_logos_orig$DingTalk$DTSplashViewController$viewDidLoad);}}
     }
     else if ([identify isEqualToString:PALifeApp]) {
-        PrintObject(@"HHH");
         {Class _logos_class$PALifeApp$PARSAdvertPopupView = objc_getClass("PARSAdvertPopupView"); { MSHookMessageEx(_logos_class$PALifeApp$PARSAdvertPopupView, @selector(initWithFrame:), (IMP)&_logos_method$PALifeApp$PARSAdvertPopupView$initWithFrame$, (IMP*)&_logos_orig$PALifeApp$PARSAdvertPopupView$initWithFrame$);}Class _logos_class$PALifeApp$PARSHomePageADFloatView = objc_getClass("PARSHomePageADFloatView"); { MSHookMessageEx(_logos_class$PALifeApp$PARSHomePageADFloatView, @selector(initWithFrame:), (IMP)&_logos_method$PALifeApp$PARSHomePageADFloatView$initWithFrame$, (IMP*)&_logos_orig$PALifeApp$PARSHomePageADFloatView$initWithFrame$);}Class _logos_class$PALifeApp$JKNScreenADViewController = objc_getClass("JKNScreenADViewController"); { MSHookMessageEx(_logos_class$PALifeApp$JKNScreenADViewController, @selector(init), (IMP)&_logos_method$PALifeApp$JKNScreenADViewController$init, (IMP*)&_logos_orig$PALifeApp$JKNScreenADViewController$init);}{ MSHookMessageEx(_logos_class$PALifeApp$JKNScreenADViewController, @selector(initWithHandler:), (IMP)&_logos_method$PALifeApp$JKNScreenADViewController$initWithHandler$, (IMP*)&_logos_orig$PALifeApp$JKNScreenADViewController$initWithHandler$);}Class _logos_class$PALifeApp$JKNFloatAdView = objc_getClass("JKNFloatAdView"); { MSHookMessageEx(_logos_class$PALifeApp$JKNFloatAdView, @selector(initWithFrame:), (IMP)&_logos_method$PALifeApp$JKNFloatAdView$initWithFrame$, (IMP*)&_logos_orig$PALifeApp$JKNFloatAdView$initWithFrame$);}Class _logos_class$PALifeApp$PARSDiscoverHomeViewControllerV7 = objc_getClass("PARSDiscoverHomeViewControllerV7"); { MSHookMessageEx(_logos_class$PALifeApp$PARSDiscoverHomeViewControllerV7, @selector(doSthOnViewDidLoad), (IMP)&_logos_method$PALifeApp$PARSDiscoverHomeViewControllerV7$doSthOnViewDidLoad, (IMP*)&_logos_orig$PALifeApp$PARSDiscoverHomeViewControllerV7$doSthOnViewDidLoad);}{ MSHookMessageEx(_logos_class$PALifeApp$PARSDiscoverHomeViewControllerV7, @selector(shouldShowAnyDoor), (IMP)&_logos_method$PALifeApp$PARSDiscoverHomeViewControllerV7$shouldShowAnyDoor, (IMP*)&_logos_orig$PALifeApp$PARSDiscoverHomeViewControllerV7$shouldShowAnyDoor);}}
     }
     else if ([identify isEqualToString:WeatherPro]) {
@@ -626,5 +648,8 @@ static __attribute__((constructor)) void _logosLocalCtor_a09278dc(int __unused a
     }
     else if ([identify isEqualToString:KHealthDoctor]) {
         {Class _logos_class$KHealthDoctor$KHStartController = objc_getClass("KHStartController"); { MSHookMessageEx(_logos_class$KHealthDoctor$KHStartController, @selector(services_getAD), (IMP)&_logos_method$KHealthDoctor$KHStartController$services_getAD, (IMP*)&_logos_orig$KHealthDoctor$KHStartController$services_getAD);}}
+    }
+    else if ([identify isEqualToString:PAHealth]) {
+        {Class _logos_class$PAHealth$PHUpgradeVersionView = objc_getClass("PHUpgradeVersionView"); { MSHookMessageEx(_logos_class$PAHealth$PHUpgradeVersionView, @selector(initWithFrame:title:message:isForce:), (IMP)&_logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$, (IMP*)&_logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$);}Class _logos_class$PAHealth$PHVersionAPIManager = objc_getClass("PHVersionAPIManager"); { MSHookMessageEx(_logos_class$PAHealth$PHVersionAPIManager, @selector(init), (IMP)&_logos_method$PAHealth$PHVersionAPIManager$init, (IMP*)&_logos_orig$PAHealth$PHVersionAPIManager$init);}}
     }
 }
