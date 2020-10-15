@@ -37,6 +37,8 @@
 
 #import "PARSDiscoverHomeViewControllerV7.h"
 
+#import "PHTemplateViewController.h"
+
 
 
 
@@ -60,10 +62,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class QADFeedBaseViewModel; @class VungleSDK; @class QLVNOperationViewModel; @class PHUpgradeVersionView; @class EMKLaunchADViewController; @class PARSDiscoverHomeViewControllerV7; @class ConnectADSmallCell; @class PARSHomePageADFloatView; @class MVSingleAnimatedImageView; @class SWCityFeedVC; @class QADSplashSDK; @class LaunchViewController; @class QLONAInnerAdRecommendBannerCell; @class SWCityPageVC; @class QLJCEONALeftImageRightTextAdPoster; @class JKNScreenADViewController; @class ReportTaskService; @class PNMemberBNewCell; @class TVKWaterMarkModel; @class QLJCEONAAdPoster; @class ZYUIFeedNativeAdTableViewCell; @class QLJCEONARecommendList; @class ZYNativeAdV2TableViewCell; @class ADServer; @class QLJCEONAVideoAdPoster; @class TKApp; @class QNBUAPRPageCarouselCell; @class QLVMChannelViewController; @class PNConnectionViewController; @class TADSplashBaseViewController; @class MainTabBarController; @class ZYSplashFeedAdView; @class KHStartController; @class SWTipsView; @class JKNFloatAdView; @class QADSplashWindow; @class ZYAdInfoFlow; @class AppsViewCell; @class PNLaunchADShowView; @class QLTeenGuardianPromptAssistant; @class QLONAGalleryAdPosterView; @class DTSplashViewController; @class MVSplashScreenViewController; @class PHVersionAPIManager; @class FLPatch; @class QLVNUserCenterRecommendFeedViewModel; @class QNBUAFocusAdBlockViewModel; @class QLJCEAdInsideVideoItem; @class XCNativeAdData; @class QNBUAVIPActivityEntryViewModel; @class QNBUAPRCommonLandScapeViewModel; @class QNBUAFocusVideoBlockViewModel; @class QNBQQPlayerPlugin; @class QLJCEONAAppList; @class PARSAdvertPopupView; 
+@class XCNativeAdData; @class PNLaunchADShowView; @class ZYUIFeedNativeAdTableViewCell; @class TADSplashBaseViewController; @class PHTemplateViewController; @class ReportTaskService; @class QLVNOperationViewModel; @class QLVMChannelViewController; @class QLTeenGuardianPromptAssistant; @class TVKWaterMarkModel; @class SWCityPageVC; @class QLJCEONAVideoAdPoster; @class ZYNativeAdV2TableViewCell; @class TKApp; @class QADSplashWindow; @class KHStartController; @class QLONAInnerAdRecommendBannerCell; @class QNBUAPRCommonLandScapeViewModel; @class QNBUAVIPActivityEntryViewModel; @class QADFeedBaseViewModel; @class QLJCEONAAdPoster; @class SWTipsView; @class QNBQQPlayerPlugin; @class QNBUAFocusVideoBlockViewModel; @class MVSingleAnimatedImageView; @class ADServer; @class MVSplashScreenViewController; @class JKNScreenADViewController; @class QNBUAFocusAdBlockViewModel; @class JKNFloatAdView; @class PARSHomePageADFloatView; @class QLJCEAdInsideVideoItem; @class QNBUAPRPageCarouselCell; @class DTSplashViewController; @class QLJCEONALeftImageRightTextAdPoster; @class MainTabBarController; @class LaunchViewController; @class QLJCEONARecommendList; @class ZYAdInfoFlow; @class PHVersionAPIManager; @class ZYSplashFeedAdView; @class QLJCEONAAppList; @class SWCityFeedVC; @class PNConnectionViewController; @class QADSplashSDK; @class ConnectADSmallCell; @class PARSAdvertPopupView; @class AppsViewCell; @class EMKLaunchADViewController; @class QLONAGalleryAdPosterView; @class FLPatch; @class PARSDiscoverHomeViewControllerV7; @class QLVNUserCenterRecommendFeedViewModel; @class PNMemberBNewCell; @class VungleSDK; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
-#line 41 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 43 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
 
@@ -591,15 +593,7 @@ static void _logos_method$AppCake$AppsViewCell$installApp$(_LOGOS_SELF_TYPE_NORM
 
 
 
-static PHUpgradeVersionView* (*_logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$)(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView*, SEL, struct CGRect, id, id, _Bool) _LOGOS_RETURN_RETAINED; static PHUpgradeVersionView* _logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView*, SEL, struct CGRect, id, id, _Bool) _LOGOS_RETURN_RETAINED; static PHVersionAPIManager* (*_logos_orig$PAHealth$PHVersionAPIManager$init)(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; static PHVersionAPIManager* _logos_method$PAHealth$PHVersionAPIManager$init(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; 
-
-
-
-static PHUpgradeVersionView* _logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(_LOGOS_SELF_TYPE_INIT PHUpgradeVersionView* __unused self, SEL __unused _cmd, struct CGRect arg1, id arg2, id arg3, _Bool arg4) _LOGOS_RETURN_RETAINED {
-    return _logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$(self, _cmd, arg1, arg2, arg3, NO);
-}
-
-
+static PHVersionAPIManager* (*_logos_orig$PAHealth$PHVersionAPIManager$init)(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; static PHVersionAPIManager* _logos_method$PAHealth$PHVersionAPIManager$init(_LOGOS_SELF_TYPE_INIT PHVersionAPIManager*, SEL) _LOGOS_RETURN_RETAINED; static id (*_logos_orig$PAHealth$PHTemplateViewController$getAnydoorView)(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL); static id _logos_method$PAHealth$PHTemplateViewController$getAnydoorView(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$PAHealth$PHTemplateViewController$buildAnyDoorView)(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$PAHealth$PHTemplateViewController$buildAnyDoorView(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$PAHealth$PHTemplateViewController$viewWillAppear$)(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL, _Bool); static void _logos_method$PAHealth$PHTemplateViewController$viewWillAppear$(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST, SEL, _Bool); 
 
 
 
@@ -611,10 +605,25 @@ static PHVersionAPIManager* _logos_method$PAHealth$PHVersionAPIManager$init(_LOG
 
 
 
+static id _logos_method$PAHealth$PHTemplateViewController$getAnydoorView(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return nil;
+}
+
+static void _logos_method$PAHealth$PHTemplateViewController$buildAnyDoorView(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) { }
+
+static void _logos_method$PAHealth$PHTemplateViewController$viewWillAppear$(_LOGOS_SELF_TYPE_NORMAL PHTemplateViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, _Bool arg1) {
+    _logos_orig$PAHealth$PHTemplateViewController$viewWillAppear$(self, _cmd, arg1);
+    self.suspensionView.hidden = YES;
+}
 
 
 
-static __attribute__((constructor)) void _logosLocalCtor_106932aa(int __unused argc, char __unused **argv, char __unused **envp) {
+
+
+
+
+
+static __attribute__((constructor)) void _logosLocalCtor_6a557a61(int __unused argc, char __unused **argv, char __unused **envp) {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
@@ -650,6 +659,6 @@ static __attribute__((constructor)) void _logosLocalCtor_106932aa(int __unused a
         {Class _logos_class$KHealthDoctor$KHStartController = objc_getClass("KHStartController"); { MSHookMessageEx(_logos_class$KHealthDoctor$KHStartController, @selector(services_getAD), (IMP)&_logos_method$KHealthDoctor$KHStartController$services_getAD, (IMP*)&_logos_orig$KHealthDoctor$KHStartController$services_getAD);}}
     }
     else if ([identify isEqualToString:PAHealth]) {
-        {Class _logos_class$PAHealth$PHUpgradeVersionView = objc_getClass("PHUpgradeVersionView"); { MSHookMessageEx(_logos_class$PAHealth$PHUpgradeVersionView, @selector(initWithFrame:title:message:isForce:), (IMP)&_logos_method$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$, (IMP*)&_logos_orig$PAHealth$PHUpgradeVersionView$initWithFrame$title$message$isForce$);}Class _logos_class$PAHealth$PHVersionAPIManager = objc_getClass("PHVersionAPIManager"); { MSHookMessageEx(_logos_class$PAHealth$PHVersionAPIManager, @selector(init), (IMP)&_logos_method$PAHealth$PHVersionAPIManager$init, (IMP*)&_logos_orig$PAHealth$PHVersionAPIManager$init);}}
+        {Class _logos_class$PAHealth$PHVersionAPIManager = objc_getClass("PHVersionAPIManager"); { MSHookMessageEx(_logos_class$PAHealth$PHVersionAPIManager, @selector(init), (IMP)&_logos_method$PAHealth$PHVersionAPIManager$init, (IMP*)&_logos_orig$PAHealth$PHVersionAPIManager$init);}Class _logos_class$PAHealth$PHTemplateViewController = objc_getClass("PHTemplateViewController"); { MSHookMessageEx(_logos_class$PAHealth$PHTemplateViewController, @selector(getAnydoorView), (IMP)&_logos_method$PAHealth$PHTemplateViewController$getAnydoorView, (IMP*)&_logos_orig$PAHealth$PHTemplateViewController$getAnydoorView);}{ MSHookMessageEx(_logos_class$PAHealth$PHTemplateViewController, @selector(buildAnyDoorView), (IMP)&_logos_method$PAHealth$PHTemplateViewController$buildAnyDoorView, (IMP*)&_logos_orig$PAHealth$PHTemplateViewController$buildAnyDoorView);}{ MSHookMessageEx(_logos_class$PAHealth$PHTemplateViewController, @selector(viewWillAppear:), (IMP)&_logos_method$PAHealth$PHTemplateViewController$viewWillAppear$, (IMP*)&_logos_orig$PAHealth$PHTemplateViewController$viewWillAppear$);}}
     }
 }

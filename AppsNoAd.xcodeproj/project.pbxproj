@@ -63,6 +63,7 @@
 		02C1A37C251355ED00F1EA96 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSplashViewController.h; sourceTree = "<group>"; };
 		02CC19BC2538365500F900C2 /* PHVersionAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVersionAPIManager.h; sourceTree = "<group>"; };
+		02CC19BF253842C600F900C2 /* PHTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHTemplateViewController.h; sourceTree = "<group>"; };
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
 		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
@@ -300,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				02CC19BC2538365500F900C2 /* PHVersionAPIManager.h */,
+				02CC19BF253842C600F900C2 /* PHTemplateViewController.h */,
 			);
 			path = PAHealth;
 			sourceTree = "<group>";

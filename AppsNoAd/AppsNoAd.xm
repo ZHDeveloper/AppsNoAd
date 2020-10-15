@@ -36,6 +36,8 @@
 
 #import "PARSDiscoverHomeViewControllerV7.h"
 
+#import "PHTemplateViewController.h"
+
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -571,6 +573,21 @@
 
 - (id)init {
     return nil;
+}
+
+%end
+
+%hook PHTemplateViewController
+
+- (id)getAnydoorView {
+    return nil;
+}
+
+- (void)buildAnyDoorView { }
+
+- (void)viewWillAppear:(_Bool)arg1 {
+    %orig;
+    self.suspensionView.hidden = YES;
 }
 
 %end
