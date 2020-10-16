@@ -35,7 +35,7 @@
 #import "AppsViewCell.h"
 
 
-/// ========================> 最右 <========================
+#pragma mark - ========================> 最右 <========================
 %group ZuiYou
 
 %hook ZYSplashFeedAdView
@@ -93,7 +93,7 @@
 
 %end
 
-/// ========================> 钉钉 <========================
+#pragma mark - ========================> 钉钉 <========================
 %group DingTalk
 
 %hook DTSplashViewController
@@ -106,7 +106,7 @@
 
 %end
 
-/// ========================> 花生地铁 <========================
+#pragma mark - ========================> 花生地铁 <========================
 %group PeanutWiFi
 
 %hook MainTabBarController
@@ -199,7 +199,7 @@
 
 %end
 
-/// ========================> 淘票票 <========================
+#pragma mark - ========================> 淘票票 <========================
 %group MovieApp
 
 %hook MVSplashScreenViewController
@@ -220,7 +220,7 @@
 
 %end
 
-/// ========================> 智行火车 <========================
+#pragma mark - ========================> 智行火车 <========================
 %group ZhiXing
 
 %hook TKApp
@@ -233,7 +233,7 @@
 
 %end
 
-/// ========================> 腾讯视频 <========================
+#pragma mark - ========================> 腾讯视频 <========================
 %group Live4iPhone
 
 %hook QLVMChannelViewController
@@ -421,7 +421,7 @@
 
 %end
 
-/// ========================> 康合上医 <========================
+#pragma mark - ========================> 康合上医 <========================
 %group KHealthDoctor
 
 %hook KHStartController
@@ -434,7 +434,7 @@
 
 %end
 
-/// ========================> 饿了么 <========================
+#pragma mark - ========================> 饿了么 <========================
 %group Eleme
 
 %hook EMKLaunchADViewController
@@ -447,7 +447,7 @@
 
 %end
 
-/// ========================> 天气通 <========================
+#pragma mark - ========================> 天气通 <========================
 %group WeatherPro
 
 %hook SWCityFeedVC
@@ -477,7 +477,7 @@
 
 %end
 
-/// ========================> AppCake <========================
+#pragma mark - ========================> AppCake <========================
 %group AppCake
 
 %hook VungleSDK
@@ -511,7 +511,7 @@
 
 %end
 
-/// ========================> 初始化 <========================
+#pragma mark - ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
