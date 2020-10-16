@@ -34,10 +34,6 @@
 #import "ipcList.h"
 #import "AppsViewCell.h"
 
-#import "PARSDiscoverHomeViewControllerV7.h"
-
-#import "PHTemplateViewController.h"
-
 
 /// ========================> 最右 <========================
 %group ZuiYou
@@ -104,57 +100,6 @@
 
 - (void)viewDidLoad {
     [self clickDetail];
-}
-
-%end
-
-%end
-
-/// ========================> 平安金管家 <========================
-%group PALifeApp
-
-%hook PARSAdvertPopupView
-
-- (id)initWithFrame:(struct CGRect)arg1 {
-    return nil;
-}
-
-%end
-
-%hook PARSHomePageADFloatView
-
-- (id)initWithFrame:(struct CGRect)arg1 {
-    return nil;
-}
-
-%end
-
-%hook JKNScreenADViewController
-
-- (id)init {
-    return nil;
-}
-
-- (id)initWithHandler:(id)arg1 {
-    return nil;
-}
-
-%end
-
-%hook JKNFloatAdView
-
-- (id)initWithFrame:(struct CGRect)arg1 {
-    return nil;
-}
-
-%end
-
-%hook PARSDiscoverHomeViewControllerV7
-
-- (void)doSthOnViewDidLoad { }
-
-- (_Bool)shouldShowAnyDoor {
-    return NO;
 }
 
 %end
@@ -566,44 +511,6 @@
 
 %end
 
-/// ========================> 平安健康 <========================
-%group PAHealth
-
-%hook PHVersionAPIManager
-
-- (id)init {
-    return nil;
-}
-
-%end
-
-%hook PHTemplateViewController
-
-- (id)getAnydoorView {
-    return nil;
-}
-
-- (void)buildAnyDoorView { }
-
-- (void)viewWillAppear:(_Bool)arg1 {
-    %orig;
-    self.suspensionView.hidden = YES;
-}
-
-%end
-
-%hook PHLaunchAd
-
-+(void *)shareInstance {
-    return nil;
-}
-
-%end
-
-%end
-
-
-
 /// ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -625,9 +532,6 @@
     else if ([identify isEqualToString:DingTalk]) {
         %init(DingTalk);
     }
-    else if ([identify isEqualToString:PALifeApp]) {
-        %init(PALifeApp);
-    }
     else if ([identify isEqualToString:WeatherPro]) {
         %init(WeatherPro);
     }
@@ -639,8 +543,5 @@
     }
     else if ([identify isEqualToString:KHealthDoctor]) {
         %init(KHealthDoctor);
-    }
-    else if ([identify isEqualToString:PAHealth]) {
-        %init(PAHealth);
     }
 }

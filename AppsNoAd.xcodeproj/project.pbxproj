@@ -16,15 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		020235D12536EFA40051EDBB /* PARSDiscoverHomeViewControllerV7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARSDiscoverHomeViewControllerV7.h; sourceTree = "<group>"; };
 		02141ABC253688A8001735C7 /* VungleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VungleSDK.h; sourceTree = "<group>"; };
 		02141AD62536A37D001735C7 /* ADServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADServer.h; sourceTree = "<group>"; };
 		02141AD82536A5F1001735C7 /* AppsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsViewCell.h; sourceTree = "<group>"; };
 		02141ADB2536ADB2001735C7 /* ipcList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipcList.h; sourceTree = "<group>"; };
-		0214931A251D88A400B4263E /* PARSAdvertPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARSAdvertPopupView.h; sourceTree = "<group>"; };
-		0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARSHomePageADFloatView.h; sourceTree = "<group>"; };
-		02149320251D8B6500B4263E /* JKNScreenADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNScreenADViewController.h; sourceTree = "<group>"; };
-		02149323251D8BF600B4263E /* JKNFloatAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNFloatAdView.h; sourceTree = "<group>"; };
 		02149327251D8E6E00B4263E /* ZYUIFeedNativeAdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUIFeedNativeAdTableViewCell.h; sourceTree = "<group>"; };
 		0214932A251D90FD00B4263E /* ZYNativeAdV2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNativeAdV2TableViewCell.h; sourceTree = "<group>"; };
 		0214932E251D987A00B4263E /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -62,8 +57,6 @@
 		02C1A37B251355ED00F1EA96 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		02C1A37C251355ED00F1EA96 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSplashViewController.h; sourceTree = "<group>"; };
-		02CC19BC2538365500F900C2 /* PHVersionAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHVersionAPIManager.h; sourceTree = "<group>"; };
-		02CC19BF253842C600F900C2 /* PHTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHTemplateViewController.h; sourceTree = "<group>"; };
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
 		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
@@ -92,18 +85,6 @@
 				02141ABC253688A8001735C7 /* VungleSDK.h */,
 			);
 			path = AppCake;
-			sourceTree = "<group>";
-		};
-		02149319251D88A400B4263E /* PALifeApp */ = {
-			isa = PBXGroup;
-			children = (
-				02149323251D8BF600B4263E /* JKNFloatAdView.h */,
-				02149320251D8B6500B4263E /* JKNScreenADViewController.h */,
-				0214931A251D88A400B4263E /* PARSAdvertPopupView.h */,
-				0214931C251D8A5500B4263E /* PARSHomePageADFloatView.h */,
-				020235D12536EFA40051EDBB /* PARSDiscoverHomeViewControllerV7.h */,
-			);
-			path = PALifeApp;
 			sourceTree = "<group>";
 		};
 		0214932D251D987A00B4263E /* PeanutWiFi */ = {
@@ -250,14 +231,12 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				02CC19BB2538364C00F900C2 /* PAHealth */,
 				02141ABA25368891001735C7 /* AppCake */,
 				02A6FEE42535A19900B99B94 /* WeatherPro */,
 				028059A125207FA500DD4B49 /* Eleme */,
 				02C1A37F25135BFD00F1EA96 /* DingTalk */,
 				0280599E25207C9400DD4B49 /* KHealthDoctor */,
 				02149343251DC9C300B4263E /* MovieApp */,
-				02149319251D88A400B4263E /* PALifeApp */,
 				0214932D251D987A00B4263E /* PeanutWiFi */,
 				02EEC91B25202EED00080848 /* ZhiXing */,
 				02C1A36D251355AA00F1EA96 /* ZuiYou */,
@@ -295,15 +274,6 @@
 				02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */,
 			);
 			path = DingTalk;
-			sourceTree = "<group>";
-		};
-		02CC19BB2538364C00F900C2 /* PAHealth */ = {
-			isa = PBXGroup;
-			children = (
-				02CC19BC2538365500F900C2 /* PHVersionAPIManager.h */,
-				02CC19BF253842C600F900C2 /* PHTemplateViewController.h */,
-			);
-			path = PAHealth;
 			sourceTree = "<group>";
 		};
 		02EEC91B25202EED00080848 /* ZhiXing */ = {
