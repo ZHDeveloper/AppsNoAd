@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02452253254002BC0030F781 /* NSObject+Netskao.h in Headers */ = {isa = PBXBuildFile; fileRef = 02452251254002BC0030F781 /* NSObject+Netskao.h */; };
+		02452254254002BC0030F781 /* NSObject+Netskao.m in Sources */ = {isa = PBXBuildFile; fileRef = 02452252254002BC0030F781 /* NSObject+Netskao.m */; };
 		02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A354251353D200F1EA96 /* UIKit.framework */; };
 		02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A356251353D200F1EA96 /* Foundation.framework */; };
 		02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */; };
@@ -31,6 +33,8 @@
 		02149340251DC8C800B4263E /* PNLaunchADShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLaunchADShowView.h; sourceTree = "<group>"; };
 		02149344251DC9C300B4263E /* MVSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVSplashScreenViewController.h; sourceTree = "<group>"; };
 		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
+		02452251254002BC0030F781 /* NSObject+Netskao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Netskao.h"; sourceTree = "<group>"; };
+		02452252254002BC0030F781 /* NSObject+Netskao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Netskao.m"; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
@@ -264,6 +268,8 @@
 			children = (
 				02C1A37B251355ED00F1EA96 /* Utils.h */,
 				02C1A37C251355ED00F1EA96 /* Utils.m */,
+				02452251254002BC0030F781 /* NSObject+Netskao.h */,
+				02452252254002BC0030F781 /* NSObject+Netskao.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02452253254002BC0030F781 /* NSObject+Netskao.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02452254254002BC0030F781 /* NSObject+Netskao.m in Sources */,
 				02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */,
 				02C1A37E251355ED00F1EA96 /* Utils.m in Sources */,
 			);
