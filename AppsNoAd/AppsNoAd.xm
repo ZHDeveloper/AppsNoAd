@@ -544,7 +544,7 @@
 
 - (void)onDownloadBtnClick:(id)arg1 {
     [self downloadBookDirectly];
-}
+}  
 
 %end
 
