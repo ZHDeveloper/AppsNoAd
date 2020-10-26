@@ -34,6 +34,8 @@
 #import "ipcList.h"
 #import "AppsViewCell.h"
 
+#import "SSReaderManager.h"
+
 
 #pragma mark - ========================> 最右 <========================
 %group ZuiYou
@@ -511,6 +513,61 @@
 
 %end
 
+#pragma mark - ========================> Reading <========================
+%group Reading
+
+%hook SSDialogView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
+%hook SSReadingAdSplashTask
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook SSAdTask
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook SSReaderManager
+
+- (void)onDownloadBtnClick:(id)arg1 {
+    [self downloadBookDirectly];
+}
+
+%end
+
+/// SSUser
+%hook SSUserVipInfo
+
+- (NSString *)left_time {
+    return @"63071999";
+}
+
+- (NSString *)expire_time {
+    return @"1666768390";
+}
+
+- (NSString *)is_vip {
+    return @"1";
+}
+
+%end
+
+%end
+
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -543,5 +600,8 @@
     }
     else if ([identify isEqualToString:KHealthDoctor]) {
         %init(KHealthDoctor);
+    }
+    else if ([identify isEqualToString:Reading]) {
+        %init(Reading);
     }
 }

@@ -35,6 +35,8 @@
 #import "ipcList.h"
 #import "AppsViewCell.h"
 
+#import "SSReaderManager.h"
+
 
 
 #include <substrate.h>
@@ -57,10 +59,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class ZYAdInfoFlow; @class QLJCEONAAdPoster; @class QLTeenGuardianPromptAssistant; @class DTSplashViewController; @class SWCityPageVC; @class EMKLaunchADViewController; @class PNMemberBNewCell; @class QLJCEONALeftImageRightTextAdPoster; @class QLJCEONAVideoAdPoster; @class ConnectADSmallCell; @class TKApp; @class QLVMChannelViewController; @class TADSplashBaseViewController; @class LaunchViewController; @class QNBUAFocusVideoBlockViewModel; @class QLONAInnerAdRecommendBannerCell; @class QNBUAPRPageCarouselCell; @class QNBUAPRCommonLandScapeViewModel; @class ZYUIFeedNativeAdTableViewCell; @class ZYSplashFeedAdView; @class VungleSDK; @class QADFeedBaseViewModel; @class QLONAGalleryAdPosterView; @class MVSingleAnimatedImageView; @class PNConnectionViewController; @class QADSplashWindow; @class SWCityFeedVC; @class QLVNUserCenterRecommendFeedViewModel; @class ReportTaskService; @class TVKWaterMarkModel; @class QLJCEONAAppList; @class QLJCEAdInsideVideoItem; @class AppsViewCell; @class QADSplashSDK; @class QLVNOperationViewModel; @class QNBUAVIPActivityEntryViewModel; @class QNBQQPlayerPlugin; @class MVSplashScreenViewController; @class MainTabBarController; @class PNLaunchADShowView; @class XCNativeAdData; @class ADServer; @class KHStartController; @class QLJCEONARecommendList; @class ZYNativeAdV2TableViewCell; @class SWTipsView; @class QNBUAFocusAdBlockViewModel; @class FLPatch; 
+@class QNBUAFocusVideoBlockViewModel; @class QLVNUserCenterRecommendFeedViewModel; @class VungleSDK; @class TADSplashBaseViewController; @class MainTabBarController; @class ZYAdInfoFlow; @class SWTipsView; @class SSDialogView; @class QNBUAFocusAdBlockViewModel; @class PNConnectionViewController; @class QLONAGalleryAdPosterView; @class QLONAInnerAdRecommendBannerCell; @class QLTeenGuardianPromptAssistant; @class AppsViewCell; @class QADFeedBaseViewModel; @class ConnectADSmallCell; @class QLJCEONARecommendList; @class FLPatch; @class QNBQQPlayerPlugin; @class QLJCEONALeftImageRightTextAdPoster; @class EMKLaunchADViewController; @class LaunchViewController; @class ZYNativeAdV2TableViewCell; @class ADServer; @class QLJCEAdInsideVideoItem; @class SWCityPageVC; @class SSReaderManager; @class QADSplashSDK; @class QLJCEONAAdPoster; @class SSReadingAdSplashTask; @class DTSplashViewController; @class QNBUAPRCommonLandScapeViewModel; @class ZYSplashFeedAdView; @class PNLaunchADShowView; @class SSAdTask; @class KHStartController; @class QLVNOperationViewModel; @class ZYUIFeedNativeAdTableViewCell; @class SSUserVipInfo; @class XCNativeAdData; @class QNBUAPRPageCarouselCell; @class QLJCEONAVideoAdPoster; @class MVSplashScreenViewController; @class SWCityFeedVC; @class PNMemberBNewCell; @class MVSingleAnimatedImageView; @class QADSplashWindow; @class QLVMChannelViewController; @class TVKWaterMarkModel; @class QNBUAVIPActivityEntryViewModel; @class ReportTaskService; @class TKApp; @class QLJCEONAAppList; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
-#line 38 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 40 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 #pragma mark - ========================> 最右 <========================
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
@@ -537,8 +539,63 @@ static void _logos_method$AppCake$AppsViewCell$installApp$(_LOGOS_SELF_TYPE_NORM
 
 
 
+#pragma mark - ========================> Reading <========================
+static SSDialogView* (*_logos_orig$Reading$SSDialogView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT SSDialogView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static SSDialogView* _logos_method$Reading$SSDialogView$initWithFrame$(_LOGOS_SELF_TYPE_INIT SSDialogView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static SSReadingAdSplashTask* (*_logos_orig$Reading$SSReadingAdSplashTask$init)(_LOGOS_SELF_TYPE_INIT SSReadingAdSplashTask*, SEL) _LOGOS_RETURN_RETAINED; static SSReadingAdSplashTask* _logos_method$Reading$SSReadingAdSplashTask$init(_LOGOS_SELF_TYPE_INIT SSReadingAdSplashTask*, SEL) _LOGOS_RETURN_RETAINED; static SSAdTask* (*_logos_orig$Reading$SSAdTask$init)(_LOGOS_SELF_TYPE_INIT SSAdTask*, SEL) _LOGOS_RETURN_RETAINED; static SSAdTask* _logos_method$Reading$SSAdTask$init(_LOGOS_SELF_TYPE_INIT SSAdTask*, SEL) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$Reading$SSReaderManager$onDownloadBtnClick$)(_LOGOS_SELF_TYPE_NORMAL SSReaderManager* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$Reading$SSReaderManager$onDownloadBtnClick$(_LOGOS_SELF_TYPE_NORMAL SSReaderManager* _LOGOS_SELF_CONST, SEL, id); static NSString * (*_logos_orig$Reading$SSUserVipInfo$left_time)(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); static NSString * _logos_method$Reading$SSUserVipInfo$left_time(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); static NSString * (*_logos_orig$Reading$SSUserVipInfo$expire_time)(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); static NSString * _logos_method$Reading$SSUserVipInfo$expire_time(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); static NSString * (*_logos_orig$Reading$SSUserVipInfo$is_vip)(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); static NSString * _logos_method$Reading$SSUserVipInfo$is_vip(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST, SEL); 
+
+
+
+static SSDialogView* _logos_method$Reading$SSDialogView$initWithFrame$(_LOGOS_SELF_TYPE_INIT SSDialogView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static SSReadingAdSplashTask* _logos_method$Reading$SSReadingAdSplashTask$init(_LOGOS_SELF_TYPE_INIT SSReadingAdSplashTask* __unused self, SEL __unused _cmd) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static SSAdTask* _logos_method$Reading$SSAdTask$init(_LOGOS_SELF_TYPE_INIT SSAdTask* __unused self, SEL __unused _cmd) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static void _logos_method$Reading$SSReaderManager$onDownloadBtnClick$(_LOGOS_SELF_TYPE_NORMAL SSReaderManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1) {
+    [self downloadBookDirectly];
+}
+
+
+
+
+
+
+static NSString * _logos_method$Reading$SSUserVipInfo$left_time(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"63071999";
+}
+
+static NSString * _logos_method$Reading$SSUserVipInfo$expire_time(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"1666768390";
+}
+
+static NSString * _logos_method$Reading$SSUserVipInfo$is_vip(_LOGOS_SELF_TYPE_NORMAL SSUserVipInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"1";
+}
+
+
+
+
+
+
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_6712a442(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_bdbc149d(int __unused argc, char __unused **argv, char __unused **envp) {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
@@ -569,5 +626,8 @@ static __attribute__((constructor)) void _logosLocalCtor_6712a442(int __unused a
     }
     else if ([identify isEqualToString:KHealthDoctor]) {
         {Class _logos_class$KHealthDoctor$KHStartController = objc_getClass("KHStartController"); { MSHookMessageEx(_logos_class$KHealthDoctor$KHStartController, @selector(services_getAD), (IMP)&_logos_method$KHealthDoctor$KHStartController$services_getAD, (IMP*)&_logos_orig$KHealthDoctor$KHStartController$services_getAD);}}
+    }
+    else if ([identify isEqualToString:Reading]) {
+        {Class _logos_class$Reading$SSDialogView = objc_getClass("SSDialogView"); { MSHookMessageEx(_logos_class$Reading$SSDialogView, @selector(initWithFrame:), (IMP)&_logos_method$Reading$SSDialogView$initWithFrame$, (IMP*)&_logos_orig$Reading$SSDialogView$initWithFrame$);}Class _logos_class$Reading$SSReadingAdSplashTask = objc_getClass("SSReadingAdSplashTask"); { MSHookMessageEx(_logos_class$Reading$SSReadingAdSplashTask, @selector(init), (IMP)&_logos_method$Reading$SSReadingAdSplashTask$init, (IMP*)&_logos_orig$Reading$SSReadingAdSplashTask$init);}Class _logos_class$Reading$SSAdTask = objc_getClass("SSAdTask"); { MSHookMessageEx(_logos_class$Reading$SSAdTask, @selector(init), (IMP)&_logos_method$Reading$SSAdTask$init, (IMP*)&_logos_orig$Reading$SSAdTask$init);}Class _logos_class$Reading$SSReaderManager = objc_getClass("SSReaderManager"); { MSHookMessageEx(_logos_class$Reading$SSReaderManager, @selector(onDownloadBtnClick:), (IMP)&_logos_method$Reading$SSReaderManager$onDownloadBtnClick$, (IMP*)&_logos_orig$Reading$SSReaderManager$onDownloadBtnClick$);}Class _logos_class$Reading$SSUserVipInfo = objc_getClass("SSUserVipInfo"); { MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(left_time), (IMP)&_logos_method$Reading$SSUserVipInfo$left_time, (IMP*)&_logos_orig$Reading$SSUserVipInfo$left_time);}{ MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(expire_time), (IMP)&_logos_method$Reading$SSUserVipInfo$expire_time, (IMP*)&_logos_orig$Reading$SSUserVipInfo$expire_time);}{ MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(is_vip), (IMP)&_logos_method$Reading$SSUserVipInfo$is_vip, (IMP*)&_logos_orig$Reading$SSUserVipInfo$is_vip);}}
     }
 }
