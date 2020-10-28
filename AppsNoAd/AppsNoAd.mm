@@ -36,6 +36,7 @@
 #import "AppsViewCell.h"
 
 #import "SSReaderManager.h"
+#import "JXLiveRootSubCategoryMainFrameView.h"
 
 
 
@@ -59,10 +60,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class XCNativeAdData; @class SWCityFeedVC; @class ConnectADSmallCell; @class VungleSDK; @class ReportTaskService; @class ZYUIFeedNativeAdTableViewCell; @class SSAdTask; @class QADSplashSDK; @class SSReaderManager; @class QLJCEONARecommendList; @class QLONAGalleryAdPosterView; @class QADSplashWindow; @class QLVMChannelViewController; @class ADServer; @class PKBVUserVIPInfoModel; @class PKBVVideoAlbumPlayerPresenter; @class MVSingleAnimatedImageView; @class ZYNativeAdV2TableViewCell; @class QNBQQPlayerPlugin; @class QLVNOperationViewModel; @class QLVNUserCenterRecommendFeedViewModel; @class FLPatch; @class QNBUAFocusAdBlockViewModel; @class QNBUAFocusVideoBlockViewModel; @class DTSplashViewController; @class EMKLaunchADViewController; @class AppsViewCell; @class ZYAdInfoFlow; @class QLJCEONAVideoAdPoster; @class TADSplashBaseViewController; @class SSUserVipInfo; @class SSReadingAdSplashTask; @class TVKWaterMarkModel; @class QNBUAPRCommonLandScapeViewModel; @class SSDialogView; @class PNMemberBNewCell; @class QLJCEONAAppList; @class QLONAInnerAdRecommendBannerCell; @class PKBVCommonRecommendViewNaviModel; @class SWCityPageVC; @class QNBUAVIPActivityEntryViewModel; @class ZYSplashFeedAdView; @class PNLaunchADShowView; @class PNConnectionViewController; @class KHStartController; @class MainTabBarController; @class LaunchViewController; @class QLJCEONALeftImageRightTextAdPoster; @class PKBVStatisticsUserInfo; @class QADFeedBaseViewModel; @class QNBUAPRPageCarouselCell; @class SWTipsView; @class QLJCEONAAdPoster; @class QLTeenGuardianPromptAssistant; @class MVSplashScreenViewController; @class TKApp; @class QLJCEAdInsideVideoItem; 
+@class AppsViewCell; @class PKBVUserVIPInfoModel; @class ZYAdInfoFlow; @class MobileTracking; @class QLJCEAdInsideVideoItem; @class KWMusicFeeFlagObject; @class SWTipsView; @class KWAdvertisementForPlayerView; @class FLPatch; @class XCNativeAdData; @class MVSingleAnimatedImageView; @class QLTeenGuardianPromptAssistant; @class VungleSDK; @class KWSearchRecommandTipsView; @class QNBUAVIPActivityEntryViewModel; @class TADSplashManager; @class LaunchViewController; @class QNBUAPRPageCarouselCell; @class SWCityFeedVC; @class QNBUAFocusAdBlockViewModel; @class ZYSplashFeedAdView; @class QNBQQPlayerPlugin; @class TVKWaterMarkModel; @class PNConnectionViewController; @class SSDialogView; @class PKBVVideoAlbumPlayerPresenter; @class SSReaderManager; @class QLVNUserCenterRecommendFeedViewModel; @class KWMusicFeeTipsAlertView; @class QLVNOperationViewModel; @class QADSplashSDK; @class ZYUIFeedNativeAdTableViewCell; @class ConnectADSmallCell; @class KWMusicPackageInfo; @class DTSplashViewController; @class SSUserVipInfo; @class KWMusicFeeUserManager; @class QLJCEONAAdPoster; @class ZYNativeAdV2TableViewCell; @class QNBUAFocusVideoBlockViewModel; @class QLJCEONAVideoAdPoster; @class KWSplashAdInfoModel; @class KWStarThemeDetailViewController; @class QLONAGalleryAdPosterView; @class SSReadingAdSplashTask; @class JCommonServiceController; @class TKApp; @class ADServer; @class KHStartController; @class QLJCEONARecommendList; @class SWCityPageVC; @class PKBVCommonRecommendViewNaviModel; @class PNLaunchADShowView; @class KWMoreListItem; @class MVSplashScreenViewController; @class SSAdTask; @class QLJCEONAAppList; @class QLVMChannelViewController; @class QualityCell; @class PNMemberBNewCell; @class PKBVStatisticsUserInfo; @class KWSearchPlayBarCell; @class QADFeedBaseViewModel; @class QLJCEONALeftImageRightTextAdPoster; @class MediaItemInfo; @class QLONAInnerAdRecommendBannerCell; @class KWMusicFeeNeedPayTipsView; @class MainTabBarController; @class ReportTaskService; @class QADSplashWindow; @class KWMusicCellViewModel; @class TADSplashBaseViewController; @class EMKLaunchADViewController; @class JXLiveRootSubCategoryMainFrameView; @class QNBUAPRCommonLandScapeViewModel; @class NewUserPageEntryCell; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
-#line 40 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 41 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 #pragma mark - ========================> 最右 <========================
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
@@ -638,8 +639,185 @@ static BOOL _logos_method$Beva$PKBVVideoAlbumPlayerPresenter$isVIP(_LOGOS_SELF_T
 
 
 
+#pragma mark - ========================> 酷我音乐 <========================
+static BOOL (*_logos_orig$KWPlayer$KWMusicPackageInfo$isYearUser)(_LOGOS_SELF_TYPE_NORMAL KWMusicPackageInfo* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$KWMusicPackageInfo$isYearUser(_LOGOS_SELF_TYPE_NORMAL KWMusicPackageInfo* _LOGOS_SELF_CONST, SEL); static _Bool (*_logos_orig$KWPlayer$KWMusicFeeFlagObject$feeFlag$authType$useVip$isAudio$)(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeFlagObject* _LOGOS_SELF_CONST, SEL, int, int, _Bool, _Bool); static _Bool _logos_method$KWPlayer$KWMusicFeeFlagObject$feeFlag$authType$useVip$isAudio$(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeFlagObject* _LOGOS_SELF_CONST, SEL, int, int, _Bool, _Bool); static BOOL (*_logos_orig$KWPlayer$KWMusicFeeUserManager$isSuperVip)(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeUserManager* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$KWMusicFeeUserManager$isSuperVip(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeUserManager* _LOGOS_SELF_CONST, SEL); static long long (*_logos_orig$KWPlayer$KWSplashAdInfoModel$adType)(_LOGOS_SELF_TYPE_NORMAL KWSplashAdInfoModel* _LOGOS_SELF_CONST, SEL); static long long _logos_method$KWPlayer$KWSplashAdInfoModel$adType(_LOGOS_SELF_TYPE_NORMAL KWSplashAdInfoModel* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$KWPlayer$MediaItemInfo$noRightInCurrentRegion)(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$MediaItemInfo$noRightInCurrentRegion(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$KWPlayer$MediaItemInfo$noRightInRegion$)(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST, SEL, unsigned long long); static BOOL _logos_method$KWPlayer$MediaItemInfo$noRightInRegion$(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST, SEL, unsigned long long); static void (*_logos_orig$KWPlayer$KWMusicFeeTipsAlertView$setUpViews)(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeTipsAlertView* _LOGOS_SELF_CONST, SEL); static void _logos_method$KWPlayer$KWMusicFeeTipsAlertView$setUpViews(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeTipsAlertView* _LOGOS_SELF_CONST, SEL); static KWMusicFeeTipsAlertView* (*_logos_orig$KWPlayer$KWMusicFeeTipsAlertView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT KWMusicFeeTipsAlertView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWMusicFeeTipsAlertView* _logos_method$KWPlayer$KWMusicFeeTipsAlertView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWMusicFeeTipsAlertView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWAdvertisementForPlayerView* (*_logos_orig$KWPlayer$KWAdvertisementForPlayerView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWAdvertisementForPlayerView* _logos_method$KWPlayer$KWAdvertisementForPlayerView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWAdvertisementForPlayerView* (*_logos_orig$KWPlayer$KWAdvertisementForPlayerView$init)(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView*, SEL) _LOGOS_RETURN_RETAINED; static KWAdvertisementForPlayerView* _logos_method$KWPlayer$KWAdvertisementForPlayerView$init(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView*, SEL) _LOGOS_RETURN_RETAINED; static BOOL (*_logos_orig$KWPlayer$KWStarThemeDetailViewController$watingDownload)(_LOGOS_SELF_TYPE_NORMAL KWStarThemeDetailViewController* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$KWStarThemeDetailViewController$watingDownload(_LOGOS_SELF_TYPE_NORMAL KWStarThemeDetailViewController* _LOGOS_SELF_CONST, SEL); static id (*_logos_orig$KWPlayer$TADSplashManager$splashItemForItem$)(_LOGOS_SELF_TYPE_NORMAL TADSplashManager* _LOGOS_SELF_CONST, SEL, id); static id _logos_method$KWPlayer$TADSplashManager$splashItemForItem$(_LOGOS_SELF_TYPE_NORMAL TADSplashManager* _LOGOS_SELF_CONST, SEL, id); static id (*_logos_meta_orig$KWPlayer$TADSplashManager$sharedInstance)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static id _logos_meta_method$KWPlayer$TADSplashManager$sharedInstance(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$KWPlayer$KWMusicCellViewModel$notShowCopyRight)(_LOGOS_SELF_TYPE_NORMAL KWMusicCellViewModel* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$KWMusicCellViewModel$notShowCopyRight(_LOGOS_SELF_TYPE_NORMAL KWMusicCellViewModel* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$)(_LOGOS_SELF_TYPE_NORMAL NewUserPageEntryCell* _LOGOS_SELF_CONST, SEL, _Bool); static void _logos_method$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$(_LOGOS_SELF_TYPE_NORMAL NewUserPageEntryCell* _LOGOS_SELF_CONST, SEL, _Bool); static BOOL (*_logos_orig$KWPlayer$KWMoreListItem$disable)(_LOGOS_SELF_TYPE_NORMAL KWMoreListItem* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$KWPlayer$KWMoreListItem$disable(_LOGOS_SELF_TYPE_NORMAL KWMoreListItem* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$KWPlayer$QualityCell$showFeeVip$)(_LOGOS_SELF_TYPE_NORMAL QualityCell* _LOGOS_SELF_CONST, SEL, _Bool); static void _logos_method$KWPlayer$QualityCell$showFeeVip$(_LOGOS_SELF_TYPE_NORMAL QualityCell* _LOGOS_SELF_CONST, SEL, _Bool); static KWMusicFeeNeedPayTipsView* (*_logos_orig$KWPlayer$KWMusicFeeNeedPayTipsView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT KWMusicFeeNeedPayTipsView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWMusicFeeNeedPayTipsView* _logos_method$KWPlayer$KWMusicFeeNeedPayTipsView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWMusicFeeNeedPayTipsView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$KWPlayer$KWSearchPlayBarCell$layoutAdView)(_LOGOS_SELF_TYPE_NORMAL KWSearchPlayBarCell* _LOGOS_SELF_CONST, SEL); static void _logos_method$KWPlayer$KWSearchPlayBarCell$layoutAdView(_LOGOS_SELF_TYPE_NORMAL KWSearchPlayBarCell* _LOGOS_SELF_CONST, SEL); static KWSearchRecommandTipsView* (*_logos_orig$KWPlayer$KWSearchRecommandTipsView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT KWSearchRecommandTipsView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static KWSearchRecommandTipsView* _logos_method$KWPlayer$KWSearchRecommandTipsView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWSearchRecommandTipsView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static id (*_logos_meta_orig$KWPlayer$MobileTracking$sharedInstance)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static id _logos_meta_method$KWPlayer$MobileTracking$sharedInstance(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$KWPlayer$JCommonServiceController$applicationDidEnterBackground)(_LOGOS_SELF_TYPE_NORMAL JCommonServiceController* _LOGOS_SELF_CONST, SEL); static void _logos_method$KWPlayer$JCommonServiceController$applicationDidEnterBackground(_LOGOS_SELF_TYPE_NORMAL JCommonServiceController* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews)(_LOGOS_SELF_TYPE_NORMAL JXLiveRootSubCategoryMainFrameView* _LOGOS_SELF_CONST, SEL); static void _logos_method$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL JXLiveRootSubCategoryMainFrameView* _LOGOS_SELF_CONST, SEL); 
+
+
+
+static BOOL _logos_method$KWPlayer$KWMusicPackageInfo$isYearUser(_LOGOS_SELF_TYPE_NORMAL KWMusicPackageInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return YES;
+}
+
+
+
+
+
+static _Bool _logos_method$KWPlayer$KWMusicFeeFlagObject$feeFlag$authType$useVip$isAudio$(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeFlagObject* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, int arg1, int arg2, _Bool arg3, _Bool arg4) {
+    return NO;
+}
+
+
+
+
+
+static BOOL _logos_method$KWPlayer$KWMusicFeeUserManager$isSuperVip(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeUserManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return YES;
+}
+
+
+
+
+
+static long long _logos_method$KWPlayer$KWSplashAdInfoModel$adType(_LOGOS_SELF_TYPE_NORMAL KWSplashAdInfoModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return 0;
+}
+
+
+
+
+
+static BOOL _logos_method$KWPlayer$MediaItemInfo$noRightInCurrentRegion(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return NO;
+}
+
+static BOOL _logos_method$KWPlayer$MediaItemInfo$noRightInRegion$(_LOGOS_SELF_TYPE_NORMAL MediaItemInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, unsigned long long arg1) {
+    return NO;
+}
+
+
+
+
+
+static void _logos_method$KWPlayer$KWMusicFeeTipsAlertView$setUpViews(_LOGOS_SELF_TYPE_NORMAL KWMusicFeeTipsAlertView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) { }
+
+static KWMusicFeeTipsAlertView* _logos_method$KWPlayer$KWMusicFeeTipsAlertView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWMusicFeeTipsAlertView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static KWAdvertisementForPlayerView* _logos_method$KWPlayer$KWAdvertisementForPlayerView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+static KWAdvertisementForPlayerView* _logos_method$KWPlayer$KWAdvertisementForPlayerView$init(_LOGOS_SELF_TYPE_INIT KWAdvertisementForPlayerView* __unused self, SEL __unused _cmd) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static BOOL _logos_method$KWPlayer$KWStarThemeDetailViewController$watingDownload(_LOGOS_SELF_TYPE_NORMAL KWStarThemeDetailViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return NO;
+}
+
+
+
+
+
+static id _logos_method$KWPlayer$TADSplashManager$splashItemForItem$(_LOGOS_SELF_TYPE_NORMAL TADSplashManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1) {
+    return nil;
+}
+
+static id _logos_meta_method$KWPlayer$TADSplashManager$sharedInstance(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return nil;
+}
+
+
+
+
+
+static BOOL _logos_method$KWPlayer$KWMusicCellViewModel$notShowCopyRight(_LOGOS_SELF_TYPE_NORMAL KWMusicCellViewModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return NO;
+}
+
+
+
+
+
+static void _logos_method$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$(_LOGOS_SELF_TYPE_NORMAL NewUserPageEntryCell* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, _Bool arg1) {
+    _logos_orig$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$(self, _cmd, YES);
+}
+
+
+
+
+
+static BOOL _logos_method$KWPlayer$KWMoreListItem$disable(_LOGOS_SELF_TYPE_NORMAL KWMoreListItem* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return NO;
+}
+
+
+
+
+
+static void _logos_method$KWPlayer$QualityCell$showFeeVip$(_LOGOS_SELF_TYPE_NORMAL QualityCell* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, _Bool arg1) {
+    return _logos_orig$KWPlayer$QualityCell$showFeeVip$(self, _cmd, YES);
+}
+
+
+
+
+
+static KWMusicFeeNeedPayTipsView* _logos_method$KWPlayer$KWMusicFeeNeedPayTipsView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWMusicFeeNeedPayTipsView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static void _logos_method$KWPlayer$KWSearchPlayBarCell$layoutAdView(_LOGOS_SELF_TYPE_NORMAL KWSearchPlayBarCell* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) { }
+
+
+
+
+
+static KWSearchRecommandTipsView* _logos_method$KWPlayer$KWSearchRecommandTipsView$initWithFrame$(_LOGOS_SELF_TYPE_INIT KWSearchRecommandTipsView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+static id _logos_meta_method$KWPlayer$MobileTracking$sharedInstance(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return nil;
+}
+
+
+
+
+
+static void _logos_method$KWPlayer$JCommonServiceController$applicationDidEnterBackground(_LOGOS_SELF_TYPE_NORMAL JCommonServiceController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+static void _logos_method$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL JXLiveRootSubCategoryMainFrameView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews(self, _cmd);
+    [self.abteilungJxLogo removeFromSuperview];
+    [self.rechargeImageView removeFromSuperview];
+}
+
+
+
+
+
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_122b63af(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_59b5a5fb(int __unused argc, char __unused **argv, char __unused **envp) {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
@@ -676,5 +854,8 @@ static __attribute__((constructor)) void _logosLocalCtor_122b63af(int __unused a
     }
     else if ([identify isEqualToString:Beva]) {
         {Class _logos_class$Beva$PKBVStatisticsUserInfo = objc_getClass("PKBVStatisticsUserInfo"); { MSHookMessageEx(_logos_class$Beva$PKBVStatisticsUserInfo, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVStatisticsUserInfo$isVIP, (IMP*)&_logos_orig$Beva$PKBVStatisticsUserInfo$isVIP);}Class _logos_class$Beva$PKBVUserVIPInfoModel = objc_getClass("PKBVUserVIPInfoModel"); { MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipValid), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipValid, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipValid);}{ MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipExpiredDay), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredDay, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredDay);}{ MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipExpiredTimeSince1970), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970);}Class _logos_class$Beva$PKBVCommonRecommendViewNaviModel = objc_getClass("PKBVCommonRecommendViewNaviModel"); { MSHookMessageEx(_logos_class$Beva$PKBVCommonRecommendViewNaviModel, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVCommonRecommendViewNaviModel$isVIP, (IMP*)&_logos_orig$Beva$PKBVCommonRecommendViewNaviModel$isVIP);}Class _logos_class$Beva$PKBVVideoAlbumPlayerPresenter = objc_getClass("PKBVVideoAlbumPlayerPresenter"); { MSHookMessageEx(_logos_class$Beva$PKBVVideoAlbumPlayerPresenter, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVVideoAlbumPlayerPresenter$isVIP, (IMP*)&_logos_orig$Beva$PKBVVideoAlbumPlayerPresenter$isVIP);}}
+    }
+    else if ([identify isEqualToString:KWPlayer]) {
+        {Class _logos_class$KWPlayer$KWMusicPackageInfo = objc_getClass("KWMusicPackageInfo"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicPackageInfo, @selector(isYearUser), (IMP)&_logos_method$KWPlayer$KWMusicPackageInfo$isYearUser, (IMP*)&_logos_orig$KWPlayer$KWMusicPackageInfo$isYearUser);}Class _logos_class$KWPlayer$KWMusicFeeFlagObject = objc_getClass("KWMusicFeeFlagObject"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicFeeFlagObject, @selector(feeFlag:authType:useVip:isAudio:), (IMP)&_logos_method$KWPlayer$KWMusicFeeFlagObject$feeFlag$authType$useVip$isAudio$, (IMP*)&_logos_orig$KWPlayer$KWMusicFeeFlagObject$feeFlag$authType$useVip$isAudio$);}Class _logos_class$KWPlayer$KWMusicFeeUserManager = objc_getClass("KWMusicFeeUserManager"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicFeeUserManager, @selector(isSuperVip), (IMP)&_logos_method$KWPlayer$KWMusicFeeUserManager$isSuperVip, (IMP*)&_logos_orig$KWPlayer$KWMusicFeeUserManager$isSuperVip);}Class _logos_class$KWPlayer$KWSplashAdInfoModel = objc_getClass("KWSplashAdInfoModel"); { MSHookMessageEx(_logos_class$KWPlayer$KWSplashAdInfoModel, @selector(adType), (IMP)&_logos_method$KWPlayer$KWSplashAdInfoModel$adType, (IMP*)&_logos_orig$KWPlayer$KWSplashAdInfoModel$adType);}Class _logos_class$KWPlayer$MediaItemInfo = objc_getClass("MediaItemInfo"); { MSHookMessageEx(_logos_class$KWPlayer$MediaItemInfo, @selector(noRightInCurrentRegion), (IMP)&_logos_method$KWPlayer$MediaItemInfo$noRightInCurrentRegion, (IMP*)&_logos_orig$KWPlayer$MediaItemInfo$noRightInCurrentRegion);}{ MSHookMessageEx(_logos_class$KWPlayer$MediaItemInfo, @selector(noRightInRegion:), (IMP)&_logos_method$KWPlayer$MediaItemInfo$noRightInRegion$, (IMP*)&_logos_orig$KWPlayer$MediaItemInfo$noRightInRegion$);}Class _logos_class$KWPlayer$KWMusicFeeTipsAlertView = objc_getClass("KWMusicFeeTipsAlertView"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicFeeTipsAlertView, @selector(setUpViews), (IMP)&_logos_method$KWPlayer$KWMusicFeeTipsAlertView$setUpViews, (IMP*)&_logos_orig$KWPlayer$KWMusicFeeTipsAlertView$setUpViews);}{ MSHookMessageEx(_logos_class$KWPlayer$KWMusicFeeTipsAlertView, @selector(initWithFrame:), (IMP)&_logos_method$KWPlayer$KWMusicFeeTipsAlertView$initWithFrame$, (IMP*)&_logos_orig$KWPlayer$KWMusicFeeTipsAlertView$initWithFrame$);}Class _logos_class$KWPlayer$KWAdvertisementForPlayerView = objc_getClass("KWAdvertisementForPlayerView"); { MSHookMessageEx(_logos_class$KWPlayer$KWAdvertisementForPlayerView, @selector(initWithFrame:), (IMP)&_logos_method$KWPlayer$KWAdvertisementForPlayerView$initWithFrame$, (IMP*)&_logos_orig$KWPlayer$KWAdvertisementForPlayerView$initWithFrame$);}{ MSHookMessageEx(_logos_class$KWPlayer$KWAdvertisementForPlayerView, @selector(init), (IMP)&_logos_method$KWPlayer$KWAdvertisementForPlayerView$init, (IMP*)&_logos_orig$KWPlayer$KWAdvertisementForPlayerView$init);}Class _logos_class$KWPlayer$KWStarThemeDetailViewController = objc_getClass("KWStarThemeDetailViewController"); { MSHookMessageEx(_logos_class$KWPlayer$KWStarThemeDetailViewController, @selector(watingDownload), (IMP)&_logos_method$KWPlayer$KWStarThemeDetailViewController$watingDownload, (IMP*)&_logos_orig$KWPlayer$KWStarThemeDetailViewController$watingDownload);}Class _logos_class$KWPlayer$TADSplashManager = objc_getClass("TADSplashManager"); Class _logos_metaclass$KWPlayer$TADSplashManager = object_getClass(_logos_class$KWPlayer$TADSplashManager); { MSHookMessageEx(_logos_class$KWPlayer$TADSplashManager, @selector(splashItemForItem:), (IMP)&_logos_method$KWPlayer$TADSplashManager$splashItemForItem$, (IMP*)&_logos_orig$KWPlayer$TADSplashManager$splashItemForItem$);}{ MSHookMessageEx(_logos_metaclass$KWPlayer$TADSplashManager, @selector(sharedInstance), (IMP)&_logos_meta_method$KWPlayer$TADSplashManager$sharedInstance, (IMP*)&_logos_meta_orig$KWPlayer$TADSplashManager$sharedInstance);}Class _logos_class$KWPlayer$KWMusicCellViewModel = objc_getClass("KWMusicCellViewModel"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicCellViewModel, @selector(notShowCopyRight), (IMP)&_logos_method$KWPlayer$KWMusicCellViewModel$notShowCopyRight, (IMP*)&_logos_orig$KWPlayer$KWMusicCellViewModel$notShowCopyRight);}Class _logos_class$KWPlayer$NewUserPageEntryCell = objc_getClass("NewUserPageEntryCell"); { MSHookMessageEx(_logos_class$KWPlayer$NewUserPageEntryCell, @selector(showDownloadAnimation:), (IMP)&_logos_method$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$, (IMP*)&_logos_orig$KWPlayer$NewUserPageEntryCell$showDownloadAnimation$);}Class _logos_class$KWPlayer$KWMoreListItem = objc_getClass("KWMoreListItem"); { MSHookMessageEx(_logos_class$KWPlayer$KWMoreListItem, @selector(disable), (IMP)&_logos_method$KWPlayer$KWMoreListItem$disable, (IMP*)&_logos_orig$KWPlayer$KWMoreListItem$disable);}Class _logos_class$KWPlayer$QualityCell = objc_getClass("QualityCell"); { MSHookMessageEx(_logos_class$KWPlayer$QualityCell, @selector(showFeeVip:), (IMP)&_logos_method$KWPlayer$QualityCell$showFeeVip$, (IMP*)&_logos_orig$KWPlayer$QualityCell$showFeeVip$);}Class _logos_class$KWPlayer$KWMusicFeeNeedPayTipsView = objc_getClass("KWMusicFeeNeedPayTipsView"); { MSHookMessageEx(_logos_class$KWPlayer$KWMusicFeeNeedPayTipsView, @selector(initWithFrame:), (IMP)&_logos_method$KWPlayer$KWMusicFeeNeedPayTipsView$initWithFrame$, (IMP*)&_logos_orig$KWPlayer$KWMusicFeeNeedPayTipsView$initWithFrame$);}Class _logos_class$KWPlayer$KWSearchPlayBarCell = objc_getClass("KWSearchPlayBarCell"); { MSHookMessageEx(_logos_class$KWPlayer$KWSearchPlayBarCell, @selector(layoutAdView), (IMP)&_logos_method$KWPlayer$KWSearchPlayBarCell$layoutAdView, (IMP*)&_logos_orig$KWPlayer$KWSearchPlayBarCell$layoutAdView);}Class _logos_class$KWPlayer$KWSearchRecommandTipsView = objc_getClass("KWSearchRecommandTipsView"); { MSHookMessageEx(_logos_class$KWPlayer$KWSearchRecommandTipsView, @selector(initWithFrame:), (IMP)&_logos_method$KWPlayer$KWSearchRecommandTipsView$initWithFrame$, (IMP*)&_logos_orig$KWPlayer$KWSearchRecommandTipsView$initWithFrame$);}Class _logos_class$KWPlayer$MobileTracking = objc_getClass("MobileTracking"); Class _logos_metaclass$KWPlayer$MobileTracking = object_getClass(_logos_class$KWPlayer$MobileTracking); { MSHookMessageEx(_logos_metaclass$KWPlayer$MobileTracking, @selector(sharedInstance), (IMP)&_logos_meta_method$KWPlayer$MobileTracking$sharedInstance, (IMP*)&_logos_meta_orig$KWPlayer$MobileTracking$sharedInstance);}Class _logos_class$KWPlayer$JCommonServiceController = objc_getClass("JCommonServiceController"); { MSHookMessageEx(_logos_class$KWPlayer$JCommonServiceController, @selector(applicationDidEnterBackground), (IMP)&_logos_method$KWPlayer$JCommonServiceController$applicationDidEnterBackground, (IMP*)&_logos_orig$KWPlayer$JCommonServiceController$applicationDidEnterBackground);}Class _logos_class$KWPlayer$JXLiveRootSubCategoryMainFrameView = objc_getClass("JXLiveRootSubCategoryMainFrameView"); { MSHookMessageEx(_logos_class$KWPlayer$JXLiveRootSubCategoryMainFrameView, @selector(layoutSubviews), (IMP)&_logos_method$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews, (IMP*)&_logos_orig$KWPlayer$JXLiveRootSubCategoryMainFrameView$layoutSubviews);}}
     }
 }

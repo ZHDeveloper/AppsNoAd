@@ -35,6 +35,28 @@
 		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
 		02452251254002BC0030F781 /* NSObject+Netskao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Netskao.h"; sourceTree = "<group>"; };
 		02452252254002BC0030F781 /* NSObject+Netskao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Netskao.m"; sourceTree = "<group>"; };
+		02585F0F25493846009972C5 /* NewUserPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageController.h; sourceTree = "<group>"; };
+		02585F1025493846009972C5 /* KWMusicFeeFlagObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeFlagObject.h; sourceTree = "<group>"; };
+		02585F1125493846009972C5 /* NewUserPageEntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageEntryCell.h; sourceTree = "<group>"; };
+		02585F1225493846009972C5 /* QualityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QualityCell.h; sourceTree = "<group>"; };
+		02585F1325493846009972C5 /* KWMusicCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicCellViewModel.h; sourceTree = "<group>"; };
+		02585F1425493846009972C5 /* KWSplashAdInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSplashAdInfoModel.h; sourceTree = "<group>"; };
+		02585F1525493846009972C5 /* JCOREClientController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCOREClientController.h; sourceTree = "<group>"; };
+		02585F1625493846009972C5 /* KWAdvertisementForPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAdvertisementForPlayerView.h; sourceTree = "<group>"; };
+		02585F1725493846009972C5 /* KWSearchPlayBarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSearchPlayBarCell.h; sourceTree = "<group>"; };
+		02585F1825493846009972C5 /* MobileTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileTracking.h; sourceTree = "<group>"; };
+		02585F1925493846009972C5 /* KWMusicFeeNeedPayTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeNeedPayTipsView.h; sourceTree = "<group>"; };
+		02585F1A25493846009972C5 /* KWMusicFeeUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeUserManager.h; sourceTree = "<group>"; };
+		02585F1B25493846009972C5 /* KWMusicPackageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicPackageInfo.h; sourceTree = "<group>"; };
+		02585F1C25493846009972C5 /* KWMusicFeeTipsAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeTipsAlertView.h; sourceTree = "<group>"; };
+		02585F1D25493846009972C5 /* JCommonServiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCommonServiceController.h; sourceTree = "<group>"; };
+		02585F1E25493846009972C5 /* KWSearchRecommandTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSearchRecommandTipsView.h; sourceTree = "<group>"; };
+		02585F1F25493846009972C5 /* TADSplashManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TADSplashManager.h; sourceTree = "<group>"; };
+		02585F2025493846009972C5 /* KWMoreListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMoreListItem.h; sourceTree = "<group>"; };
+		02585F2125493846009972C5 /* MediaItemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaItemInfo.h; sourceTree = "<group>"; };
+		02585F2225493846009972C5 /* KWStarThemeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWStarThemeDetailViewController.h; sourceTree = "<group>"; };
+		02585F242549422F009972C5 /* KWPopupWindowManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWPopupWindowManager.h; sourceTree = "<group>"; };
+		02585F26254942F1009972C5 /* JXLiveRootSubCategoryMainFrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXLiveRootSubCategoryMainFrameView.h; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
@@ -118,6 +140,35 @@
 				02149344251DC9C300B4263E /* MVSplashScreenViewController.h */,
 			);
 			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		02585F0E25493846009972C5 /* KWPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				02585F242549422F009972C5 /* KWPopupWindowManager.h */,
+				02585F0F25493846009972C5 /* NewUserPageController.h */,
+				02585F1025493846009972C5 /* KWMusicFeeFlagObject.h */,
+				02585F1125493846009972C5 /* NewUserPageEntryCell.h */,
+				02585F1225493846009972C5 /* QualityCell.h */,
+				02585F1325493846009972C5 /* KWMusicCellViewModel.h */,
+				02585F1425493846009972C5 /* KWSplashAdInfoModel.h */,
+				02585F1525493846009972C5 /* JCOREClientController.h */,
+				02585F1625493846009972C5 /* KWAdvertisementForPlayerView.h */,
+				02585F1725493846009972C5 /* KWSearchPlayBarCell.h */,
+				02585F1825493846009972C5 /* MobileTracking.h */,
+				02585F1925493846009972C5 /* KWMusicFeeNeedPayTipsView.h */,
+				02585F1A25493846009972C5 /* KWMusicFeeUserManager.h */,
+				02585F1B25493846009972C5 /* KWMusicPackageInfo.h */,
+				02585F1C25493846009972C5 /* KWMusicFeeTipsAlertView.h */,
+				02585F1D25493846009972C5 /* JCommonServiceController.h */,
+				02585F1E25493846009972C5 /* KWSearchRecommandTipsView.h */,
+				02585F1F25493846009972C5 /* TADSplashManager.h */,
+				02585F2025493846009972C5 /* KWMoreListItem.h */,
+				02585F2125493846009972C5 /* MediaItemInfo.h */,
+				02585F2225493846009972C5 /* KWStarThemeDetailViewController.h */,
+				02585F26254942F1009972C5 /* JXLiveRootSubCategoryMainFrameView.h */,
+			);
+			path = KWPlayer;
 			sourceTree = "<group>";
 		};
 		0280599E25207C9400DD4B49 /* KHealthDoctor */ = {
@@ -240,6 +291,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				02585F0E25493846009972C5 /* KWPlayer */,
 				02C86C1C254900C7009F7888 /* Beva */,
 				02D81D1E2546A9F7001802E7 /* Reading */,
 				02141ABA25368891001735C7 /* AppCake */,

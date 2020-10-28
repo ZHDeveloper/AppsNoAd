@@ -35,6 +35,7 @@
 #import "AppsViewCell.h"
 
 #import "SSReaderManager.h"
+#import "JXLiveRootSubCategoryMainFrameView.h"
 
 
 #pragma mark - ========================> 最右 <========================
@@ -612,6 +613,175 @@
 
 %end
 
+#pragma mark - ========================> 酷我音乐 <========================
+%group KWPlayer
+
+%hook KWMusicPackageInfo
+
+- (BOOL)isYearUser {
+    return YES;
+}
+
+%end
+
+%hook KWMusicFeeFlagObject
+
+- (_Bool)feeFlag:(int)arg1 authType:(int)arg2 useVip:(_Bool)arg3 isAudio:(_Bool)arg4 {
+    return NO;
+}
+
+%end
+
+%hook KWMusicFeeUserManager
+
+- (BOOL)isSuperVip {
+    return YES;
+}
+
+%end
+
+%hook KWSplashAdInfoModel
+
+- (long long)adType {
+    return 0;
+}
+
+%end
+
+%hook MediaItemInfo
+
+- (BOOL)noRightInCurrentRegion {
+    return NO;
+}
+
+- (BOOL)noRightInRegion:(unsigned long long)arg1 {
+    return NO;
+}
+
+%end
+
+%hook KWMusicFeeTipsAlertView
+
+- (void)setUpViews { }
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
+%hook KWAdvertisementForPlayerView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook KWStarThemeDetailViewController
+
+- (BOOL)watingDownload {
+    return NO;
+}
+
+%end
+
+%hook TADSplashManager
+
+- (id)splashItemForItem:(id)arg1 {
+    return nil;
+}
+
++ (id)sharedInstance {
+    return nil;
+}
+
+%end
+
+%hook KWMusicCellViewModel
+
+- (BOOL)notShowCopyRight {
+    return NO;
+}
+
+%end
+
+%hook NewUserPageEntryCell
+
+- (void)showDownloadAnimation:(_Bool)arg1 {
+    %orig(YES);
+}
+
+%end
+
+%hook KWMoreListItem
+
+- (BOOL)disable {
+    return NO;
+}
+
+%end
+
+%hook QualityCell
+
+- (void)showFeeVip:(_Bool)arg1 {
+    return %orig(YES);
+}
+
+%end
+
+%hook KWMusicFeeNeedPayTipsView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
+%hook KWSearchPlayBarCell
+
+- (void)layoutAdView { }
+
+%end
+
+%hook KWSearchRecommandTipsView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
+%hook MobileTracking
+
++ (id)sharedInstance {
+    return nil;
+}
+
+%end
+
+%hook JCommonServiceController
+
+- (void)applicationDidEnterBackground { }
+
+%end
+
+%hook JXLiveRootSubCategoryMainFrameView
+
+- (void)layoutSubviews {
+    %orig;
+    [self.abteilungJxLogo removeFromSuperview];
+    [self.rechargeImageView removeFromSuperview];
+}
+
+%end
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -650,5 +820,8 @@
     }
     else if ([identify isEqualToString:Beva]) {
         %init(Beva);
+    }
+    else if ([identify isEqualToString:KWPlayer]) {
+        %init(KWPlayer);
     }
 }

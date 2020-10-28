@@ -21,6 +21,7 @@ NSString *const ZuiYou          = @"cn.xiaochuankeji.tieba";
 NSString *const Reading         = @"com.dragon.read";
 NSString *const ZhiXing         = @"cn.suanya.zhixingHC";
 NSString *const AppCake         = @"com.iphonecake.appcakej";
+NSString *const KWPlayer        = @"com.yeelion.kwplayer";
 NSString *const MovieApp        = @"com.taobao.movie.MoviePhoneClient";
 NSString *const DingTalk        = @"com.laiwang.DingTalk";
 NSString *const WeatherPro      = @"com.sina.tianqitongpro";
