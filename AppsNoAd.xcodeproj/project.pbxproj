@@ -61,6 +61,10 @@
 		02C1A37B251355ED00F1EA96 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		02C1A37C251355ED00F1EA96 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSplashViewController.h; sourceTree = "<group>"; };
+		02C86C1D254900C7009F7888 /* PKBVStatisticsUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVStatisticsUserInfo.h; sourceTree = "<group>"; };
+		02C86C1E254900C7009F7888 /* PKBVUserVIPInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVUserVIPInfoModel.h; sourceTree = "<group>"; };
+		02C86C1F254900C7009F7888 /* PKBVCommonRecommendViewNaviModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVCommonRecommendViewNaviModel.h; sourceTree = "<group>"; };
+		02C86C20254900C7009F7888 /* PKBVVideoAlbumPlayerPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVVideoAlbumPlayerPresenter.h; sourceTree = "<group>"; };
 		02D81D1F2546A9F7001802E7 /* SSReaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSReaderManager.h; sourceTree = "<group>"; };
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				02C86C1C254900C7009F7888 /* Beva */,
 				02D81D1E2546A9F7001802E7 /* Reading */,
 				02141ABA25368891001735C7 /* AppCake */,
 				02A6FEE42535A19900B99B94 /* WeatherPro */,
@@ -282,6 +287,17 @@
 				02C1A38025135BFD00F1EA96 /* DTSplashViewController.h */,
 			);
 			path = DingTalk;
+			sourceTree = "<group>";
+		};
+		02C86C1C254900C7009F7888 /* Beva */ = {
+			isa = PBXGroup;
+			children = (
+				02C86C1D254900C7009F7888 /* PKBVStatisticsUserInfo.h */,
+				02C86C1E254900C7009F7888 /* PKBVUserVIPInfoModel.h */,
+				02C86C1F254900C7009F7888 /* PKBVCommonRecommendViewNaviModel.h */,
+				02C86C20254900C7009F7888 /* PKBVVideoAlbumPlayerPresenter.h */,
+			);
+			path = Beva;
 			sourceTree = "<group>";
 		};
 		02D81D1E2546A9F7001802E7 /* Reading */ = {

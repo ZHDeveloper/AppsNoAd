@@ -544,7 +544,7 @@
 
 - (void)onDownloadBtnClick:(id)arg1 {
     [self downloadBookDirectly];
-}  
+}
 
 %end
 
@@ -567,6 +567,50 @@
 
 %end
 
+#pragma mark - ========================> 贝瓦儿歌 <========================
+%group Beva
+
+%hook PKBVStatisticsUserInfo
+
+- (NSString *)isVIP {
+    return @"1";
+}
+
+%end
+
+%hook PKBVUserVIPInfoModel
+
+- (BOOL)vipValid {
+    return YES;
+}
+
+- (NSString *)vipExpiredDay {
+    return @"2099-12-31";
+}
+
+- (double)vipExpiredTimeSince1970 {
+    return 4102329600;
+}
+
+%end
+
+%hook PKBVCommonRecommendViewNaviModel
+
+- (BOOL)isVIP {
+    return YES;
+}
+
+%end
+
+%hook PKBVVideoAlbumPlayerPresenter
+
+- (BOOL)isVIP {
+    return YES;
+}
+
+%end
+
+%end
 
 #pragma mark - ========================> 初始化 <========================
 %ctor {
@@ -603,5 +647,8 @@
     }
     else if ([identify isEqualToString:Reading]) {
         %init(Reading);
+    }
+    else if ([identify isEqualToString:Beva]) {
+        %init(Beva);
     }
 }

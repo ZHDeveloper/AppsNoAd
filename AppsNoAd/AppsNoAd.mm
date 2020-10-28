@@ -59,7 +59,7 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class QNBUAFocusVideoBlockViewModel; @class QLVNUserCenterRecommendFeedViewModel; @class VungleSDK; @class TADSplashBaseViewController; @class MainTabBarController; @class ZYAdInfoFlow; @class SWTipsView; @class SSDialogView; @class QNBUAFocusAdBlockViewModel; @class PNConnectionViewController; @class QLONAGalleryAdPosterView; @class QLONAInnerAdRecommendBannerCell; @class QLTeenGuardianPromptAssistant; @class AppsViewCell; @class QADFeedBaseViewModel; @class ConnectADSmallCell; @class QLJCEONARecommendList; @class FLPatch; @class QNBQQPlayerPlugin; @class QLJCEONALeftImageRightTextAdPoster; @class EMKLaunchADViewController; @class LaunchViewController; @class ZYNativeAdV2TableViewCell; @class ADServer; @class QLJCEAdInsideVideoItem; @class SWCityPageVC; @class SSReaderManager; @class QADSplashSDK; @class QLJCEONAAdPoster; @class SSReadingAdSplashTask; @class DTSplashViewController; @class QNBUAPRCommonLandScapeViewModel; @class ZYSplashFeedAdView; @class PNLaunchADShowView; @class SSAdTask; @class KHStartController; @class QLVNOperationViewModel; @class ZYUIFeedNativeAdTableViewCell; @class SSUserVipInfo; @class XCNativeAdData; @class QNBUAPRPageCarouselCell; @class QLJCEONAVideoAdPoster; @class MVSplashScreenViewController; @class SWCityFeedVC; @class PNMemberBNewCell; @class MVSingleAnimatedImageView; @class QADSplashWindow; @class QLVMChannelViewController; @class TVKWaterMarkModel; @class QNBUAVIPActivityEntryViewModel; @class ReportTaskService; @class TKApp; @class QLJCEONAAppList; 
+@class XCNativeAdData; @class SWCityFeedVC; @class ConnectADSmallCell; @class VungleSDK; @class ReportTaskService; @class ZYUIFeedNativeAdTableViewCell; @class SSAdTask; @class QADSplashSDK; @class SSReaderManager; @class QLJCEONARecommendList; @class QLONAGalleryAdPosterView; @class QADSplashWindow; @class QLVMChannelViewController; @class ADServer; @class PKBVUserVIPInfoModel; @class PKBVVideoAlbumPlayerPresenter; @class MVSingleAnimatedImageView; @class ZYNativeAdV2TableViewCell; @class QNBQQPlayerPlugin; @class QLVNOperationViewModel; @class QLVNUserCenterRecommendFeedViewModel; @class FLPatch; @class QNBUAFocusAdBlockViewModel; @class QNBUAFocusVideoBlockViewModel; @class DTSplashViewController; @class EMKLaunchADViewController; @class AppsViewCell; @class ZYAdInfoFlow; @class QLJCEONAVideoAdPoster; @class TADSplashBaseViewController; @class SSUserVipInfo; @class SSReadingAdSplashTask; @class TVKWaterMarkModel; @class QNBUAPRCommonLandScapeViewModel; @class SSDialogView; @class PNMemberBNewCell; @class QLJCEONAAppList; @class QLONAInnerAdRecommendBannerCell; @class PKBVCommonRecommendViewNaviModel; @class SWCityPageVC; @class QNBUAVIPActivityEntryViewModel; @class ZYSplashFeedAdView; @class PNLaunchADShowView; @class PNConnectionViewController; @class KHStartController; @class MainTabBarController; @class LaunchViewController; @class QLJCEONALeftImageRightTextAdPoster; @class PKBVStatisticsUserInfo; @class QADFeedBaseViewModel; @class QNBUAPRPageCarouselCell; @class SWTipsView; @class QLJCEONAAdPoster; @class QLTeenGuardianPromptAssistant; @class MVSplashScreenViewController; @class TKApp; @class QLJCEAdInsideVideoItem; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
 #line 40 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
@@ -593,9 +593,53 @@ static NSString * _logos_method$Reading$SSUserVipInfo$is_vip(_LOGOS_SELF_TYPE_NO
 
 
 
+#pragma mark - ========================> 贝瓦儿歌 <========================
+static NSString * (*_logos_orig$Beva$PKBVStatisticsUserInfo$isVIP)(_LOGOS_SELF_TYPE_NORMAL PKBVStatisticsUserInfo* _LOGOS_SELF_CONST, SEL); static NSString * _logos_method$Beva$PKBVStatisticsUserInfo$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVStatisticsUserInfo* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$Beva$PKBVUserVIPInfoModel$vipValid)(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$Beva$PKBVUserVIPInfoModel$vipValid(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static NSString * (*_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredDay)(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static NSString * _logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredDay(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static double (*_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970)(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static double _logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$Beva$PKBVCommonRecommendViewNaviModel$isVIP)(_LOGOS_SELF_TYPE_NORMAL PKBVCommonRecommendViewNaviModel* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$Beva$PKBVCommonRecommendViewNaviModel$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVCommonRecommendViewNaviModel* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$Beva$PKBVVideoAlbumPlayerPresenter$isVIP)(_LOGOS_SELF_TYPE_NORMAL PKBVVideoAlbumPlayerPresenter* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$Beva$PKBVVideoAlbumPlayerPresenter$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVVideoAlbumPlayerPresenter* _LOGOS_SELF_CONST, SEL); 
+
+
+
+static NSString * _logos_method$Beva$PKBVStatisticsUserInfo$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVStatisticsUserInfo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"1";
+}
+
+
+
+
+
+static BOOL _logos_method$Beva$PKBVUserVIPInfoModel$vipValid(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return YES;
+}
+
+static NSString * _logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredDay(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"2099-12-31";
+}
+
+static double _logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970(_LOGOS_SELF_TYPE_NORMAL PKBVUserVIPInfoModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return 4102329600;
+}
+
+
+
+
+
+static BOOL _logos_method$Beva$PKBVCommonRecommendViewNaviModel$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVCommonRecommendViewNaviModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return YES;
+}
+
+
+
+
+
+static BOOL _logos_method$Beva$PKBVVideoAlbumPlayerPresenter$isVIP(_LOGOS_SELF_TYPE_NORMAL PKBVVideoAlbumPlayerPresenter* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return YES;
+}
+
+
+
+
 
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_bdbc149d(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_122b63af(int __unused argc, char __unused **argv, char __unused **envp) {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     if ([identify isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
@@ -629,5 +673,8 @@ static __attribute__((constructor)) void _logosLocalCtor_bdbc149d(int __unused a
     }
     else if ([identify isEqualToString:Reading]) {
         {Class _logos_class$Reading$SSDialogView = objc_getClass("SSDialogView"); { MSHookMessageEx(_logos_class$Reading$SSDialogView, @selector(initWithFrame:), (IMP)&_logos_method$Reading$SSDialogView$initWithFrame$, (IMP*)&_logos_orig$Reading$SSDialogView$initWithFrame$);}Class _logos_class$Reading$SSReadingAdSplashTask = objc_getClass("SSReadingAdSplashTask"); { MSHookMessageEx(_logos_class$Reading$SSReadingAdSplashTask, @selector(init), (IMP)&_logos_method$Reading$SSReadingAdSplashTask$init, (IMP*)&_logos_orig$Reading$SSReadingAdSplashTask$init);}Class _logos_class$Reading$SSAdTask = objc_getClass("SSAdTask"); { MSHookMessageEx(_logos_class$Reading$SSAdTask, @selector(init), (IMP)&_logos_method$Reading$SSAdTask$init, (IMP*)&_logos_orig$Reading$SSAdTask$init);}Class _logos_class$Reading$SSReaderManager = objc_getClass("SSReaderManager"); { MSHookMessageEx(_logos_class$Reading$SSReaderManager, @selector(onDownloadBtnClick:), (IMP)&_logos_method$Reading$SSReaderManager$onDownloadBtnClick$, (IMP*)&_logos_orig$Reading$SSReaderManager$onDownloadBtnClick$);}Class _logos_class$Reading$SSUserVipInfo = objc_getClass("SSUserVipInfo"); { MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(left_time), (IMP)&_logos_method$Reading$SSUserVipInfo$left_time, (IMP*)&_logos_orig$Reading$SSUserVipInfo$left_time);}{ MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(expire_time), (IMP)&_logos_method$Reading$SSUserVipInfo$expire_time, (IMP*)&_logos_orig$Reading$SSUserVipInfo$expire_time);}{ MSHookMessageEx(_logos_class$Reading$SSUserVipInfo, @selector(is_vip), (IMP)&_logos_method$Reading$SSUserVipInfo$is_vip, (IMP*)&_logos_orig$Reading$SSUserVipInfo$is_vip);}}
+    }
+    else if ([identify isEqualToString:Beva]) {
+        {Class _logos_class$Beva$PKBVStatisticsUserInfo = objc_getClass("PKBVStatisticsUserInfo"); { MSHookMessageEx(_logos_class$Beva$PKBVStatisticsUserInfo, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVStatisticsUserInfo$isVIP, (IMP*)&_logos_orig$Beva$PKBVStatisticsUserInfo$isVIP);}Class _logos_class$Beva$PKBVUserVIPInfoModel = objc_getClass("PKBVUserVIPInfoModel"); { MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipValid), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipValid, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipValid);}{ MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipExpiredDay), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredDay, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredDay);}{ MSHookMessageEx(_logos_class$Beva$PKBVUserVIPInfoModel, @selector(vipExpiredTimeSince1970), (IMP)&_logos_method$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970, (IMP*)&_logos_orig$Beva$PKBVUserVIPInfoModel$vipExpiredTimeSince1970);}Class _logos_class$Beva$PKBVCommonRecommendViewNaviModel = objc_getClass("PKBVCommonRecommendViewNaviModel"); { MSHookMessageEx(_logos_class$Beva$PKBVCommonRecommendViewNaviModel, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVCommonRecommendViewNaviModel$isVIP, (IMP*)&_logos_orig$Beva$PKBVCommonRecommendViewNaviModel$isVIP);}Class _logos_class$Beva$PKBVVideoAlbumPlayerPresenter = objc_getClass("PKBVVideoAlbumPlayerPresenter"); { MSHookMessageEx(_logos_class$Beva$PKBVVideoAlbumPlayerPresenter, @selector(isVIP), (IMP)&_logos_method$Beva$PKBVVideoAlbumPlayerPresenter$isVIP, (IMP*)&_logos_orig$Beva$PKBVVideoAlbumPlayerPresenter$isVIP);}}
     }
 }
