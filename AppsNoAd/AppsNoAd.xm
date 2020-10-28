@@ -808,6 +808,26 @@
 
 %end
 
+%hook JXSystemInfo
+
++ (id)jailBreaker {
+    return nil;
+}
+
++ (BOOL)isJailBroken {
+    return NO;
+}
+
+%end
+
+%hook KWAudioADManager
+
++ (id)defaultMgr {
+    return nil;
+}
+
+%end
+
 
 %end
 

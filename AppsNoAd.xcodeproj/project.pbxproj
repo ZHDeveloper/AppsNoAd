@@ -55,6 +55,8 @@
 		02585F26254942F1009972C5 /* JXLiveRootSubCategoryMainFrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXLiveRootSubCategoryMainFrameView.h; sourceTree = "<group>"; };
 		02585F312549480A009972C5 /* KWBgImageAndPendantTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWBgImageAndPendantTipView.h; sourceTree = "<group>"; };
 		02585F3425494994009972C5 /* OnlineAdItemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineAdItemInfo.h; sourceTree = "<group>"; };
+		02585F3625495428009972C5 /* JXSystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXSystemInfo.h; sourceTree = "<group>"; };
+		02585F382549557F009972C5 /* KWAudioADManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAudioADManager.h; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
@@ -143,6 +145,8 @@
 		02585F0E25493846009972C5 /* KWPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				02585F382549557F009972C5 /* KWAudioADManager.h */,
+				02585F3625495428009972C5 /* JXSystemInfo.h */,
 				02585F3425494994009972C5 /* OnlineAdItemInfo.h */,
 				02585F312549480A009972C5 /* KWBgImageAndPendantTipView.h */,
 				02585F242549422F009972C5 /* KWPopupWindowManager.h */,
