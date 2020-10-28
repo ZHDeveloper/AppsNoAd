@@ -713,7 +713,7 @@
 %hook NewUserPageEntryCell
 
 - (void)showDownloadAnimation:(_Bool)arg1 {
-    %orig(YES);
+    %orig(NO);
 }
 
 %end
@@ -787,6 +787,27 @@
 }
 
 %end
+
+%hook OnlineAdItemInfo
+
++ (id)innerLinkItemFromBigsetDict:(id)arg1 {
+    return nil;
+}
+
+- (id)init {
+    return nil;
+}
+
+%end
+
+%hook NewUserPageController
+
+- (long long)numberOfSectionsInTableView:(id)arg1 {
+    return 5;
+}
+
+%end
+
 
 %end
 
