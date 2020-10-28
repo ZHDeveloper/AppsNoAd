@@ -1,7 +1,7 @@
 Package: com.zhihua.AppsNoAd
 Name: AppsNoAd
 Version: 0.1-1
-Description: 
+Description: 破解会员：酷我音乐、番茄小说、贝瓦儿歌； 去广告集成：腾讯视频、最右、钉钉、花生地铁、淘票票、智行火车、饿了么、天气通 Pro、AppCake;
 Section: System
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: 
