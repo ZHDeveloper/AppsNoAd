@@ -780,6 +780,14 @@
 
 %end
 
+%hook KWBgImageAndPendantTipView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    return nil;
+}
+
+%end
+
 %end
 
 #pragma mark - ========================> 初始化 <========================
