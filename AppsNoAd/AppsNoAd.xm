@@ -852,6 +852,51 @@
 
 %end
 
+%end
+
+#pragma mark - ========================> 宝宝巴士 <========================
+%group BabyBus
+
+%hook BBDigitalVerifyHelper
+
++ (void *)createWithTitle:(void *)arg2 warnTitle:(id)arg3 complete:(void *)arg4 cancel:(void *)arg5 inputError:(void *)arg6 {
+    return nil;
+}
+
+%end
+
+%hook SEUserVipInfoModel
+
+- (long long)vipType2 {
+    return 1;
+}
+
+- (long long)vipExpiry {
+    return 0;
+}
+
+- (long long)vipEndTime {
+    return 4102243200000;
+}
+
+- (long long)vipStartTime {
+    return 1603876113000;
+}
+
+%end
+
+%hook RootTabBarController
+
+- (void)addChildViewController:(UIViewController *)vc {
+    NSArray *titles = @[@"商城"];
+    if ([titles containsObject:vc.tabBarItem.title]) return;
+    %orig;
+}
+
+%end
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
@@ -893,5 +938,8 @@
     }
     else if ([identify isEqualToString:KWPlayer]) {
         %init(KWPlayer);
+    }
+    else if ([identify isEqualToString:BabyBus]) {
+        %init(BabyBus);
     }
 }

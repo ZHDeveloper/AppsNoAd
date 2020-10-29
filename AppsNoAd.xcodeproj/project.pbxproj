@@ -68,6 +68,12 @@
 		02A6FEE62535A1C400B99B94 /* SWCityPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCityPageVC.h; sourceTree = "<group>"; };
 		02A6FEE82535A51F00B99B94 /* SWFeedAbstractVCContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFeedAbstractVCContentView.h; sourceTree = "<group>"; };
 		02A6FEE92535A56400B99B94 /* SWTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTipsView.h; sourceTree = "<group>"; };
+		02B9E4F7254AAD8400E7E4AE /* BRAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppManager.h; sourceTree = "<group>"; };
+		02B9E4F9254AAF6B00E7E4AE /* BBMTarget_UserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMTarget_UserCenter.h; sourceTree = "<group>"; };
+		02B9E4FB254AB80700E7E4AE /* BBMTarget_DigitalVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMTarget_DigitalVerify.h; sourceTree = "<group>"; };
+		02B9E4FC254AB9D700E7E4AE /* BBMiddlewareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMiddlewareKit.h; sourceTree = "<group>"; };
+		02B9E4FE254ABF2700E7E4AE /* SEUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserModel.h; sourceTree = "<group>"; };
+		02B9E4FF254ABFC200E7E4AE /* SEUserVipInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserVipInfoModel.h; sourceTree = "<group>"; };
 		02C1A351251353D200F1EA96 /* AppsNoAd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppsNoAd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1A354251353D200F1EA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02C1A356251353D200F1EA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -209,6 +215,19 @@
 			path = WeatherPro;
 			sourceTree = "<group>";
 		};
+		02B9E4F6254AAD8400E7E4AE /* BabyBus */ = {
+			isa = PBXGroup;
+			children = (
+				02B9E4FE254ABF2700E7E4AE /* SEUserModel.h */,
+				02B9E4FF254ABFC200E7E4AE /* SEUserVipInfoModel.h */,
+				02B9E4F7254AAD8400E7E4AE /* BRAppManager.h */,
+				02B9E4FC254AB9D700E7E4AE /* BBMiddlewareKit.h */,
+				02B9E4F9254AAF6B00E7E4AE /* BBMTarget_UserCenter.h */,
+				02B9E4FB254AB80700E7E4AE /* BBMTarget_DigitalVerify.h */,
+			);
+			path = BabyBus;
+			sourceTree = "<group>";
+		};
 		02C1A346251353D200F1EA96 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +320,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				02B9E4F6254AAD8400E7E4AE /* BabyBus */,
 				02585F0E25493846009972C5 /* KWPlayer */,
 				02C86C1C254900C7009F7888 /* Beva */,
 				02D81D1E2546A9F7001802E7 /* Reading */,
