@@ -6,21 +6,7 @@
 	<dict>
 		<key>Bundles</key>
 		<array>
-			<string>cn.xiaochuankeji.tieba</string>
-			<string>com.laiwang.DingTalk</string>
-			<string>com.pingan.pars</string>
-			<string>com.sgv.peanutsubwaywifi</string>
-			<string>com.taobao.movie.MoviePhoneClient</string>
-			<string>cn.suanya.zhixingHC</string>
-			<string>com.tencent.live4iphone</string>
-			<string>com.khealthdoctor.khealthdoctor</string>
-			<string>com.sina.tianqitongpro</string>
-			<string>com.iphonecake.appcakej</string>
-			<string>me.ele.ios.eleme</string>
-			<string>com.store.pa.health</string>
-			<string>com.dragon.read</string>
-			<string>com.slanissue.beva.app.erge.common</string>
-			<string>com.yeelion.kwplayer</string>
+			<string>com.apple.Security</string>
 		</array>
 	</dict>
 </dict>
