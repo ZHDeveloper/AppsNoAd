@@ -7,6 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+#define DebugMethod() NSLog(@"[函数名:%s]", __func__);
+#define DLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
 inline void PrintObject(NSObject *obj) {
     NSLog(@"😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓😓");
     NSLog(@"AppConsole: %@", obj);

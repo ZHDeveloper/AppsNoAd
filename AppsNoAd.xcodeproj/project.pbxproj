@@ -61,6 +61,9 @@
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
 		028059A42520806600DD4B49 /* NVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVMViewController.h; sourceTree = "<group>"; };
+		02875CEF254A515C00BC6521 /* KWSplashPreLoaderHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWSplashPreLoaderHelper.h; sourceTree = "<group>"; };
+		02875CF0254A51DA00BC6521 /* KWSplashAdInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KWSplashAdInfoModel.h; path = ../../../../DumpApps/KWPlayer/Header/KWSplashAdInfoModel.h; sourceTree = "<group>"; };
+		02875CF4254A650E00BC6521 /* KWKeyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWKeyConfig.h; sourceTree = "<group>"; };
 		02A6FEE52535A1B000B99B94 /* SWCityFeedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCityFeedVC.h; sourceTree = "<group>"; };
 		02A6FEE62535A1C400B99B94 /* SWCityPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCityPageVC.h; sourceTree = "<group>"; };
 		02A6FEE82535A51F00B99B94 /* SWFeedAbstractVCContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFeedAbstractVCContentView.h; sourceTree = "<group>"; };
@@ -145,6 +148,9 @@
 		02585F0E25493846009972C5 /* KWPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				02875CF4254A650E00BC6521 /* KWKeyConfig.h */,
+				02875CF0254A51DA00BC6521 /* KWSplashAdInfoModel.h */,
+				02875CEF254A515C00BC6521 /* KWSplashPreLoaderHelper.h */,
 				02585F382549557F009972C5 /* KWAudioADManager.h */,
 				02585F3625495428009972C5 /* JXSystemInfo.h */,
 				02585F3425494994009972C5 /* OnlineAdItemInfo.h */,

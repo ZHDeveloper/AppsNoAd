@@ -828,6 +828,27 @@
 
 %end
 
+%hook KWSplashPreLoaderHelper
+
++ (id)shareInstance {
+    return nil;
+}
+
+%end
+
+%hook KWSplashAdInfoModel
+
++ (id)spalshAdWithInfo:(id)arg1 {
+    return nil;
+}
+
+%end
+
+%hook KWKeyConfig
+
+- (BOOL)currentRegionCodeIsChineseMainland {
+    return NO;
+}
 
 %end
 
