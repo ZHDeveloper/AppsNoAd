@@ -858,11 +858,11 @@
 #pragma mark - ========================> 宝宝巴士 <========================
 %group BabyBus
 
-%hook BBDigitalVerifyHelper
+%hook NRPlayControlManager
 
-//+ (void *)createWithTitle:(void *)arg2 warnTitle:(id)arg3 complete:(void *)arg4 cancel:(void *)arg5 inputError:(void *)arg6 {
-//    return nil;
-//}
+- (BOOL)needShowNetworkWarming {
+    return NO;
+}
 
 %end
 

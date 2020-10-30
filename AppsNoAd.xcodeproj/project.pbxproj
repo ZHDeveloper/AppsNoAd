@@ -58,6 +58,7 @@
 		02585F3625495428009972C5 /* JXSystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXSystemInfo.h; sourceTree = "<group>"; };
 		02585F382549557F009972C5 /* KWAudioADManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAudioADManager.h; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
+		0268067C254BAC5800B6CCAC /* NRPlayControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRPlayControlManager.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
 		028059A42520806600DD4B49 /* NVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVMViewController.h; sourceTree = "<group>"; };
@@ -218,6 +219,7 @@
 		02B9E4F6254AAD8400E7E4AE /* BabyBus */ = {
 			isa = PBXGroup;
 			children = (
+				0268067C254BAC5800B6CCAC /* NRPlayControlManager.h */,
 				02B9E4FE254ABF2700E7E4AE /* SEUserModel.h */,
 				02B9E4FF254ABFC200E7E4AE /* SEUserVipInfoModel.h */,
 				02B9E4F7254AAD8400E7E4AE /* BRAppManager.h */,
