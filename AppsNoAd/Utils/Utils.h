@@ -7,10 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
+/// 唯一标识
+#define BundleId            [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
 /// 方法打印
-#define MethodLog()         NSLog(@"[函数名:%s]", __func__);
+#define MethodLog()         NSLog(@"[AppLog:%@]\n" "[函数名:%s]", BundleId, __func__)
 /// 日志输出
-#define AppLog(fmt, ...)    NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define AppLog(fmt, ...)    NSLog((@"[AppLog:%@]\n" "[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), BundleId, __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__)
 
 
 NSString *const Beva            = @"com.slanissue.beva.app.erge.common";
@@ -27,3 +29,11 @@ NSString *const WeatherPro      = @"com.sina.tianqitongpro";
 NSString *const PeanutWiFi      = @"com.sgv.peanutsubwaywifi";
 NSString *const Live4iPhone     = @"com.tencent.live4iphone";
 NSString *const KHealthDoctor   = @"com.khealthdoctor.khealthdoctor";
+
+
+@interface NSObject (Associate)
+
+- (id)getAssociatedValueForKey:(void *)key;
+- (void)setAssociatedValue:(id)value forKey:(void *)key;
+
+@end

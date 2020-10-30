@@ -4,13 +4,11 @@
 //     class-dump is Copyright (C) 1997-1998, 2000-2001, 2004-2015 by Steve Nygard.
 //
 
-#import "GYModelObject.h"
-
-#import "YYModel-Protocol.h"
+#import <UIKit/UIKit.h>
 
 @class NSArray, NSString, SEUserVipInfoModel;
 
-@interface SEUserModel : GYModelObject <YYModel>
+@interface SEUserModel : NSObject
 {
     _Bool _isOnline;
     _Bool _isUserLogout;
@@ -76,7 +74,7 @@
 + (id)dbName;
 + (id)modelContainerPropertyGenericClass;
 + (id)modelCustomPropertyMapper;
-- (void).cxx_destruct;
+
 @property(nonatomic) _Bool supportCoin; // @synthesize supportCoin=_supportCoin;
 @property(retain, nonatomic) NSString *userCode; // @synthesize userCode=_userCode;
 @property(retain, nonatomic) NSString *unionID; // @synthesize unionID=_unionID;

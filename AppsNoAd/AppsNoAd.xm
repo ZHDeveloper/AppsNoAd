@@ -36,6 +36,7 @@
 
 #import "SSReaderManager.h"
 #import "JXLiveRootSubCategoryMainFrameView.h"
+#import "SEUserModel.h"
 
 
 #pragma mark - ========================> 最右 <========================
@@ -859,8 +860,36 @@
 
 %hook BBDigitalVerifyHelper
 
-+ (void *)createWithTitle:(void *)arg2 warnTitle:(id)arg3 complete:(void *)arg4 cancel:(void *)arg5 inputError:(void *)arg6 {
-    return nil;
+//+ (void *)createWithTitle:(void *)arg2 warnTitle:(id)arg3 complete:(void *)arg4 cancel:(void *)arg5 inputError:(void *)arg6 {
+//    return nil;
+//}
+
+%end
+
+%hook SEUserModel
+
+- (id)bbVipInfoModel {
+    id model = %orig;
+    if (!model) {
+        model = [self getAssociatedValueForKey:_cmd];
+    }
+    if (!model) {
+        model = [%c(SEUserVipInfoModel) new];
+        [self setAssociatedValue:model forKey:_cmd];
+    }
+    return model;
+}
+
+- (id)nrVipInfoModel {
+    id model = %orig;
+    if (!model) {
+        model = [self getAssociatedValueForKey:_cmd];
+    }
+    if (!model) {
+        model = [%c(SEUserVipInfoModel) new];
+        [self setAssociatedValue:model forKey:_cmd];
+    }
+    return model;
 }
 
 %end
@@ -899,47 +928,46 @@
 
 #pragma mark - ========================> 初始化 <========================
 %ctor {
-    NSString *identify = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
-    if ([identify isEqualToString:Eleme]) {
+    if ([BundleId isEqualToString:Eleme]) {
         %init(Eleme);
     }
-    else if ([identify isEqualToString:AppCake]) {
+    else if ([BundleId isEqualToString:AppCake]) {
         %init(AppCake);
     }
-    else if ([identify isEqualToString:ZuiYou]) {
+    else if ([BundleId isEqualToString:ZuiYou]) {
         %init(ZuiYou);
     }
-    else if ([identify isEqualToString:ZhiXing]) {
+    else if ([BundleId isEqualToString:ZhiXing]) {
         %init(ZhiXing);
     }
-    else if ([identify isEqualToString:MovieApp]) {
+    else if ([BundleId isEqualToString:MovieApp]) {
         %init(MovieApp);
     }
-    else if ([identify isEqualToString:DingTalk]) {
+    else if ([BundleId isEqualToString:DingTalk]) {
         %init(DingTalk);
     }
-    else if ([identify isEqualToString:WeatherPro]) {
+    else if ([BundleId isEqualToString:WeatherPro]) {
         %init(WeatherPro);
     }
-    else if ([identify isEqualToString:PeanutWiFi]) {
+    else if ([BundleId isEqualToString:PeanutWiFi]) {
         %init(PeanutWiFi);
     }
-    else if ([identify isEqualToString:Live4iPhone]) {
+    else if ([BundleId isEqualToString:Live4iPhone]) {
         %init(Live4iPhone);
     }
-    else if ([identify isEqualToString:KHealthDoctor]) {
+    else if ([BundleId isEqualToString:KHealthDoctor]) {
         %init(KHealthDoctor);
     }
-    else if ([identify isEqualToString:Reading]) {
+    else if ([BundleId isEqualToString:Reading]) {
         %init(Reading);
     }
-    else if ([identify isEqualToString:Beva]) {
+    else if ([BundleId isEqualToString:Beva]) {
         %init(Beva);
     }
-    else if ([identify isEqualToString:KWPlayer]) {
+    else if ([BundleId isEqualToString:KWPlayer]) {
         %init(KWPlayer);
     }
-    else if ([identify isEqualToString:BabyBus]) {
+    else if ([BundleId isEqualToString:BabyBus]) {
         %init(BabyBus);
     }
 }
