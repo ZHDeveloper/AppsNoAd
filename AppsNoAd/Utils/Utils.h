@@ -17,6 +17,7 @@
 
 NSString *const Beva            = @"com.slanissue.beva.app.erge.common";
 NSString *const Eleme           = @"me.ele.ios.eleme";
+NSString *const QiDian          = @"m.qidian.QDReaderAppStore";
 NSString *const ZuiYou          = @"cn.xiaochuankeji.tieba";
 NSString *const BabyBus         = @"com.sinyee.babybus.recommandApp2";
 NSString *const Reading         = @"com.dragon.read";
@@ -29,6 +30,7 @@ NSString *const WeatherPro      = @"com.sina.tianqitongpro";
 NSString *const PeanutWiFi      = @"com.sgv.peanutsubwaywifi";
 NSString *const Live4iPhone     = @"com.tencent.live4iphone";
 NSString *const KHealthDoctor   = @"com.khealthdoctor.khealthdoctor";
+NSString *const EleVideo = @"com.ls.kuishe";
 
 
 @interface NSObject (Associate)

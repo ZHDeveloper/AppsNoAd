@@ -31,6 +31,9 @@
 		02149340251DC8C800B4263E /* PNLaunchADShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLaunchADShowView.h; sourceTree = "<group>"; };
 		02149344251DC9C300B4263E /* MVSplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVSplashScreenViewController.h; sourceTree = "<group>"; };
 		0214934C251DCAF600B4263E /* MVSingleAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSingleAnimatedImageView.h; sourceTree = "<group>"; };
+		0238E08A254F9D3600C2920C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0238E08C254F9F3700C2920C /* GADMobileAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMobileAds.h; sourceTree = "<group>"; };
+		0238E08D254F9F4800C2920C /* UMConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMConfigure.h; sourceTree = "<group>"; };
 		02585F0F25493846009972C5 /* NewUserPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageController.h; sourceTree = "<group>"; };
 		02585F1025493846009972C5 /* KWMusicFeeFlagObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeFlagObject.h; sourceTree = "<group>"; };
 		02585F1125493846009972C5 /* NewUserPageEntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageEntryCell.h; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		02585F3625495428009972C5 /* JXSystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXSystemInfo.h; sourceTree = "<group>"; };
 		02585F382549557F009972C5 /* KWAudioADManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAudioADManager.h; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
+		025C5BE7254E63A8003A1DC9 /* CKVCManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKVCManage.h; sourceTree = "<group>"; };
 		0268067C254BAC5800B6CCAC /* NRPlayControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRPlayControlManager.h; sourceTree = "<group>"; };
 		0280599F25207C9400DD4B49 /* KHStartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHStartController.h; sourceTree = "<group>"; };
 		028059A225207FA500DD4B49 /* EMKLaunchADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKLaunchADViewController.h; sourceTree = "<group>"; };
@@ -186,6 +190,17 @@
 				02585F26254942F1009972C5 /* JXLiveRootSubCategoryMainFrameView.h */,
 			);
 			path = KWPlayer;
+			sourceTree = "<group>";
+		};
+		025C5BE6254E63A8003A1DC9 /* EleVideo */ = {
+			isa = PBXGroup;
+			children = (
+				025C5BE7254E63A8003A1DC9 /* CKVCManage.h */,
+				0238E08A254F9D3600C2920C /* AppDelegate.h */,
+				0238E08C254F9F3700C2920C /* GADMobileAds.h */,
+				0238E08D254F9F4800C2920C /* UMConfigure.h */,
+			);
+			path = EleVideo;
 			sourceTree = "<group>";
 		};
 		0280599E25207C9400DD4B49 /* KHealthDoctor */ = {
@@ -322,6 +337,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				025C5BE6254E63A8003A1DC9 /* EleVideo */,
 				02B9E4F6254AAD8400E7E4AE /* BabyBus */,
 				02585F0E25493846009972C5 /* KWPlayer */,
 				02C86C1C254900C7009F7888 /* Beva */,

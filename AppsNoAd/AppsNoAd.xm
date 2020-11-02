@@ -37,6 +37,8 @@
 #import "SSReaderManager.h"
 #import "JXLiveRootSubCategoryMainFrameView.h"
 #import "SEUserModel.h"
+#import "CKVCManage.h"
+#import "AppDelegate.h"
 
 
 #pragma mark - ========================> 最右 <========================
@@ -926,6 +928,33 @@
 
 %end
 
+#pragma mark - ========================> 大象视频 <========================
+%group EleVideo
+
+%hook CKVCManage
+
+- (void)goTabbar1 {
+    [self goTabbar2];
+}
+
+%end
+
+%hook AppDelegate
+
+- (void)setupBUAdSDK {
+    [self splashAdDidClose:nil];
+}
+
+%end
+
+%hook UMConfigure
+
++ (void)initWithAppkey:(id)arg1 channel:(id)arg2 { }
+
+%end
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     if ([BundleId isEqualToString:Eleme]) {
@@ -969,5 +998,8 @@
     }
     else if ([BundleId isEqualToString:BabyBus]) {
         %init(BabyBus);
+    }
+    else if ([BundleId isEqualToString:EleVideo]) {
+        %init(EleVideo);
     }
 }
