@@ -928,7 +928,7 @@
 
 %end
 
-#pragma mark - ========================> 大象视频 <========================
+#pragma mark - ========================> 大象影视 <========================
 %group EleVideo
 
 %hook CKVCManage
@@ -945,11 +945,24 @@
     [self splashAdDidClose:nil];
 }
 
+- (_Bool)application:(id)arg1 didFinishLaunchingWithOptions:(id)arg2 {
+    %orig;
+    [self KS_REAPI_GoVc];
+    return YES;
+}
+
 %end
 
 %hook UMConfigure
 
 + (void)initWithAppkey:(id)arg1 channel:(id)arg2 { }
+
+%end
+
+%hook GADMobileAds
+
+- (void)startWithCompletionHandler:(id)arg1 { }
+- (void)configureWithApplicationID:(id)arg1 { }
 
 %end
 

@@ -34,6 +34,7 @@
 		0238E08A254F9D3600C2920C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0238E08C254F9F3700C2920C /* GADMobileAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMobileAds.h; sourceTree = "<group>"; };
 		0238E08D254F9F4800C2920C /* UMConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMConfigure.h; sourceTree = "<group>"; };
+		0238E08F254FA17900C2920C /* GADMobileAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GADMobileAds.h; path = ../../../../DumpApps/Payload/Header/GADMobileAds.h; sourceTree = "<group>"; };
 		02585F0F25493846009972C5 /* NewUserPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageController.h; sourceTree = "<group>"; };
 		02585F1025493846009972C5 /* KWMusicFeeFlagObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWMusicFeeFlagObject.h; sourceTree = "<group>"; };
 		02585F1125493846009972C5 /* NewUserPageEntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserPageEntryCell.h; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 		025C5BE6254E63A8003A1DC9 /* EleVideo */ = {
 			isa = PBXGroup;
 			children = (
+				0238E08F254FA17900C2920C /* GADMobileAds.h */,
 				025C5BE7254E63A8003A1DC9 /* CKVCManage.h */,
 				0238E08A254F9D3600C2920C /* AppDelegate.h */,
 				0238E08C254F9F3700C2920C /* GADMobileAds.h */,
