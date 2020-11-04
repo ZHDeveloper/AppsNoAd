@@ -6,6 +6,35 @@
 
 #import <objc/NSObject.h>
 
+//%hook CYUser
+//
+//- (BOOL)is_vip {
+//    return YES;
+//}
+//
+//- (double)svip_expired_at {
+//    return 4102243200;
+//}
+//
+//- (NSString *)svipExpiredString {
+//    return @"2099-12-30";
+//}
+//
+//- (long long)vip_type {
+//    return 2;
+//}
+//
+//- (long long)svip_given {
+//    return 365;
+//}
+//
+//- (NSString *)token {
+//    return @"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNWZhMGZlNTBkZWFhODAwMDEzMmZjMDRhIiwic3ZpcF9leHBpcmVkX2F0IjoxNjM4NTE0Mzk5LjIzNzQ4MSwidmlwX2V4cGlyZWRfYXQiOjB9.ilZX1mgCGmkXDEBt3M8QCmLMpWjTKL0h-uhZrZmyXGA";
+//}
+//
+//%end
+
+
 @class NSDictionary, NSString;
 
 @interface CYUser : NSObject <NSCoding>
