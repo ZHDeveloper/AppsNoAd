@@ -30,12 +30,16 @@ NSString *const WeatherPro      = @"com.sina.tianqitongpro";
 NSString *const PeanutWiFi      = @"com.sgv.peanutsubwaywifi";
 NSString *const Live4iPhone     = @"com.tencent.live4iphone";
 NSString *const KHealthDoctor   = @"com.khealthdoctor.khealthdoctor";
-NSString *const EleVideo = @"com.ls.kuishe";
+NSString *const EleVideo        = @"com.ls.kuishe";
+NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
+NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";
 
 
 @interface NSObject (Associate)
 
 - (id)getAssociatedValueForKey:(void *)key;
 - (void)setAssociatedValue:(id)value forKey:(void *)key;
+
+- (void)logProperties;
 
 @end
