@@ -972,14 +972,6 @@
 #pragma mark - ========================> 彩云天气 <========================
 %group ColorfulWeather
 
-%hook AppDelegate
-
-- (void)initBugly { }
-- (void)initUMengMobSDK { }
-//- (void)initPiwikTracker { }
-
-%end
-
 %hook CYCacheManager
 
 - (BOOL)isAPPReview {
