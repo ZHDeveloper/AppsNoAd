@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02BBD94B255E297C00F85AD9 /* SSReadingAdBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BBD94A255E297C00F85AD9 /* SSReadingAdBaseViewController.h */; };
+		02BBD94E255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BBD94D255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h */; };
 		02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A354251353D200F1EA96 /* UIKit.framework */; };
 		02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A356251353D200F1EA96 /* Foundation.framework */; };
 		02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */; };
@@ -84,6 +86,8 @@
 		02B9E4FC254AB9D700E7E4AE /* BBMiddlewareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMiddlewareKit.h; sourceTree = "<group>"; };
 		02B9E4FE254ABF2700E7E4AE /* SEUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserModel.h; sourceTree = "<group>"; };
 		02B9E4FF254ABFC200E7E4AE /* SEUserVipInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserVipInfoModel.h; sourceTree = "<group>"; };
+		02BBD94A255E297C00F85AD9 /* SSReadingAdBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSReadingAdBaseViewController.h; sourceTree = "<group>"; };
+		02BBD94D255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSChapterEndCommentContainerView.h; sourceTree = "<group>"; };
 		02C1A351251353D200F1EA96 /* AppsNoAd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppsNoAd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1A354251353D200F1EA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02C1A356251353D200F1EA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -420,6 +424,8 @@
 			isa = PBXGroup;
 			children = (
 				02D81D1F2546A9F7001802E7 /* SSReaderManager.h */,
+				02BBD94D255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h */,
+				02BBD94A255E297C00F85AD9 /* SSReadingAdBaseViewController.h */,
 			);
 			path = Reading;
 			sourceTree = "<group>";
@@ -441,6 +447,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BBD94E255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h in Headers */,
+				02BBD94B255E297C00F85AD9 /* SSReadingAdBaseViewController.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

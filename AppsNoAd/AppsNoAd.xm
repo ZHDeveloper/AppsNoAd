@@ -570,6 +570,22 @@
 
 %end
 
+%hook SSReadingAdBaseViewController
+
+- (id)initWithModel:(id)arg1 {
+    return nil;
+}
+
+%end
+
+%hook SSChapterEndCommentContainerView
+
+- (id)initWithReaderModel:(id)arg1 commentObj:(id)arg2 chaseObj:(id)arg3 adObj:(id)arg4 rewardObj:(id)arg5 bookCircleObj:(id)arg6 {
+    return nil;
+}
+
+%end
+
 %end
 
 #pragma mark - ========================> 贝瓦儿歌 <========================
