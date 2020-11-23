@@ -1037,6 +1037,14 @@
 
 %end
 
+%hook HYWVideoPlayViewStatusModel
+
+- (id)if_exam_show {
+    return @"1";
+}
+
+%end
+
 
 %end
 
