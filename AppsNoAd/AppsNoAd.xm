@@ -41,6 +41,11 @@
 #import "AppDelegate.h"
 #import "CYUser.h"
 
+#import "HWQuestionsModel.h"
+#import "HWQuestionOptionModel.h"
+
+#import "NSArray+BlocksKit.h"
+
 
 #pragma mark - ========================> 最右 <========================
 %group ZuiYou
@@ -1010,6 +1015,31 @@
 
 %end
 
+#pragma mark - ========================> 掌上华医 <========================
+
+%group HuaYiExam
+
+%hook HWQuestionsModel
+
++ (id)getQuestionArrayWithDic:(id)arg1 {
+        
+    NSArray<HWQuestionsModel *> *array = %orig;
+    
+    [array enumerateObjectsUsingBlock:^(HWQuestionsModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        HWQuestionOptionModel *model = [obj.tkselect bk_match:^BOOL(HWQuestionOptionModel *aObj) {
+            return [aObj.question_option_id isEqualToString:obj.trueanswer];
+        }];
+        model.question_option_name = [NSString stringWithFormat:@"%@【选我】", model.question_option_name];
+    }];
+    
+    return array;
+}
+
+%end
+
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     if ([BundleId isEqualToString:Eleme]) {
@@ -1059,5 +1089,8 @@
     }
     else if ([BundleId hasPrefix:ColorfulWeather]) {
         %init(ColorfulWeather);
+    }
+    else if ([BundleId isEqualToString:HuaYiExam]) {
+        %init(HuaYiExam);
     }
 }

@@ -13,6 +13,8 @@
 #define MethodLog()         NSLog(@"[AppLog:%@]\n" "[函数名:%s]", BundleId, __func__)
 /// 日志输出
 #define AppLog(fmt, ...)    NSLog((@"[AppLog:%@]\n" "[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), BundleId, __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__)
+/// 调用堆栈打印
+#define MethodCallStackSymbols() AppLog(@"CallStackSymbols:%@ \nCallStackReturnAddresses:%@",[NSThread callStackSymbols], [NSThread callStackReturnAddresses]);
 
 
 NSString *const Beva            = @"com.slanissue.beva.app.erge.common";
@@ -30,6 +32,7 @@ NSString *const WeatherPro      = @"com.sina.tianqitongpro";
 NSString *const PeanutWiFi      = @"com.sgv.peanutsubwaywifi";
 NSString *const Live4iPhone     = @"com.tencent.live4iphone";
 NSString *const KHealthDoctor   = @"com.khealthdoctor.khealthdoctor";
+NSString *const HuaYiExam       = @"com.91huayi.HuaYiExam";
 NSString *const EleVideo        = @"com.ls.kuishe";
 NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
 NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";

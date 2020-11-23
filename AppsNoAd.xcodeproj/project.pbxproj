@@ -15,9 +15,13 @@
 		02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A361251353D200F1EA96 /* AppsNoAd.mm */; };
 		02C1A37D251355ED00F1EA96 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A37B251355ED00F1EA96 /* Utils.h */; };
 		02C1A37E251355ED00F1EA96 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A37C251355ED00F1EA96 /* Utils.m */; };
+		02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */; };
+		02F8D09B256BAFAB00573105 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0210112F2569E16700878C77 /* HWQuestionsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWQuestionsModel.h; sourceTree = "<group>"; };
+		021011342569E16700878C77 /* HWQuestionOptionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWQuestionOptionModel.h; sourceTree = "<group>"; };
 		02141ABC253688A8001735C7 /* VungleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VungleSDK.h; sourceTree = "<group>"; };
 		02141AD62536A37D001735C7 /* ADServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADServer.h; sourceTree = "<group>"; };
 		02141AD82536A5F1001735C7 /* AppsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsViewCell.h; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
 		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
+		02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0210111C256968A500878C77 /* HuaYiExam */ = {
+			isa = PBXGroup;
+			children = (
+				021011342569E16700878C77 /* HWQuestionOptionModel.h */,
+				0210112F2569E16700878C77 /* HWQuestionsModel.h */,
+			);
+			path = HuaYiExam;
+			sourceTree = "<group>";
+		};
 		02141ABA25368891001735C7 /* AppCake */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +373,7 @@
 		02C1A36C251355AA00F1EA96 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				0210111C256968A500878C77 /* HuaYiExam */,
 				02801DEE25513BF500EDF9C9 /* ColorfulWeather */,
 				025C5BE6254E63A8003A1DC9 /* EleVideo */,
 				02B9E4F6254AAD8400E7E4AE /* BabyBus */,
@@ -397,6 +413,8 @@
 			children = (
 				02C1A37B251355ED00F1EA96 /* Utils.h */,
 				02C1A37C251355ED00F1EA96 /* Utils.m */,
+				02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */,
+				02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -449,6 +467,7 @@
 			files = (
 				02BBD94E255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h in Headers */,
 				02BBD94B255E297C00F85AD9 /* SSReadingAdBaseViewController.h in Headers */,
+				02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F8D09B256BAFAB00573105 /* NSArray+BlocksKit.m in Sources */,
 				02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */,
 				02C1A37E251355ED00F1EA96 /* Utils.m in Sources */,
 			);
