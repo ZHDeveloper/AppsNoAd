@@ -1045,6 +1045,14 @@
 
 %end
 
+/// 快进控制
+%hook HYPlayerViewControlView
+
+- (BOOL)sliderMaxControl:(double)arg1 CurrentSecondValue:(double)arg2 {
+    return YES;
+}
+
+%end
 
 %end
 
