@@ -43,6 +43,7 @@
 
 #import "HWQuestionsModel.h"
 #import "HWQuestionOptionModel.h"
+#import "HYWVideoListAndNoteListViewController.h"
 
 #import "NSArray+BlocksKit.h"
 
@@ -1050,6 +1051,15 @@
 
 - (BOOL)sliderMaxControl:(double)arg1 CurrentSecondValue:(double)arg2 {
     return YES;
+}
+
+%end
+
+%hook HYWVideoListAndNoteListViewController
+
+/// 进入考试
+- (void)checkIsAllowQuestion {
+    [self intoExamVC];
 }
 
 %end

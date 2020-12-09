@@ -15,6 +15,7 @@
 		02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A361251353D200F1EA96 /* AppsNoAd.mm */; };
 		02C1A37D251355ED00F1EA96 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A37B251355ED00F1EA96 /* Utils.h */; };
 		02C1A37E251355ED00F1EA96 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A37C251355ED00F1EA96 /* Utils.m */; };
+		02DBB7202580694D008E9D4B /* HYWVideoListAndNoteListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */; };
 		02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */; };
 		02F8D09B256BAFAB00573105 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */; };
 /* End PBXBuildFile section */
@@ -115,6 +116,7 @@
 		02C86C1F254900C7009F7888 /* PKBVCommonRecommendViewNaviModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVCommonRecommendViewNaviModel.h; sourceTree = "<group>"; };
 		02C86C20254900C7009F7888 /* PKBVVideoAlbumPlayerPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVVideoAlbumPlayerPresenter.h; sourceTree = "<group>"; };
 		02D81D1F2546A9F7001802E7 /* SSReaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSReaderManager.h; sourceTree = "<group>"; };
+		02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWVideoListAndNoteListViewController.h; sourceTree = "<group>"; };
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
 		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				021011342569E16700878C77 /* HWQuestionOptionModel.h */,
 				0210112F2569E16700878C77 /* HWQuestionsModel.h */,
+				02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */,
 			);
 			path = HuaYiExam;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02BBD94E255E2A4900F85AD9 /* SSChapterEndCommentContainerView.h in Headers */,
+				02DBB7202580694D008E9D4B /* HYWVideoListAndNoteListViewController.h in Headers */,
 				02BBD94B255E297C00F85AD9 /* SSReadingAdBaseViewController.h in Headers */,
 				02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
