@@ -16,6 +16,10 @@
 		02C1A37D251355ED00F1EA96 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C1A37B251355ED00F1EA96 /* Utils.h */; };
 		02C1A37E251355ED00F1EA96 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C1A37C251355ED00F1EA96 /* Utils.m */; };
 		02DBB7202580694D008E9D4B /* HYWVideoListAndNoteListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */; };
+		02EE94B325945CF8001176F0 /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EE94B125945CF8001176F0 /* NSDate+YYAdd.h */; };
+		02EE94B425945CF8001176F0 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EE94B225945CF8001176F0 /* NSDate+YYAdd.m */; };
+		02EE94B725945D13001176F0 /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EE94B625945D13001176F0 /* YYCategoriesMacro.h */; };
+		02EE94BA25945D80001176F0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EE94B925945D7F001176F0 /* HealthKit.framework */; };
 		02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */; };
 		02F8D09B256BAFAB00573105 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */; };
 /* End PBXBuildFile section */
@@ -120,6 +124,10 @@
 		02C86C20254900C7009F7888 /* PKBVVideoAlbumPlayerPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBVVideoAlbumPlayerPresenter.h; sourceTree = "<group>"; };
 		02D81D1F2546A9F7001802E7 /* SSReaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSReaderManager.h; sourceTree = "<group>"; };
 		02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWVideoListAndNoteListViewController.h; sourceTree = "<group>"; };
+		02EE94B125945CF8001176F0 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		02EE94B225945CF8001176F0 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		02EE94B625945D13001176F0 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
+		02EE94B925945D7F001176F0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/iOSSupport/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		02EEC91C25202EED00080848 /* ZTAdImageSkipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageSkipView.h; sourceTree = "<group>"; };
 		02EEC91D25202EED00080848 /* TKApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKApp.h; sourceTree = "<group>"; };
 		02EEC91E25202EED00080848 /* ZTAdImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTAdImageView.h; sourceTree = "<group>"; };
@@ -133,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C1A355251353D200F1EA96 /* UIKit.framework in Frameworks */,
+				02EE94BA25945D80001176F0 /* HealthKit.framework in Frameworks */,
 				02C1A357251353D200F1EA96 /* Foundation.framework in Frameworks */,
 				02C1A359251353D200F1EA96 /* CydiaSubstrate.framework in Frameworks */,
 			);
@@ -310,6 +319,7 @@
 		02C1A353251353D200F1EA96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02EE94B925945D7F001176F0 /* HealthKit.framework */,
 				02C1A354251353D200F1EA96 /* UIKit.framework */,
 				02C1A356251353D200F1EA96 /* Foundation.framework */,
 				02C1A358251353D200F1EA96 /* CydiaSubstrate.framework */,
@@ -422,6 +432,9 @@
 			children = (
 				02C1A37B251355ED00F1EA96 /* Utils.h */,
 				02C1A37C251355ED00F1EA96 /* Utils.m */,
+				02EE94B125945CF8001176F0 /* NSDate+YYAdd.h */,
+				02EE94B225945CF8001176F0 /* NSDate+YYAdd.m */,
+				02EE94B625945D13001176F0 /* YYCategoriesMacro.h */,
 				02F8D098256BAFAB00573105 /* NSArray+BlocksKit.h */,
 				02F8D099256BAFAB00573105 /* NSArray+BlocksKit.m */,
 			);
@@ -479,6 +492,8 @@
 				02BBD94B255E297C00F85AD9 /* SSReadingAdBaseViewController.h in Headers */,
 				02F8D09A256BAFAB00573105 /* NSArray+BlocksKit.h in Headers */,
 				02C1A37D251355ED00F1EA96 /* Utils.h in Headers */,
+				02EE94B725945D13001176F0 /* YYCategoriesMacro.h in Headers */,
+				02EE94B325945CF8001176F0 /* NSDate+YYAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +594,7 @@
 			files = (
 				02F8D09B256BAFAB00573105 /* NSArray+BlocksKit.m in Sources */,
 				02C1A362251353D200F1EA96 /* AppsNoAd.mm in Sources */,
+				02EE94B425945CF8001176F0 /* NSDate+YYAdd.m in Sources */,
 				02C1A37E251355ED00F1EA96 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <HealthKit/HealthKit.h>
 
 #import "Utils.h"
 
@@ -73,10 +74,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class QNBUAVIPActivityEntryViewModel; @class TVKWaterMarkModel; @class QNBUAPRPageCarouselCell; @class FLPatch; @class KWAudioADManager; @class QualityCell; @class MediaItemInfo; @class ConnectADSmallCell; @class PKBVUserVIPInfoModel; @class HWQuestionsModel; @class KWSearchRecommandTipsView; @class PNLaunchADShowView; @class TADSplashManager; @class ZYAdInfoFlow; @class EMKLaunchADViewController; @class KWSearchPlayBarCell; @class VungleSDK; @class KWMusicFeeTipsAlertView; @class KWMusicFeeUserManager; @class TADSplashBaseViewController; @class JXLiveRootSubCategoryMainFrameView; @class QLJCEONARecommendList; @class KWMoreListItem; @class QNBUAFocusVideoBlockViewModel; @class KWMusicFeeNeedPayTipsView; @class KWMusicCellViewModel; @class SSReadingAdBaseViewController; @class DWPlayerView; @class NewUserPageController; @class MainTabBarController; @class KWBgImageAndPendantTipView; @class GADMobileAds; @class QLONAGalleryAdPosterView; @class KWAdvertisementForPlayerView; @class QNBUAPRCommonLandScapeViewModel; @class QLVMChannelViewController; @class QLVNUserCenterRecommendFeedViewModel; @class ZYSplashFeedAdView; @class SSReadingAdSplashTask; @class ZYNativeAdV2TableViewCell; @class QLJCEONAVideoAdPoster; @class KWMusicFeeFlagObject; @class PNConnectionViewController; @class QLONAInnerAdRecommendBannerCell; @class HYPlayerViewControlView; @class SWCityFeedVC; @class NewUserPageEntryCell; @class AppsViewCell; @class KHStartController; @class PKBVStatisticsUserInfo; @class UMConfigure; @class QLTeenGuardianPromptAssistant; @class SSAdTask; @class SEUserModel; @class KWMusicPackageInfo; @class KWKeyConfig; @class QLJCEONALeftImageRightTextAdPoster; @class AppDelegate; @class QADSplashWindow; @class DTSplashViewController; @class QADSplashSDK; @class XCNativeAdData; @class SSUserVipInfo; @class BLYDevice; @class KWStarThemeDetailViewController; @class HYWVideoListAndNoteListViewController; @class SSDialogView; @class PKBVVideoAlbumPlayerPresenter; @class SWCityPageVC; @class NRPlayControlManager; @class OnlineAdItemInfo; @class ADServer; @class PKBVCommonRecommendViewNaviModel; @class QNBQQPlayerPlugin; @class LaunchViewController; @class TKApp; @class ZYUIFeedNativeAdTableViewCell; @class SSChapterEndCommentContainerView; @class SWTipsView; @class ReportTaskService; @class JXSystemInfo; @class QLVNOperationViewModel; @class MVSplashScreenViewController; @class QADFeedBaseViewModel; @class SSReaderManager; @class CYCacheManager; @class PNMemberBNewCell; @class RootTabBarController; @class JCommonServiceController; @class KWSplashAdInfoModel; @class QNBUAFocusAdBlockViewModel; @class QLJCEONAAppList; @class HYWVideoPlayViewStatusModel; @class QLJCEONAAdPoster; @class SEUserVipInfoModel; @class CKVCManage; @class MobileTracking; @class QLJCEAdInsideVideoItem; @class MVSingleAnimatedImageView; @class KWSplashPreLoaderHelper; 
+@class KWSearchRecommandTipsView; @class LaunchViewController; @class KWSplashPreLoaderHelper; @class SWTipsView; @class PKBVCommonRecommendViewNaviModel; @class SEUserModel; @class FLPatch; @class KWBgImageAndPendantTipView; @class MVSplashScreenViewController; @class HYPlayerViewControlView; @class KWAdvertisementForPlayerView; @class PNLaunchADShowView; @class MobileTracking; @class SSReaderManager; @class GADMobileAds; @class NRPlayControlManager; @class HKSampleQuery; @class OnlineAdItemInfo; @class TADSplashManager; @class KWSearchPlayBarCell; @class KWMoreListItem; @class SSAdTask; @class KHStartController; @class MainTabBarController; @class DTSplashViewController; @class KWKeyConfig; @class KWMusicPackageInfo; @class MVSingleAnimatedImageView; @class QADFeedBaseViewModel; @class KWMusicCellViewModel; @class ZYAdInfoFlow; @class PKBVUserVIPInfoModel; @class NewUserPageEntryCell; @class KWAudioADManager; @class JXSystemInfo; @class KWMusicFeeUserManager; @class SSUserVipInfo; @class QADSplashSDK; @class TVKWaterMarkModel; @class QNBUAFocusAdBlockViewModel; @class TADSplashBaseViewController; @class XCNativeAdData; @class JCommonServiceController; @class PNMemberBNewCell; @class SWCityPageVC; @class QLONAGalleryAdPosterView; @class QLJCEONAVideoAdPoster; @class UMConfigure; @class ReportTaskService; @class QNBQQPlayerPlugin; @class HKStatisticsQuery; @class QADSplashWindow; @class PNConnectionViewController; @class ZYSplashFeedAdView; @class QNBUAPRPageCarouselCell; @class CYCacheManager; @class ConnectADSmallCell; @class KWMusicFeeFlagObject; @class QLJCEONARecommendList; @class ZYNativeAdV2TableViewCell; @class KWStarThemeDetailViewController; @class QLJCEAdInsideVideoItem; @class QLJCEONAAdPoster; @class SSChapterEndCommentContainerView; @class SSReadingAdSplashTask; @class ZYUIFeedNativeAdTableViewCell; @class ADServer; @class MediaItemInfo; @class QLJCEONAAppList; @class QNBUAPRCommonLandScapeViewModel; @class QLTeenGuardianPromptAssistant; @class BLYDevice; @class QLJCEONALeftImageRightTextAdPoster; @class AppsViewCell; @class QLVMChannelViewController; @class QNBUAVIPActivityEntryViewModel; @class KWSplashAdInfoModel; @class SSDialogView; @class RootTabBarController; @class QualityCell; @class QLVNUserCenterRecommendFeedViewModel; @class AppDelegate; @class SWCityFeedVC; @class EMKLaunchADViewController; @class QLONAInnerAdRecommendBannerCell; @class HYWVideoListAndNoteListViewController; @class KWMusicFeeNeedPayTipsView; @class HWQuestionsModel; @class NewUserPageController; @class HYWVideoPlayViewStatusModel; @class CKVCManage; @class VungleSDK; @class PKBVStatisticsUserInfo; @class KWMusicFeeTipsAlertView; @class TKApp; @class QNBUAFocusVideoBlockViewModel; @class DWPlayerView; @class QLVNOperationViewModel; @class SEUserVipInfoModel; @class JXLiveRootSubCategoryMainFrameView; @class SSReadingAdBaseViewController; @class PKBVVideoAlbumPlayerPresenter; 
 
-static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }
-#line 54 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
+#line 55 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 #pragma mark - ========================> 最右 <========================
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
@@ -1107,8 +1108,76 @@ static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$
 
 
 
+#pragma mark - ========================> 虚拟步数 <========================
+
+static HKStatisticsQuery* (*_logos_orig$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$)(_LOGOS_SELF_TYPE_INIT HKStatisticsQuery*, SEL, HKQuantityType *, NSPredicate *, HKStatisticsOptions, void(^)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)) _LOGOS_RETURN_RETAINED; static HKStatisticsQuery* _logos_method$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$(_LOGOS_SELF_TYPE_INIT HKStatisticsQuery*, SEL, HKQuantityType *, NSPredicate *, HKStatisticsOptions, void(^)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)) _LOGOS_RETURN_RETAINED; static HKSampleQuery* (*_logos_orig$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$)(_LOGOS_SELF_TYPE_INIT HKSampleQuery*, SEL, HKSampleType *, NSPredicate *, NSUInteger, NSArray<NSSortDescriptor *> *, id) _LOGOS_RETURN_RETAINED; static HKSampleQuery* _logos_method$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$(_LOGOS_SELF_TYPE_INIT HKSampleQuery*, SEL, HKSampleType *, NSPredicate *, NSUInteger, NSArray<NSSortDescriptor *> *, id) _LOGOS_RETURN_RETAINED; 
+
+
+
+static HKStatisticsQuery* _logos_method$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$(_LOGOS_SELF_TYPE_INIT HKStatisticsQuery* __unused self, SEL __unused _cmd, HKQuantityType * quantityType, NSPredicate * quantitySamplePredicate, HKStatisticsOptions options, void(^handler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)) _LOGOS_RETURN_RETAINED {
+    
+    AppLog(@"😂😂😂😂");
+                
+    void(^origHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error) = handler;
+    void(^newHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)  = ^(HKStatisticsQuery *query, HKStatistics *result, NSError *error)
+    {
+        
+        NSString *steps = [Utils getStepsForDate:[NSDate date]];
+        if (!steps) {
+            steps = @([Utils getRandomSteps:2500 to:10000]).stringValue;
+            [Utils storeSteps:steps forDate:[NSDate date]];
+        }
+        
+        HKQuantity *quantityObj = result.sumQuantity;
+        
+        if (quantityObj) {
+            
+            double value = [[quantityObj valueForKey:@"_value"] doubleValue];
+            value = steps.integerValue;
+            [quantityObj setValue:[NSNumber numberWithDouble:value] forKey:@"_value"];
+        }
+        else {
+            
+            HKQuantity *newQuantity = [HKQuantity quantityWithUnit:[HKUnit countUnit] doubleValue:steps.doubleValue];
+            [result setValue:newQuantity forKey:@"_sumQuantity"];
+        }
+        origHandler(query, result, error);
+    };
+    
+    return _logos_orig$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$(self, _cmd, quantityType, quantitySamplePredicate, options, newHandler);
+}
+
+
+
+
+
+
+
+
+
+static HKSampleQuery* _logos_method$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$(_LOGOS_SELF_TYPE_INIT HKSampleQuery* __unused self, SEL __unused _cmd, HKSampleType * sampleType, NSPredicate * predicate, NSUInteger limit, NSArray<NSSortDescriptor *> * sortDescriptors, id resultsHandler) _LOGOS_RETURN_RETAINED {
+
+    void(^origHandler)(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error) = resultsHandler;
+    void(^newHandler)(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error)  = ^(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error) {
+        
+        NSString *steps = [Utils getStepsForDate:[NSDate date]];
+        if (!steps) {
+            steps = @([Utils getRandomSteps:2500 to:10000]).stringValue;
+            [Utils storeSteps:steps forDate:[NSDate date]];
+        }
+        HKQuantity *quantity = [HKQuantity quantityWithUnit:[HKUnit countUnit] doubleValue:[steps floatValue]];
+        [results.firstObject setValue:quantity forKey:@"quantity"];
+        origHandler(query, results, error);
+    };
+    return _logos_orig$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$(self, _cmd, sampleType, predicate, limit, sortDescriptors, newHandler);
+}
+
+
+
+
+
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_3d789a5c(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_4403b6c3(int __unused argc, char __unused **argv, char __unused **envp) {
     if ([BundleId isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
     }
@@ -1160,4 +1229,8 @@ static __attribute__((constructor)) void _logosLocalCtor_3d789a5c(int __unused a
     else if ([BundleId isEqualToString:HuaYiExam]) {
         {Class _logos_class$HuaYiExam$HWQuestionsModel = objc_getClass("HWQuestionsModel"); Class _logos_metaclass$HuaYiExam$HWQuestionsModel = object_getClass(_logos_class$HuaYiExam$HWQuestionsModel); { MSHookMessageEx(_logos_metaclass$HuaYiExam$HWQuestionsModel, @selector(getQuestionArrayWithDic:), (IMP)&_logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$, (IMP*)&_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$);}}
     }
-}
+    else if ([BundleId isEqualToString:JDHealth]) {
+
+
+
+        {Class _logos_class$VirtualSteps$HKStatisticsQuery = objc_getClass("HKStatisticsQuery"); { MSHookMessageEx(_logos_class$VirtualSteps$HKStatisticsQuery, @selector(initWithQuantityType:quantitySamplePredicate:options:completionHandler:), (IMP)&_logos_method$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$, (IMP*)&_logos_orig$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$);}Class _logos_class$VirtualSteps$HKSampleQuery = objc_getClass("HKSampleQuery"); { MSHookMessageEx(_logos_class$VirtualSteps$HKSampleQuery, @selector(initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:), (IMP)&_logos_method$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$, (IMP*)&_logos_orig$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$);}} } }

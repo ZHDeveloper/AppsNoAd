@@ -6,6 +6,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <HealthKit/HealthKit.h>
 
 #import "Utils.h"
 
@@ -1081,6 +1082,72 @@
 
 %end
 
+#pragma mark - ========================> 虚拟步数 <========================
+
+%group VirtualSteps
+
+%hook HKStatisticsQuery
+
+- (id)initWithQuantityType:(HKQuantityType *)quantityType quantitySamplePredicate:(NSPredicate *)quantitySamplePredicate options:(HKStatisticsOptions)options completionHandler:(void(^)(HKStatisticsQuery *query, HKStatistics *result, NSError *error))handler {
+                    
+    void(^origHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error) = handler;
+    void(^newHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)  = ^(HKStatisticsQuery *query, HKStatistics *result, NSError *error)
+    {
+        /// 获取存储的步数，如果没有，则生成随机步数并且存储
+        NSString *steps = [Utils getStepsForDate:[NSDate date]];
+        if (!steps) {
+            steps = @([Utils getRandomSteps:2500 to:10000]).stringValue;
+            [Utils storeSteps:steps forDate:[NSDate date]];
+        }
+        
+        HKQuantity *quantityObj = result.sumQuantity;
+        
+        if (quantityObj) {
+            // 设置步数
+            double value = [[quantityObj valueForKey:@"_value"] doubleValue];
+            value = steps.integerValue;
+            [quantityObj setValue:[NSNumber numberWithDouble:value] forKey:@"_value"];
+        }
+        else {
+            // 对空作保护
+            HKQuantity *newQuantity = [HKQuantity quantityWithUnit:[HKUnit countUnit] doubleValue:steps.doubleValue];
+            [result setValue:newQuantity forKey:@"_sumQuantity"];
+        }
+        origHandler(query, result, error);
+    };
+    
+    return %orig(quantityType, quantitySamplePredicate, options, newHandler);
+}
+
+%end
+
+%hook HKSampleQuery
+
+- (instancetype)initWithSampleType:(HKSampleType *)sampleType
+                         predicate:(NSPredicate *)predicate
+                             limit:(NSUInteger)limit
+                   sortDescriptors:(NSArray<NSSortDescriptor *> *)sortDescriptors
+                    resultsHandler:(id)resultsHandler {
+
+    void(^origHandler)(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error) = resultsHandler;
+    void(^newHandler)(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error)  = ^(HKSampleQuery *query, NSArray<__kindof HKSample *> *results, NSError *error) {
+        /// 获取存储的步数，如果没有，则生成随机步数并且存储
+        NSString *steps = [Utils getStepsForDate:[NSDate date]];
+        if (!steps) {
+            steps = @([Utils getRandomSteps:2500 to:10000]).stringValue;
+            [Utils storeSteps:steps forDate:[NSDate date]];
+        }
+        HKQuantity *quantity = [HKQuantity quantityWithUnit:[HKUnit countUnit] doubleValue:[steps floatValue]];
+        [results.firstObject setValue:quantity forKey:@"quantity"];
+        origHandler(query, results, error);
+    };
+    return %orig(sampleType, predicate, limit, sortDescriptors, newHandler);
+}
+
+%end
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     if ([BundleId isEqualToString:Eleme]) {
@@ -1133,5 +1200,8 @@
     }
     else if ([BundleId isEqualToString:HuaYiExam]) {
         %init(HuaYiExam);
+    }
+    else if ([BundleId isEqualToString:JDHealth]) {
+        %init(VirtualSteps)
     }
 }

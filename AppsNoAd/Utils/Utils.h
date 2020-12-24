@@ -34,15 +34,28 @@ NSString *const Live4iPhone     = @"com.tencent.live4iphone";
 NSString *const KHealthDoctor   = @"com.khealthdoctor.khealthdoctor";
 NSString *const HuaYiExam       = @"com.91huayi.HuaYiExam";
 NSString *const EleVideo        = @"com.ls.kuishe";
+NSString *const JDHealth        = @"com.jd.jdhealth";
 NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
 NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";
 
 
+
+
 @interface NSObject (Associate)
+
+- (void)logProperties;
 
 - (id)getAssociatedValueForKey:(void *)key;
 - (void)setAssociatedValue:(id)value forKey:(void *)key;
 
-- (void)logProperties;
+@end
+
+@interface Utils : NSObject
+
++ (NSInteger)getRandomSteps:(NSInteger)from to:(NSInteger)to;
+
++ (NSString *)getStepsForDate:(NSDate *)date;
+
++ (void)storeSteps:(NSString *)steps forDate:(NSDate *)date;
 
 @end

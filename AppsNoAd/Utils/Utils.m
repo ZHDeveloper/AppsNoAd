@@ -7,6 +7,8 @@
 
 #import "Utils.h"
 #import <objc/runtime.h>
+#import "NSDate+YYAdd.h"
+#import <HealthKit/HealthKit.h>
 
 @implementation NSObject (Associate)
 
@@ -34,5 +36,36 @@
     free(property_t);
 }
 
+@end
+
+static NSUserDefaults * defaults;
+
+@implementation Utils
+
++ (void)load {
+    defaults = [NSUserDefaults standardUserDefaults];
+}
+
++ (NSInteger)getRandomSteps:(NSInteger)from to:(NSInteger)to {
+    return (NSInteger)(from + (arc4random() % (to - from + 1)));
+}
+
++ (NSString *)getStepsForDate:(NSDate *)date {
+    NSString *aKey = [self keyForDate:date];
+    return (NSString *)[defaults objectForKey:aKey];
+}
+
++ (void)storeSteps:(NSString *)steps forDate:(NSDate *)date {
+    NSString *aKey = [self keyForDate:date];
+    [defaults setObject:steps forKey:aKey];
+    [defaults synchronize];
+}
+
++ (NSString *)keyForDate:(NSDate *)date {
+    HKSampleQuery *query;
+    HKQuantitySample *result;
+    return [date stringWithFormat:@"yyyy-MM-dd"];
+}
 
 @end
+
