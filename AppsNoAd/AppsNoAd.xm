@@ -47,6 +47,9 @@
 
 #import "NSArray+BlocksKit.h"
 
+#import "HYWBaseVideoViewController.h"
+#import "DWPlayerView.h"
+
 
 #pragma mark - ========================> 最右 <========================
 %group ZuiYou
@@ -1040,27 +1043,39 @@
 
 %hook HYWVideoPlayViewStatusModel
 
-- (id)if_exam_show {
-    return @"1";
-}
+//- (id)if_exam_show {
+//    return @"1";
+//}
 
 %end
 
 /// 快进控制
 %hook HYPlayerViewControlView
 
-- (BOOL)sliderMaxControl:(double)arg1 CurrentSecondValue:(double)arg2 {
-    return YES;
-}
+//- (BOOL)sliderMaxControl:(double)arg1 CurrentSecondValue:(double)arg2 {
+//    return YES;
+//}
 
 %end
 
 %hook HYWVideoListAndNoteListViewController
 
 /// 进入考试
-- (void)checkIsAllowQuestion {
-    [self intoExamVC];
-}
+//- (void)checkIsAllowQuestion {
+//    [self intoExamVC];
+//}
+
+%end
+
+%hook DWPlayerView
+
+//- (BOOL)isPlaylog {
+//    return NO;
+//}
+
+//- (void)pause_replay {
+//    [self play_over];
+//}
 
 %end
 

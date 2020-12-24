@@ -48,6 +48,9 @@
 
 #import "NSArray+BlocksKit.h"
 
+#import "HYWBaseVideoViewController.h"
+#import "DWPlayerView.h"
+
 
 
 #include <substrate.h>
@@ -70,10 +73,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class KWAudioADManager; @class HYPlayerViewControlView; @class MediaItemInfo; @class KWKeyConfig; @class TADSplashManager; @class ConnectADSmallCell; @class JCommonServiceController; @class QLJCEONAAppList; @class SEUserVipInfoModel; @class QualityCell; @class SSReaderManager; @class QLONAInnerAdRecommendBannerCell; @class KWStarThemeDetailViewController; @class SSDialogView; @class QLVNOperationViewModel; @class NRPlayControlManager; @class JXLiveRootSubCategoryMainFrameView; @class PKBVCommonRecommendViewNaviModel; @class QNBUAFocusAdBlockViewModel; @class QNBUAPRCommonLandScapeViewModel; @class QNBUAVIPActivityEntryViewModel; @class SEUserModel; @class KWMusicPackageInfo; @class KWSearchRecommandTipsView; @class QLJCEONAAdPoster; @class SSUserVipInfo; @class KWBgImageAndPendantTipView; @class AppsViewCell; @class LaunchViewController; @class PKBVUserVIPInfoModel; @class MobileTracking; @class ZYAdInfoFlow; @class SWCityPageVC; @class KWSearchPlayBarCell; @class ZYUIFeedNativeAdTableViewCell; @class QADFeedBaseViewModel; @class QLVMChannelViewController; @class KWAdvertisementForPlayerView; @class GADMobileAds; @class NewUserPageController; @class BLYDevice; @class CYCacheManager; @class TVKWaterMarkModel; @class KWMusicCellViewModel; @class MVSplashScreenViewController; @class CKVCManage; @class HYWVideoListAndNoteListViewController; @class MainTabBarController; @class KWMusicFeeUserManager; @class KHStartController; @class ReportTaskService; @class PKBVVideoAlbumPlayerPresenter; @class MVSingleAnimatedImageView; @class QNBUAPRPageCarouselCell; @class QLJCEONARecommendList; @class QLVNUserCenterRecommendFeedViewModel; @class KWMusicFeeNeedPayTipsView; @class DTSplashViewController; @class QLJCEAdInsideVideoItem; @class PNMemberBNewCell; @class QLONAGalleryAdPosterView; @class EMKLaunchADViewController; @class RootTabBarController; @class QNBUAFocusVideoBlockViewModel; @class VungleSDK; @class NewUserPageEntryCell; @class HYWVideoPlayViewStatusModel; @class KWMusicFeeTipsAlertView; @class KWMoreListItem; @class QLJCEONAVideoAdPoster; @class TADSplashBaseViewController; @class AppDelegate; @class SSChapterEndCommentContainerView; @class UMConfigure; @class SSReadingAdSplashTask; @class SWTipsView; @class PNConnectionViewController; @class HWQuestionsModel; @class SSReadingAdBaseViewController; @class KWMusicFeeFlagObject; @class QLTeenGuardianPromptAssistant; @class ADServer; @class XCNativeAdData; @class ZYSplashFeedAdView; @class PNLaunchADShowView; @class PKBVStatisticsUserInfo; @class FLPatch; @class QADSplashSDK; @class ZYNativeAdV2TableViewCell; @class SSAdTask; @class QADSplashWindow; @class QNBQQPlayerPlugin; @class KWSplashPreLoaderHelper; @class JXSystemInfo; @class TKApp; @class QLJCEONALeftImageRightTextAdPoster; @class KWSplashAdInfoModel; @class OnlineAdItemInfo; @class SWCityFeedVC; 
+@class QNBUAVIPActivityEntryViewModel; @class TVKWaterMarkModel; @class QNBUAPRPageCarouselCell; @class FLPatch; @class KWAudioADManager; @class QualityCell; @class MediaItemInfo; @class ConnectADSmallCell; @class PKBVUserVIPInfoModel; @class HWQuestionsModel; @class KWSearchRecommandTipsView; @class PNLaunchADShowView; @class TADSplashManager; @class ZYAdInfoFlow; @class EMKLaunchADViewController; @class KWSearchPlayBarCell; @class VungleSDK; @class KWMusicFeeTipsAlertView; @class KWMusicFeeUserManager; @class TADSplashBaseViewController; @class JXLiveRootSubCategoryMainFrameView; @class QLJCEONARecommendList; @class KWMoreListItem; @class QNBUAFocusVideoBlockViewModel; @class KWMusicFeeNeedPayTipsView; @class KWMusicCellViewModel; @class SSReadingAdBaseViewController; @class DWPlayerView; @class NewUserPageController; @class MainTabBarController; @class KWBgImageAndPendantTipView; @class GADMobileAds; @class QLONAGalleryAdPosterView; @class KWAdvertisementForPlayerView; @class QNBUAPRCommonLandScapeViewModel; @class QLVMChannelViewController; @class QLVNUserCenterRecommendFeedViewModel; @class ZYSplashFeedAdView; @class SSReadingAdSplashTask; @class ZYNativeAdV2TableViewCell; @class QLJCEONAVideoAdPoster; @class KWMusicFeeFlagObject; @class PNConnectionViewController; @class QLONAInnerAdRecommendBannerCell; @class HYPlayerViewControlView; @class SWCityFeedVC; @class NewUserPageEntryCell; @class AppsViewCell; @class KHStartController; @class PKBVStatisticsUserInfo; @class UMConfigure; @class QLTeenGuardianPromptAssistant; @class SSAdTask; @class SEUserModel; @class KWMusicPackageInfo; @class KWKeyConfig; @class QLJCEONALeftImageRightTextAdPoster; @class AppDelegate; @class QADSplashWindow; @class DTSplashViewController; @class QADSplashSDK; @class XCNativeAdData; @class SSUserVipInfo; @class BLYDevice; @class KWStarThemeDetailViewController; @class HYWVideoListAndNoteListViewController; @class SSDialogView; @class PKBVVideoAlbumPlayerPresenter; @class SWCityPageVC; @class NRPlayControlManager; @class OnlineAdItemInfo; @class ADServer; @class PKBVCommonRecommendViewNaviModel; @class QNBQQPlayerPlugin; @class LaunchViewController; @class TKApp; @class ZYUIFeedNativeAdTableViewCell; @class SSChapterEndCommentContainerView; @class SWTipsView; @class ReportTaskService; @class JXSystemInfo; @class QLVNOperationViewModel; @class MVSplashScreenViewController; @class QADFeedBaseViewModel; @class SSReaderManager; @class CYCacheManager; @class PNMemberBNewCell; @class RootTabBarController; @class JCommonServiceController; @class KWSplashAdInfoModel; @class QNBUAFocusAdBlockViewModel; @class QLJCEONAAppList; @class HYWVideoPlayViewStatusModel; @class QLJCEONAAdPoster; @class SEUserVipInfoModel; @class CKVCManage; @class MobileTracking; @class QLJCEAdInsideVideoItem; @class MVSingleAnimatedImageView; @class KWSplashPreLoaderHelper; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }
-#line 51 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 54 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 #pragma mark - ========================> 最右 <========================
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
@@ -1044,7 +1047,7 @@ static BOOL _logos_method$ColorfulWeather$BLYDevice$isJailbroken(_LOGOS_SELF_TYP
 
 #pragma mark - ========================> 掌上华医 <========================
 
-static id (*_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id (*_logos_orig$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show)(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST, SEL); static id _logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$HuaYiExam$HYPlayerViewControlView$sliderMaxControl$CurrentSecondValue$)(_LOGOS_SELF_TYPE_NORMAL HYPlayerViewControlView* _LOGOS_SELF_CONST, SEL, double, double); static BOOL _logos_method$HuaYiExam$HYPlayerViewControlView$sliderMaxControl$CurrentSecondValue$(_LOGOS_SELF_TYPE_NORMAL HYPlayerViewControlView* _LOGOS_SELF_CONST, SEL, double, double); static void (*_logos_orig$HuaYiExam$HYWVideoListAndNoteListViewController$checkIsAllowQuestion)(_LOGOS_SELF_TYPE_NORMAL HYWVideoListAndNoteListViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$HuaYiExam$HYWVideoListAndNoteListViewController$checkIsAllowQuestion(_LOGOS_SELF_TYPE_NORMAL HYWVideoListAndNoteListViewController* _LOGOS_SELF_CONST, SEL); 
+static id (*_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); 
 
 
 
@@ -1066,33 +1069,46 @@ static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$
 
 
 
-static id _logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
-    return @"1";
-}
 
 
 
 
 
 
-static BOOL _logos_method$HuaYiExam$HYPlayerViewControlView$sliderMaxControl$CurrentSecondValue$(_LOGOS_SELF_TYPE_NORMAL HYPlayerViewControlView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, double arg1, double arg2) {
-    return YES;
-}
 
 
 
 
 
-static void _logos_method$HuaYiExam$HYWVideoListAndNoteListViewController$checkIsAllowQuestion(_LOGOS_SELF_TYPE_NORMAL HYWVideoListAndNoteListViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
-    [self intoExamVC];
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_c2273991(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_3d789a5c(int __unused argc, char __unused **argv, char __unused **envp) {
     if ([BundleId isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
     }
@@ -1142,6 +1158,6 @@ static __attribute__((constructor)) void _logosLocalCtor_c2273991(int __unused a
         {Class _logos_class$ColorfulWeather$CYCacheManager = objc_getClass("CYCacheManager"); { MSHookMessageEx(_logos_class$ColorfulWeather$CYCacheManager, @selector(isAPPReview), (IMP)&_logos_method$ColorfulWeather$CYCacheManager$isAPPReview, (IMP*)&_logos_orig$ColorfulWeather$CYCacheManager$isAPPReview);}{ MSHookMessageEx(_logos_class$ColorfulWeather$CYCacheManager, @selector(isShowInvite), (IMP)&_logos_method$ColorfulWeather$CYCacheManager$isShowInvite, (IMP*)&_logos_orig$ColorfulWeather$CYCacheManager$isShowInvite);}Class _logos_class$ColorfulWeather$BLYDevice = objc_getClass("BLYDevice"); { MSHookMessageEx(_logos_class$ColorfulWeather$BLYDevice, @selector(isJailbroken), (IMP)&_logos_method$ColorfulWeather$BLYDevice$isJailbroken, (IMP*)&_logos_orig$ColorfulWeather$BLYDevice$isJailbroken);}}
     }
     else if ([BundleId isEqualToString:HuaYiExam]) {
-        {Class _logos_class$HuaYiExam$HWQuestionsModel = objc_getClass("HWQuestionsModel"); Class _logos_metaclass$HuaYiExam$HWQuestionsModel = object_getClass(_logos_class$HuaYiExam$HWQuestionsModel); { MSHookMessageEx(_logos_metaclass$HuaYiExam$HWQuestionsModel, @selector(getQuestionArrayWithDic:), (IMP)&_logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$, (IMP*)&_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$);}Class _logos_class$HuaYiExam$HYWVideoPlayViewStatusModel = objc_getClass("HYWVideoPlayViewStatusModel"); { MSHookMessageEx(_logos_class$HuaYiExam$HYWVideoPlayViewStatusModel, @selector(if_exam_show), (IMP)&_logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show, (IMP*)&_logos_orig$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show);}Class _logos_class$HuaYiExam$HYPlayerViewControlView = objc_getClass("HYPlayerViewControlView"); { MSHookMessageEx(_logos_class$HuaYiExam$HYPlayerViewControlView, @selector(sliderMaxControl:CurrentSecondValue:), (IMP)&_logos_method$HuaYiExam$HYPlayerViewControlView$sliderMaxControl$CurrentSecondValue$, (IMP*)&_logos_orig$HuaYiExam$HYPlayerViewControlView$sliderMaxControl$CurrentSecondValue$);}Class _logos_class$HuaYiExam$HYWVideoListAndNoteListViewController = objc_getClass("HYWVideoListAndNoteListViewController"); { MSHookMessageEx(_logos_class$HuaYiExam$HYWVideoListAndNoteListViewController, @selector(checkIsAllowQuestion), (IMP)&_logos_method$HuaYiExam$HYWVideoListAndNoteListViewController$checkIsAllowQuestion, (IMP*)&_logos_orig$HuaYiExam$HYWVideoListAndNoteListViewController$checkIsAllowQuestion);}}
+        {Class _logos_class$HuaYiExam$HWQuestionsModel = objc_getClass("HWQuestionsModel"); Class _logos_metaclass$HuaYiExam$HWQuestionsModel = object_getClass(_logos_class$HuaYiExam$HWQuestionsModel); { MSHookMessageEx(_logos_metaclass$HuaYiExam$HWQuestionsModel, @selector(getQuestionArrayWithDic:), (IMP)&_logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$, (IMP*)&_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$);}}
     }
 }

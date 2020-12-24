@@ -70,6 +70,9 @@
 		02585F382549557F009972C5 /* KWAudioADManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAudioADManager.h; sourceTree = "<group>"; };
 		0259CB59252339570035631B /* ReportTaskService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTaskService.h; sourceTree = "<group>"; };
 		025C5BE7254E63A8003A1DC9 /* CKVCManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKVCManage.h; sourceTree = "<group>"; };
+		025D473E258362A100597094 /* DWPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPlayerView.h; sourceTree = "<group>"; };
+		025D473F258362B900597094 /* DWPlayInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPlayInfo.h; sourceTree = "<group>"; };
+		025D474125836A3800597094 /* HYWBaseVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYWBaseVideoViewController.h; sourceTree = "<group>"; };
 		0268067C254BAC5800B6CCAC /* NRPlayControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRPlayControlManager.h; sourceTree = "<group>"; };
 		02801DEF25513BF500EDF9C9 /* CYUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYUtility.h; sourceTree = "<group>"; };
 		02801DF025513BF500EDF9C9 /* CYUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYUser.h; sourceTree = "<group>"; };
@@ -144,6 +147,9 @@
 				021011342569E16700878C77 /* HWQuestionOptionModel.h */,
 				0210112F2569E16700878C77 /* HWQuestionsModel.h */,
 				02DBB71F2580694D008E9D4B /* HYWVideoListAndNoteListViewController.h */,
+				025D473F258362B900597094 /* DWPlayInfo.h */,
+				025D473E258362A100597094 /* DWPlayerView.h */,
+				025D474125836A3800597094 /* HYWBaseVideoViewController.h */,
 			);
 			path = HuaYiExam;
 			sourceTree = "<group>";
