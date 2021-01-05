@@ -74,7 +74,7 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class KWSearchRecommandTipsView; @class LaunchViewController; @class KWSplashPreLoaderHelper; @class SWTipsView; @class PKBVCommonRecommendViewNaviModel; @class SEUserModel; @class FLPatch; @class KWBgImageAndPendantTipView; @class MVSplashScreenViewController; @class HYPlayerViewControlView; @class KWAdvertisementForPlayerView; @class PNLaunchADShowView; @class MobileTracking; @class SSReaderManager; @class GADMobileAds; @class NRPlayControlManager; @class HKSampleQuery; @class OnlineAdItemInfo; @class TADSplashManager; @class KWSearchPlayBarCell; @class KWMoreListItem; @class SSAdTask; @class KHStartController; @class MainTabBarController; @class DTSplashViewController; @class KWKeyConfig; @class KWMusicPackageInfo; @class MVSingleAnimatedImageView; @class QADFeedBaseViewModel; @class KWMusicCellViewModel; @class ZYAdInfoFlow; @class PKBVUserVIPInfoModel; @class NewUserPageEntryCell; @class KWAudioADManager; @class JXSystemInfo; @class KWMusicFeeUserManager; @class SSUserVipInfo; @class QADSplashSDK; @class TVKWaterMarkModel; @class QNBUAFocusAdBlockViewModel; @class TADSplashBaseViewController; @class XCNativeAdData; @class JCommonServiceController; @class PNMemberBNewCell; @class SWCityPageVC; @class QLONAGalleryAdPosterView; @class QLJCEONAVideoAdPoster; @class UMConfigure; @class ReportTaskService; @class QNBQQPlayerPlugin; @class HKStatisticsQuery; @class QADSplashWindow; @class PNConnectionViewController; @class ZYSplashFeedAdView; @class QNBUAPRPageCarouselCell; @class CYCacheManager; @class ConnectADSmallCell; @class KWMusicFeeFlagObject; @class QLJCEONARecommendList; @class ZYNativeAdV2TableViewCell; @class KWStarThemeDetailViewController; @class QLJCEAdInsideVideoItem; @class QLJCEONAAdPoster; @class SSChapterEndCommentContainerView; @class SSReadingAdSplashTask; @class ZYUIFeedNativeAdTableViewCell; @class ADServer; @class MediaItemInfo; @class QLJCEONAAppList; @class QNBUAPRCommonLandScapeViewModel; @class QLTeenGuardianPromptAssistant; @class BLYDevice; @class QLJCEONALeftImageRightTextAdPoster; @class AppsViewCell; @class QLVMChannelViewController; @class QNBUAVIPActivityEntryViewModel; @class KWSplashAdInfoModel; @class SSDialogView; @class RootTabBarController; @class QualityCell; @class QLVNUserCenterRecommendFeedViewModel; @class AppDelegate; @class SWCityFeedVC; @class EMKLaunchADViewController; @class QLONAInnerAdRecommendBannerCell; @class HYWVideoListAndNoteListViewController; @class KWMusicFeeNeedPayTipsView; @class HWQuestionsModel; @class NewUserPageController; @class HYWVideoPlayViewStatusModel; @class CKVCManage; @class VungleSDK; @class PKBVStatisticsUserInfo; @class KWMusicFeeTipsAlertView; @class TKApp; @class QNBUAFocusVideoBlockViewModel; @class DWPlayerView; @class QLVNOperationViewModel; @class SEUserVipInfoModel; @class JXLiveRootSubCategoryMainFrameView; @class SSReadingAdBaseViewController; @class PKBVVideoAlbumPlayerPresenter; 
+@class KWMusicFeeFlagObject; @class NewUserPageController; @class SWCityFeedVC; @class ZYSplashFeedAdView; @class QualityCell; @class ZYAdInfoFlow; @class HWQuestionsModel; @class SSAdTask; @class QLJCEAdInsideVideoItem; @class DWPlayerView; @class MVSingleAnimatedImageView; @class BLYDevice; @class TVKWaterMarkModel; @class AppDelegate; @class KWStarThemeDetailViewController; @class SWCityPageVC; @class ReportTaskService; @class QLVNUserCenterRecommendFeedViewModel; @class SWTipsView; @class QLJCEONAVideoAdPoster; @class KWKeyConfig; @class PNMemberBNewCell; @class KWAdvertisementForPlayerView; @class QLVMChannelViewController; @class PKBVCommonRecommendViewNaviModel; @class SEUserVipInfoModel; @class KWBgImageAndPendantTipView; @class SSReaderManager; @class PKBVStatisticsUserInfo; @class KWAudioADManager; @class DTSplashViewController; @class QADSplashSDK; @class MVSplashScreenViewController; @class TKApp; @class PNConnectionViewController; @class QLJCEONALeftImageRightTextAdPoster; @class QLJCEONAAppList; @class ZYUIFeedNativeAdTableViewCell; @class NewUserPageEntryCell; @class HYWVideoListAndNoteListViewController; @class KWMusicFeeNeedPayTipsView; @class SEUserModel; @class PNLaunchADShowView; @class NRPlayControlManager; @class HKSampleQuery; @class KWMusicPackageInfo; @class SSChapterEndCommentContainerView; @class KWMusicCellViewModel; @class QADSplashWindow; @class QLTeenGuardianPromptAssistant; @class KWMoreListItem; @class QNBUAFocusAdBlockViewModel; @class SSUserVipInfo; @class QNBUAPRPageCarouselCell; @class QLONAGalleryAdPosterView; @class QADFeedBaseViewModel; @class CYCacheManager; @class QLJCEONAAdPoster; @class HYPlayerViewControlView; @class UMConfigure; @class MediaItemInfo; @class QNBUAVIPActivityEntryViewModel; @class FLPatch; @class EMKLaunchADViewController; @class HYWVideoPlayViewStatusModel; @class KWMusicFeeTipsAlertView; @class QNBQQPlayerPlugin; @class KWMusicFeeUserManager; @class JXSystemInfo; @class MobileTracking; @class QLVNOperationViewModel; @class RootTabBarController; @class LaunchViewController; @class SSReadingAdSplashTask; @class CKVCManage; @class JXLiveRootSubCategoryMainFrameView; @class QLJCEONARecommendList; @class AppsViewCell; @class VungleSDK; @class MainTabBarController; @class QLONAInnerAdRecommendBannerCell; @class GADMobileAds; @class KWSearchPlayBarCell; @class QNBUAFocusVideoBlockViewModel; @class JCommonServiceController; @class ConnectADSmallCell; @class SSDialogView; @class QNBUAPRCommonLandScapeViewModel; @class HKStatisticsQuery; @class PKBVVideoAlbumPlayerPresenter; @class KWSearchRecommandTipsView; @class KWSplashPreLoaderHelper; @class TADSplashBaseViewController; @class KWSplashAdInfoModel; @class SSReadingAdBaseViewController; @class ZYNativeAdV2TableViewCell; @class OnlineAdItemInfo; @class PKBVUserVIPInfoModel; @class ADServer; @class KHStartController; @class XCNativeAdData; @class TADSplashManager; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }
 #line 55 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
@@ -1048,7 +1048,7 @@ static BOOL _logos_method$ColorfulWeather$BLYDevice$isJailbroken(_LOGOS_SELF_TYP
 
 #pragma mark - ========================> 掌上华医 <========================
 
-static id (*_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); 
+static id (*_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id); static id (*_logos_orig$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show)(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST, SEL); static id _logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST, SEL); 
 
 
 
@@ -1070,9 +1070,9 @@ static id _logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$
 
 
 
-
-
-
+static id _logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show(_LOGOS_SELF_TYPE_NORMAL HYWVideoPlayViewStatusModel* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    return @"1";
+}
 
 
 
@@ -1115,9 +1115,7 @@ static HKStatisticsQuery* (*_logos_orig$VirtualSteps$HKStatisticsQuery$initWithQ
 
 
 static HKStatisticsQuery* _logos_method$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$(_LOGOS_SELF_TYPE_INIT HKStatisticsQuery* __unused self, SEL __unused _cmd, HKQuantityType * quantityType, NSPredicate * quantitySamplePredicate, HKStatisticsOptions options, void(^handler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)) _LOGOS_RETURN_RETAINED {
-    
-    AppLog(@"😂😂😂😂");
-                
+                    
     void(^origHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error) = handler;
     void(^newHandler)(HKStatisticsQuery *query, HKStatistics *result, NSError *error)  = ^(HKStatisticsQuery *query, HKStatistics *result, NSError *error)
     {
@@ -1177,7 +1175,7 @@ static HKSampleQuery* _logos_method$VirtualSteps$HKSampleQuery$initWithSampleTyp
 
 
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_4403b6c3(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_af1df5c7(int __unused argc, char __unused **argv, char __unused **envp) {
     if ([BundleId isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
     }
@@ -1227,7 +1225,7 @@ static __attribute__((constructor)) void _logosLocalCtor_4403b6c3(int __unused a
         {Class _logos_class$ColorfulWeather$CYCacheManager = objc_getClass("CYCacheManager"); { MSHookMessageEx(_logos_class$ColorfulWeather$CYCacheManager, @selector(isAPPReview), (IMP)&_logos_method$ColorfulWeather$CYCacheManager$isAPPReview, (IMP*)&_logos_orig$ColorfulWeather$CYCacheManager$isAPPReview);}{ MSHookMessageEx(_logos_class$ColorfulWeather$CYCacheManager, @selector(isShowInvite), (IMP)&_logos_method$ColorfulWeather$CYCacheManager$isShowInvite, (IMP*)&_logos_orig$ColorfulWeather$CYCacheManager$isShowInvite);}Class _logos_class$ColorfulWeather$BLYDevice = objc_getClass("BLYDevice"); { MSHookMessageEx(_logos_class$ColorfulWeather$BLYDevice, @selector(isJailbroken), (IMP)&_logos_method$ColorfulWeather$BLYDevice$isJailbroken, (IMP*)&_logos_orig$ColorfulWeather$BLYDevice$isJailbroken);}}
     }
     else if ([BundleId isEqualToString:HuaYiExam]) {
-        {Class _logos_class$HuaYiExam$HWQuestionsModel = objc_getClass("HWQuestionsModel"); Class _logos_metaclass$HuaYiExam$HWQuestionsModel = object_getClass(_logos_class$HuaYiExam$HWQuestionsModel); { MSHookMessageEx(_logos_metaclass$HuaYiExam$HWQuestionsModel, @selector(getQuestionArrayWithDic:), (IMP)&_logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$, (IMP*)&_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$);}}
+        {Class _logos_class$HuaYiExam$HWQuestionsModel = objc_getClass("HWQuestionsModel"); Class _logos_metaclass$HuaYiExam$HWQuestionsModel = object_getClass(_logos_class$HuaYiExam$HWQuestionsModel); { MSHookMessageEx(_logos_metaclass$HuaYiExam$HWQuestionsModel, @selector(getQuestionArrayWithDic:), (IMP)&_logos_meta_method$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$, (IMP*)&_logos_meta_orig$HuaYiExam$HWQuestionsModel$getQuestionArrayWithDic$);}Class _logos_class$HuaYiExam$HYWVideoPlayViewStatusModel = objc_getClass("HYWVideoPlayViewStatusModel"); { MSHookMessageEx(_logos_class$HuaYiExam$HYWVideoPlayViewStatusModel, @selector(if_exam_show), (IMP)&_logos_method$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show, (IMP*)&_logos_orig$HuaYiExam$HYWVideoPlayViewStatusModel$if_exam_show);}}
     }
     else if ([BundleId isEqualToString:JDHealth]) {
 
