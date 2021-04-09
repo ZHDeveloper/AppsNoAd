@@ -1148,6 +1148,18 @@
 
 %end
 
+#pragma mark - ========================> YouTube <========================
+%group YouTube
+    @interface YTAdsControlFlowPlaybackCoordinator
+        - (void)adSlotDidComplete;
+    @end
+    %hook YTAdsControlFlowPlaybackCoordinator
+        - (void)startOverlay {
+            [self adSlotDidComplete];
+        }
+    %end
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
     if ([BundleId isEqualToString:Eleme]) {
@@ -1203,5 +1215,8 @@
     }
     else if ([BundleId isEqualToString:JDHealth]) {
         %init(VirtualSteps)
+    }
+    else if ([BundleId isEqualToString:YouTube]) {
+        %init(YouTube)
     }
 }

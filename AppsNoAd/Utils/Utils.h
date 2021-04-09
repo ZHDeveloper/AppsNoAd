@@ -23,6 +23,7 @@ NSString *const QiDian          = @"m.qidian.QDReaderAppStore";
 NSString *const ZuiYou          = @"cn.xiaochuankeji.tieba";
 NSString *const BabyBus         = @"com.sinyee.babybus.recommandApp2";
 NSString *const Reading         = @"com.dragon.read";
+NSString *const YouTube         = @"com.google.ios.youtube";
 NSString *const ZhiXing         = @"cn.suanya.zhixingHC";
 NSString *const AppCake         = @"com.iphonecake.appcakej";
 NSString *const KWPlayer        = @"com.yeelion.kwplayer";
@@ -37,8 +38,6 @@ NSString *const EleVideo        = @"com.ls.kuishe";
 NSString *const JDHealth        = @"com.jd.jdhealth";
 NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
 NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";
-
-
 
 
 @interface NSObject (Associate)
