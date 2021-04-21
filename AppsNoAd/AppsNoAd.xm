@@ -1150,14 +1150,42 @@
 
 #pragma mark - ========================> YouTube <========================
 %group YouTube
-    @interface YTAdsControlFlowPlaybackCoordinator
-        - (void)adSlotDidComplete;
-    @end
-    %hook YTAdsControlFlowPlaybackCoordinator
-        - (void)startOverlay {
-            [self adSlotDidComplete];
-        }
-    %end
+//禁止后台播放
+%hook YTSingleVideo
+- (BOOL)isPlayableInBackground {
+    return NO;
+}
+%end
+
+%hook YTPlaybackData
+- (BOOL)isPlayableInBackground {
+    return NO;
+}
+%end
+
+%hook YTPlaybackBackgroundTaskController
+- (BOOL)isContentPlayableInBackground {
+    return NO;
+}
+%end
+
+%hook YTIPlayerResponse
+- (BOOL)isPlayableInBackground {
+    return NO;
+}
+%end
+
+%hook YTIPlayabilityStatus
+- (BOOL)isPlayableInBackground {
+    return NO;
+}
+%end
+
+%hook YTPlaybackBackgroundTaskController
+- (void)setContentPlayableInBackground: (BOOL)arg {
+    %orig(NO);
+}
+%end
 %end
 
 #pragma mark - ========================> 初始化 <========================
