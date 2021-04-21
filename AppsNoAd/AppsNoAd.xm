@@ -953,6 +953,14 @@
 
 %end
 
+%hook BBSAdvertLaunch
+
+- (id)init {
+    return nil;
+}
+
+%end
+
 %end
 
 #pragma mark - ========================> 大象影视 <========================
