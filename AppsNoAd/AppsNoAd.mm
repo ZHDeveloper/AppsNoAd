@@ -74,7 +74,7 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class HKSampleQuery; @class KHStartController; @class MVSplashScreenViewController; @class TADSplashManager; @class HYPlayerViewControlView; @class FLPatch; @class SEUserVipInfoModel; @class KWMusicFeeUserManager; @class QNBQQPlayerPlugin; @class TADSplashBaseViewController; @class YTIPlayabilityStatus; @class LaunchViewController; @class QNBUAPRPageCarouselCell; @class SWCityPageVC; @class SEUserModel; @class PKBVCommonRecommendViewNaviModel; @class SWCityFeedVC; @class MediaItemInfo; @class QLVNUserCenterRecommendFeedViewModel; @class MainTabBarController; @class HYWVideoListAndNoteListViewController; @class ConnectADSmallCell; @class QLTeenGuardianPromptAssistant; @class KWMusicCellViewModel; @class JXLiveRootSubCategoryMainFrameView; @class PKBVVideoAlbumPlayerPresenter; @class QLJCEONARecommendList; @class KWMusicFeeTipsAlertView; @class KWMusicFeeNeedPayTipsView; @class SSChapterEndCommentContainerView; @class KWSearchPlayBarCell; @class QualityCell; @class YTSingleVideo; @class QADSplashSDK; @class DTSplashViewController; @class SSAdTask; @class NewUserPageEntryCell; @class NRPlayControlManager; @class KWStarThemeDetailViewController; @class SSReadingAdSplashTask; @class OnlineAdItemInfo; @class ReportTaskService; @class QLJCEONAVideoAdPoster; @class ZYAdInfoFlow; @class SSDialogView; @class YTPlaybackBackgroundTaskController; @class KWAudioADManager; @class QLJCEONALeftImageRightTextAdPoster; @class YTPlaybackData; @class QLJCEAdInsideVideoItem; @class QADSplashWindow; @class QLJCEONAAdPoster; @class GADMobileAds; @class QNBUAFocusAdBlockViewModel; @class QNBUAPRCommonLandScapeViewModel; @class JCommonServiceController; @class TVKWaterMarkModel; @class SSReadingAdBaseViewController; @class KWAdvertisementForPlayerView; @class MVSingleAnimatedImageView; @class ZYUIFeedNativeAdTableViewCell; @class KWMoreListItem; @class KWKeyConfig; @class QLVMChannelViewController; @class QLONAInnerAdRecommendBannerCell; @class TKApp; @class ADServer; @class PKBVStatisticsUserInfo; @class AppsViewCell; @class YTIPlayerResponse; @class CKVCManage; @class RootTabBarController; @class NewUserPageController; @class JXSystemInfo; @class SWTipsView; @class XCNativeAdData; @class QLONAGalleryAdPosterView; @class KWSearchRecommandTipsView; @class AppDelegate; @class BLYDevice; @class DWPlayerView; @class ZYNativeAdV2TableViewCell; @class ZYSplashFeedAdView; @class EMKLaunchADViewController; @class QLJCEONAAppList; @class HYWVideoPlayViewStatusModel; @class QADFeedBaseViewModel; @class KWMusicFeeFlagObject; @class KWSplashPreLoaderHelper; @class VungleSDK; @class HWQuestionsModel; @class QNBUAVIPActivityEntryViewModel; @class MobileTracking; @class KWSplashAdInfoModel; @class PNLaunchADShowView; @class QNBUAFocusVideoBlockViewModel; @class KWBgImageAndPendantTipView; @class QLVNOperationViewModel; @class CYCacheManager; @class SSUserVipInfo; @class KWMusicPackageInfo; @class PNConnectionViewController; @class UMConfigure; @class SSReaderManager; @class HKStatisticsQuery; @class PNMemberBNewCell; @class PKBVUserVIPInfoModel; 
+@class UMConfigure; @class NewUserPageController; @class KHStartController; @class HYWVideoPlayViewStatusModel; @class MVSingleAnimatedImageView; @class QNBUAFocusAdBlockViewModel; @class ConnectADSmallCell; @class KWMusicPackageInfo; @class QADSplashWindow; @class SSChapterEndCommentContainerView; @class HKStatisticsQuery; @class QADSplashSDK; @class PKBVStatisticsUserInfo; @class YTPlaybackData; @class YTIPlayabilityStatus; @class QualityCell; @class KWAudioADManager; @class SSReadingAdSplashTask; @class FLPatch; @class CYCacheManager; @class KWAdvertisementForPlayerView; @class QLVNUserCenterRecommendFeedViewModel; @class KWSearchRecommandTipsView; @class KWSearchPlayBarCell; @class TKApp; @class CKVCManage; @class QLJCEONAAdPoster; @class QLVNOperationViewModel; @class TADSplashManager; @class KWMusicFeeTipsAlertView; @class QLVMChannelViewController; @class ReportTaskService; @class KWMoreListItem; @class SSReadingAdBaseViewController; @class EMKLaunchADViewController; @class PNMemberBNewCell; @class KWMusicFeeNeedPayTipsView; @class ZYUIFeedNativeAdTableViewCell; @class GDTSplashAdImp; @class PKBVUserVIPInfoModel; @class AppsViewCell; @class QLJCEONARecommendList; @class SSReaderManager; @class LaunchViewController; @class SEUserVipInfoModel; @class QLJCEONALeftImageRightTextAdPoster; @class MainTabBarController; @class MVSplashScreenViewController; @class KWBgImageAndPendantTipView; @class ZYNativeAdV2TableViewCell; @class PNConnectionViewController; @class JCommonServiceController; @class NewUserPageEntryCell; @class PKBVVideoAlbumPlayerPresenter; @class KWStarThemeDetailViewController; @class MobileTracking; @class HYPlayerViewControlView; @class KWKeyConfig; @class RootTabBarController; @class QNBUAFocusVideoBlockViewModel; @class JXSystemInfo; @class QNBUAPRPageCarouselCell; @class QLJCEAdInsideVideoItem; @class PNLaunchADShowView; @class KWMusicCellViewModel; @class XCNativeAdData; @class ZYSplashFeedAdView; @class NRPlayControlManager; @class QADFeedBaseViewModel; @class YTIPlayerResponse; @class KWSplashPreLoaderHelper; @class SWCityFeedVC; @class JXLiveRootSubCategoryMainFrameView; @class ADServer; @class QNBUAVIPActivityEntryViewModel; @class BUAdSDKManager; @class YTSingleVideo; @class SSDialogView; @class GADMobileAds; @class ADSuyiSDK; @class AppDelegate; @class KWMusicFeeUserManager; @class DWPlayerView; @class TVKWaterMarkModel; @class HWQuestionsModel; @class SWCityPageVC; @class QNBQQPlayerPlugin; @class YTPlaybackBackgroundTaskController; @class MediaItemInfo; @class PKBVCommonRecommendViewNaviModel; @class HYWVideoListAndNoteListViewController; @class TADSplashBaseViewController; @class KWSplashAdInfoModel; @class _TtC2mh14MH_ComicReadVC; @class AdsViewController; @class QLJCEONAVideoAdPoster; @class SSUserVipInfo; @class QLONAInnerAdRecommendBannerCell; @class QLJCEONAAppList; @class ZYAdInfoFlow; @class SWTipsView; @class SSAdTask; @class QNBUAPRCommonLandScapeViewModel; @class BLYDevice; @class HKSampleQuery; @class DTSplashViewController; @class QLONAGalleryAdPosterView; @class QLTeenGuardianPromptAssistant; @class SEUserModel; @class KWMusicFeeFlagObject; @class VungleSDK; @class OnlineAdItemInfo; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }
 #line 55 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
@@ -1177,6 +1177,7 @@ static HKSampleQuery* _logos_method$VirtualSteps$HKSampleQuery$initWithSampleTyp
 #pragma mark - ========================> YouTube <========================
 static BOOL (*_logos_orig$YouTube$YTSingleVideo$isPlayableInBackground)(_LOGOS_SELF_TYPE_NORMAL YTSingleVideo* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$YouTube$YTSingleVideo$isPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTSingleVideo* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$YouTube$YTPlaybackData$isPlayableInBackground)(_LOGOS_SELF_TYPE_NORMAL YTPlaybackData* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$YouTube$YTPlaybackData$isPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTPlaybackData* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground)(_LOGOS_SELF_TYPE_NORMAL YTPlaybackBackgroundTaskController* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTPlaybackBackgroundTaskController* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$)(_LOGOS_SELF_TYPE_NORMAL YTPlaybackBackgroundTaskController* _LOGOS_SELF_CONST, SEL, BOOL); static void _logos_method$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$(_LOGOS_SELF_TYPE_NORMAL YTPlaybackBackgroundTaskController* _LOGOS_SELF_CONST, SEL, BOOL); static BOOL (*_logos_orig$YouTube$YTIPlayerResponse$isPlayableInBackground)(_LOGOS_SELF_TYPE_NORMAL YTIPlayerResponse* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$YouTube$YTIPlayerResponse$isPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTIPlayerResponse* _LOGOS_SELF_CONST, SEL); static BOOL (*_logos_orig$YouTube$YTIPlayabilityStatus$isPlayableInBackground)(_LOGOS_SELF_TYPE_NORMAL YTIPlayabilityStatus* _LOGOS_SELF_CONST, SEL); static BOOL _logos_method$YouTube$YTIPlayabilityStatus$isPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTIPlayabilityStatus* _LOGOS_SELF_CONST, SEL); 
 
+
 static BOOL _logos_method$YouTube$YTSingleVideo$isPlayableInBackground(_LOGOS_SELF_TYPE_NORMAL YTSingleVideo* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
     return NO;
 }
@@ -1213,8 +1214,82 @@ static void _logos_method$YouTube$YTPlaybackBackgroundTaskController$setContentP
 
 
 
+#pragma mark - ========================> HookAdSDK <========================
+static void (*_logos_orig$HookAdSDK$BUAdSDKManager$setAppID$)(_LOGOS_SELF_TYPE_NORMAL BUAdSDKManager* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$HookAdSDK$BUAdSDKManager$setAppID$(_LOGOS_SELF_TYPE_NORMAL BUAdSDKManager* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_meta_orig$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id, id); static void _logos_meta_method$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL, id, id); static GDTSplashAdImp* (*_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$)(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp*, SEL, id, long long) _LOGOS_RETURN_RETAINED; static GDTSplashAdImp* _logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp*, SEL, id, long long) _LOGOS_RETURN_RETAINED; static GDTSplashAdImp* (*_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$)(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp*, SEL, id) _LOGOS_RETURN_RETAINED; static GDTSplashAdImp* _logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp*, SEL, id) _LOGOS_RETURN_RETAINED; 
+
+
+
+static void _logos_method$HookAdSDK$BUAdSDKManager$setAppID$(_LOGOS_SELF_TYPE_NORMAL BUAdSDKManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id value) { }
+
+
+
+
+
+static void _logos_meta_method$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id value1, id value2) { }
+
+
+
+@interface AdsViewController : UIViewController
+
+- (void)stopAds;
+- (void)adViewDidReceiveBannerAD:(id)arg1;
+
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+static GDTSplashAdImp* _logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp* __unused self, SEL __unused _cmd, id arg1, long long arg2) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+static GDTSplashAdImp* _logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$(_LOGOS_SELF_TYPE_INIT GDTSplashAdImp* __unused self, SEL __unused _cmd, id arg1) _LOGOS_RETURN_RETAINED {
+    return nil;
+}
+
+
+
+
+
+#pragma mark - ========================> HJDM <========================
+static void (*_logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews)(_LOGOS_SELF_TYPE_NORMAL _TtC2mh14MH_ComicReadVC* _LOGOS_SELF_CONST, SEL); static void _logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews(_LOGOS_SELF_TYPE_NORMAL _TtC2mh14MH_ComicReadVC* _LOGOS_SELF_CONST, SEL); 
+
+@interface _TtC2mh14MH_ComicReadVC : UIViewController
+
+@property(nonatomic) __weak UICollectionView *collectionView; 
+
+@end
+
+
+
+static void _logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews(_LOGOS_SELF_TYPE_NORMAL _TtC2mh14MH_ComicReadVC* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews(self, _cmd);
+    [NSLayoutConstraint constraintWithItem:self.collectionView
+                                 attribute:NSLayoutAttributeBottom
+                                 relatedBy:NSLayoutRelationEqual
+                                    toItem:self.view
+                                 attribute:NSLayoutAttributeBottom
+                                multiplier:1.0f
+                                  constant:0.0f].active = YES;
+}
+
+
+
+
+
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_29394375(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_b04aa1bf(int __unused argc, char __unused **argv, char __unused **envp) {
+    {Class _logos_class$HookAdSDK$BUAdSDKManager = objc_getClass("BUAdSDKManager"); { MSHookMessageEx(_logos_class$HookAdSDK$BUAdSDKManager, @selector(setAppID:), (IMP)&_logos_method$HookAdSDK$BUAdSDKManager$setAppID$, (IMP*)&_logos_orig$HookAdSDK$BUAdSDKManager$setAppID$);}Class _logos_class$HookAdSDK$ADSuyiSDK = objc_getClass("ADSuyiSDK"); Class _logos_metaclass$HookAdSDK$ADSuyiSDK = object_getClass(_logos_class$HookAdSDK$ADSuyiSDK); { MSHookMessageEx(_logos_metaclass$HookAdSDK$ADSuyiSDK, @selector(initWithAppId:completionBlock:), (IMP)&_logos_meta_method$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$, (IMP*)&_logos_meta_orig$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$);}Class _logos_class$HookAdSDK$GDTSplashAdImp = objc_getClass("GDTSplashAdImp"); { MSHookMessageEx(_logos_class$HookAdSDK$GDTSplashAdImp, @selector(initWithPlacementId:serverType:), (IMP)&_logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$, (IMP*)&_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$);}{ MSHookMessageEx(_logos_class$HookAdSDK$GDTSplashAdImp, @selector(initWithPlacementId:), (IMP)&_logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$, (IMP*)&_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$);}}
+
     if ([BundleId isEqualToString:Eleme]) {
         {Class _logos_class$Eleme$EMKLaunchADViewController = objc_getClass("EMKLaunchADViewController"); { MSHookMessageEx(_logos_class$Eleme$EMKLaunchADViewController, @selector(viewDidLoad), (IMP)&_logos_method$Eleme$EMKLaunchADViewController$viewDidLoad, (IMP*)&_logos_orig$Eleme$EMKLaunchADViewController$viewDidLoad);}}
     }
@@ -1272,5 +1347,9 @@ static __attribute__((constructor)) void _logosLocalCtor_29394375(int __unused a
         {Class _logos_class$VirtualSteps$HKStatisticsQuery = objc_getClass("HKStatisticsQuery"); { MSHookMessageEx(_logos_class$VirtualSteps$HKStatisticsQuery, @selector(initWithQuantityType:quantitySamplePredicate:options:completionHandler:), (IMP)&_logos_method$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$, (IMP*)&_logos_orig$VirtualSteps$HKStatisticsQuery$initWithQuantityType$quantitySamplePredicate$options$completionHandler$);}Class _logos_class$VirtualSteps$HKSampleQuery = objc_getClass("HKSampleQuery"); { MSHookMessageEx(_logos_class$VirtualSteps$HKSampleQuery, @selector(initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:), (IMP)&_logos_method$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$, (IMP*)&_logos_orig$VirtualSteps$HKSampleQuery$initWithSampleType$predicate$limit$sortDescriptors$resultsHandler$);}} } else if ([BundleId isEqualToString:YouTube]) {
 
 
+        {Class _logos_class$YouTube$YTSingleVideo = objc_getClass("YTSingleVideo"); { MSHookMessageEx(_logos_class$YouTube$YTSingleVideo, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTSingleVideo$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTSingleVideo$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackData = objc_getClass("YTPlaybackData"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackData, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackData$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackData$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackBackgroundTaskController = objc_getClass("YTPlaybackBackgroundTaskController"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(isContentPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground);}{ MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(setContentPlayableInBackground:), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$);}Class _logos_class$YouTube$YTIPlayerResponse = objc_getClass("YTIPlayerResponse"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayerResponse, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayerResponse$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayerResponse$isPlayableInBackground);}Class _logos_class$YouTube$YTIPlayabilityStatus = objc_getClass("YTIPlayabilityStatus"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayabilityStatus, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayabilityStatus$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayabilityStatus$isPlayableInBackground);}} } else if ([BundleId isEqualToString:HJDM]) {
 
-        {Class _logos_class$YouTube$YTSingleVideo = objc_getClass("YTSingleVideo"); { MSHookMessageEx(_logos_class$YouTube$YTSingleVideo, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTSingleVideo$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTSingleVideo$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackData = objc_getClass("YTPlaybackData"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackData, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackData$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackData$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackBackgroundTaskController = objc_getClass("YTPlaybackBackgroundTaskController"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(isContentPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground);}{ MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(setContentPlayableInBackground:), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$);}Class _logos_class$YouTube$YTIPlayerResponse = objc_getClass("YTIPlayerResponse"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayerResponse, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayerResponse$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayerResponse$isPlayableInBackground);}Class _logos_class$YouTube$YTIPlayabilityStatus = objc_getClass("YTIPlayabilityStatus"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayabilityStatus, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayabilityStatus$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayabilityStatus$isPlayableInBackground);}} } }
+
+
+
+        {Class _logos_class$HJDM$_TtC2mh14MH_ComicReadVC = objc_getClass("_TtC2mh14MH_ComicReadVC"); { MSHookMessageEx(_logos_class$HJDM$_TtC2mh14MH_ComicReadVC, @selector(viewWillLayoutSubviews), (IMP)&_logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews, (IMP*)&_logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews);}} }  }

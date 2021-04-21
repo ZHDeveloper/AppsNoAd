@@ -1188,8 +1188,82 @@
 %end
 %end
 
+#pragma mark - ========================> HookAdSDK <========================
+%group HookAdSDK
+
+%hook BUAdSDKManager
+
+- (void)setAppID:(id)value { }
+
+%end
+
+%hook ADSuyiSDK
+
++ (void)initWithAppId:(id)value1 completionBlock:(id)value2 { }
+
+%end
+
+@interface AdsViewController : UIViewController
+
+- (void)stopAds;
+- (void)adViewDidReceiveBannerAD:(id)arg1;
+
+@end
+
+%hook AdsViewController
+
+
+//- (void)requestAd { }
+
+//- (void)viewDidLoad {
+//    [self stopAds];
+//}
+
+%end
+
+%hook GDTSplashAdImp
+
+- (id)initWithPlacementId:(id)arg1 serverType:(long long)arg2 {
+    return nil;
+}
+- (id)initWithPlacementId:(id)arg1 {
+    return nil;
+}
+
+%end
+
+%end
+
+#pragma mark - ========================> HJDM <========================
+%group HJDM
+
+@interface _TtC2mh14MH_ComicReadVC : UIViewController
+
+@property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView;
+
+@end
+
+%hook _TtC2mh14MH_ComicReadVC
+
+- (void)viewWillLayoutSubviews {
+    %orig;
+    [NSLayoutConstraint constraintWithItem:self.collectionView
+                                 attribute:NSLayoutAttributeBottom
+                                 relatedBy:NSLayoutRelationEqual
+                                    toItem:self.view
+                                 attribute:NSLayoutAttributeBottom
+                                multiplier:1.0f
+                                  constant:0.0f].active = YES;
+}
+
+%end
+
+%end
+
 #pragma mark - ========================> 初始化 <========================
 %ctor {
+    %init(HookAdSDK);
+
     if ([BundleId isEqualToString:Eleme]) {
         %init(Eleme);
     }
@@ -1247,4 +1321,8 @@
     else if ([BundleId isEqualToString:YouTube]) {
         %init(YouTube)
     }
+    else if ([BundleId isEqualToString:HJDM]) {
+        %init(HJDM)
+    }
+    
 }

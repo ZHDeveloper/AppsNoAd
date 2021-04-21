@@ -38,6 +38,7 @@ NSString *const EleVideo        = @"com.ls.kuishe";
 NSString *const JDHealth        = @"com.jd.jdhealth";
 NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
 NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";
+NSString *const HJDM            = @"com.hts.hjdm";
 
 
 @interface NSObject (Associate)
