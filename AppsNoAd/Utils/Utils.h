@@ -18,6 +18,8 @@
 
 
 NSString *const Beva            = @"com.slanissue.beva.app.erge.common";
+NSString *const HJDM            = @"com.hts.hjdm";
+NSString *const Media            = @"com.midea.msmart.appstore";
 NSString *const Eleme           = @"me.ele.ios.eleme";
 NSString *const QiDian          = @"m.qidian.QDReaderAppStore";
 NSString *const ZuiYou          = @"cn.xiaochuankeji.tieba";
@@ -38,7 +40,6 @@ NSString *const EleVideo        = @"com.ls.kuishe";
 NSString *const JDHealth        = @"com.jd.jdhealth";
 NSString *const ColorfulWeather     = @"net.colorfulclouds.app";
 NSString *const ColorfulWeatherPro  = @"net.colorfulclouds.app.pro";
-NSString *const HJDM            = @"com.hts.hjdm";
 
 
 @interface NSObject (Associate)

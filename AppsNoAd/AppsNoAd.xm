@@ -1242,7 +1242,7 @@
 
 %end
 
-#pragma mark - ========================> HJDM <========================
+#pragma mark - ========================> 汇聚动漫 <========================
 %group HJDM
 
 @interface _TtC2mh14MH_ComicReadVC : UIViewController
@@ -1262,6 +1262,152 @@
                                  attribute:NSLayoutAttributeBottom
                                 multiplier:1.0f
                                   constant:0.0f].active = YES;
+}
+
+%end
+
+%end
+
+#pragma mark - ========================> 美的 <========================
+%group Media
+
+@interface BHAdvertHomeBannerView : UIView
+
+@end
+
+@interface MideaHomeViewController : UIViewController
+
+@property (strong) UIView *advertiseView;
+@property (strong) UIScrollView *scrollView;
+
+- (void)updateUpViewFrame;
+
+@end
+
+@interface UIView (YYAdd)
+
+@property (nonatomic) CGFloat left;        ///< Shortcut for frame.origin.x.
+@property (nonatomic) CGFloat top;         ///< Shortcut for frame.origin.y
+@property (nonatomic) CGFloat right;       ///< Shortcut for frame.origin.x + frame.size.width
+@property (nonatomic) CGFloat bottom;      ///< Shortcut for frame.origin.y + frame.size.height
+@property (nonatomic) CGFloat width;       ///< Shortcut for frame.size.width.
+@property (nonatomic) CGFloat height;      ///< Shortcut for frame.size.height.
+@property (nonatomic) CGFloat centerX;     ///< Shortcut for center.x
+@property (nonatomic) CGFloat centerY;     ///< Shortcut for center.y
+@property (nonatomic) CGPoint origin;      ///< Shortcut for frame.origin.
+@property (nonatomic) CGSize  size;        ///< Shortcut for frame.size.
+
+@end
+
+%hook MideaHomeViewController
+
+- (void)updateUpViewFrame {
+    self.advertiseView.height = 0;
+    %orig;
+    self.advertiseView.height = 0;
+}
+
+- (UIScrollView *)scrollView {
+    id view = %orig;
+    ((UIScrollView *)view).scrollEnabled = NO;
+    return view;
+}
+
+%end
+
+%hook BHAdvertHomeBannerView
+
+- (id)initWithFrame:(struct CGRect)arg1 viewController:(id)arg2 {
+    id view = %orig;
+    ((UIView *)view).clipsToBounds = YES;
+    return view;
+}
+
+%end
+
+%hook MideaTableBarViewController
+
+- (void)addChildViewController:(UIViewController *)vc {
+    NSArray *titles = @[@"首页", @"场景", @"我的"];
+    if (![titles containsObject:vc.tabBarItem.title])return;
+    %orig;
+}
+
+%end
+
+%hook BHAdvertMineBannerView
+
+- (id)initWithFrame:(struct CGRect)arg1 {
+    id view = %orig;
+    ((UIView *)view).height = 0;
+    ((UIView *)view).clipsToBounds = YES;
+    return view;
+}
+
+%end
+
+@interface BHTabItemModel : NSObject
+
+@property(copy, nonatomic) NSString *title;
+
+@end
+
+@interface BHHomeCustomTabBar : UITabBar
+
+@end
+
+%hook BHHomeCustomTabBar
+
+- (void)reloadTabbar:(NSArray *)arg1 {
+    NSMutableArray *array = [@[] mutableCopy];
+    [arg1 enumerateObjectsUsingBlock:^(BHTabItemModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSArray *titles = @[@"首页", @"场景", @"我的"];
+        if ([titles containsObject:obj.title] ) {
+            [array addObject:obj];
+        }
+    }];
+    %orig(array);
+}
+
+- (id)initWithItemModelArr:(NSArray *)arg1 {
+    NSMutableArray *array = [@[] mutableCopy];
+    [arg1 enumerateObjectsUsingBlock:^(BHTabItemModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSArray *titles = @[@"首页", @"场景", @"我的"];
+        if ([titles containsObject:obj.title] ) {
+            [array addObject:obj];
+        }
+    }];
+    return %orig(array);
+}
+
+- (void)updateItemFrame {
+    %orig;
+    NSArray *list = [self.subviews bk_select:^BOOL(id obj) {
+        return [obj isKindOfClass:NSClassFromString(@"UITabBarButton")];
+    }];
+    [list enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        CGFloat width = self.width/list.count;
+        obj.width = width;
+        obj.left = idx * width;
+    }];
+}
+
+%end
+
+@interface UITabBarButton : UIView
+
+@end
+
+%hook UITabBarButton
+
+- (void)layoutSubviews {
+    %orig;
+    
+    UIView *view = [self.subviews bk_select:^BOOL(id obj) {
+        return [obj isKindOfClass:NSClassFromString(@"BHAnimatedBaseView")];
+    }].firstObject;
+    
+    view.centerX = self.width*0.5;
 }
 
 %end
@@ -1331,6 +1477,9 @@
     }
     else if ([BundleId isEqualToString:HJDM]) {
         %init(HJDM)
+    }
+    else if ([BundleId isEqualToString:Media]) {
+        %init(Media)
     }
     
 }

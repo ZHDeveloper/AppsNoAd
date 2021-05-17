@@ -1,4 +1,4 @@
-#line 1 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 1 "/Users/zhihuashen/ Work_Projects/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 
 
 #if TARGET_OS_SIMULATOR
@@ -74,10 +74,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class QualityCell; @class SWCityFeedVC; @class GADMobileAds; @class ZYSplashFeedAdView; @class SSReadingAdSplashTask; @class TVKWaterMarkModel; @class KWMusicFeeUserManager; @class HWQuestionsModel; @class KWMusicCellViewModel; @class SWTipsView; @class OnlineAdItemInfo; @class QNBQQPlayerPlugin; @class QLJCEONAAdPoster; @class JXSystemInfo; @class QNBUAFocusVideoBlockViewModel; @class QLVNUserCenterRecommendFeedViewModel; @class KWAudioADManager; @class QLJCEONARecommendList; @class KWMusicFeeFlagObject; @class TADSplashManager; @class PKBVStatisticsUserInfo; @class KHStartController; @class GDTSplashAdImp; @class ZYAdInfoFlow; @class QADSplashSDK; @class KWMusicFeeTipsAlertView; @class KWMusicFeeNeedPayTipsView; @class SEUserVipInfoModel; @class BUAdSDKManager; @class YTIPlayabilityStatus; @class KWStarThemeDetailViewController; @class YTPlaybackBackgroundTaskController; @class ConnectADSmallCell; @class ADServer; @class DWPlayerView; @class SEUserModel; @class TADSplashBaseViewController; @class KWSplashAdInfoModel; @class ReportTaskService; @class ZYNativeAdV2TableViewCell; @class JXLiveRootSubCategoryMainFrameView; @class QNBUAFocusAdBlockViewModel; @class KWSearchRecommandTipsView; @class QNBUAPRPageCarouselCell; @class QLTeenGuardianPromptAssistant; @class HKStatisticsQuery; @class KWSearchPlayBarCell; @class LaunchViewController; @class QLJCEAdInsideVideoItem; @class NewUserPageController; @class AppsViewCell; @class QLVMChannelViewController; @class KWKeyConfig; @class AppDelegate; @class NRPlayControlManager; @class HKSampleQuery; @class QADFeedBaseViewModel; @class MobileTracking; @class QNBUAPRCommonLandScapeViewModel; @class YTSingleVideo; @class QNBUAVIPActivityEntryViewModel; @class AdsViewController; @class QLJCEONAAppList; @class YTIPlayerResponse; @class PKBVUserVIPInfoModel; @class SSReadingAdBaseViewController; @class ZYUIFeedNativeAdTableViewCell; @class PKBVVideoAlbumPlayerPresenter; @class JCommonServiceController; @class HYWVideoListAndNoteListViewController; @class SWCityPageVC; @class YTPlaybackData; @class PNMemberBNewCell; @class EMKLaunchADViewController; @class NewUserPageEntryCell; @class MediaItemInfo; @class QADSplashWindow; @class KWMoreListItem; @class PKBVCommonRecommendViewNaviModel; @class VungleSDK; @class XCNativeAdData; @class KWBgImageAndPendantTipView; @class QLONAInnerAdRecommendBannerCell; @class FLPatch; @class UMConfigure; @class PNConnectionViewController; @class HYWVideoPlayViewStatusModel; @class BBSAdvertLaunch; @class _TtC2mh14MH_ComicReadVC; @class ADSuyiSDK; @class CKVCManage; @class SSReaderManager; @class BLYDevice; @class KWSplashPreLoaderHelper; @class SSDialogView; @class QLJCEONAVideoAdPoster; @class KWMusicPackageInfo; @class MainTabBarController; @class SSUserVipInfo; @class MVSingleAnimatedImageView; @class CYCacheManager; @class RootTabBarController; @class SSAdTask; @class QLVNOperationViewModel; @class PNLaunchADShowView; @class QLONAGalleryAdPosterView; @class QLJCEONALeftImageRightTextAdPoster; @class SSChapterEndCommentContainerView; @class MVSplashScreenViewController; @class TKApp; @class DTSplashViewController; @class KWAdvertisementForPlayerView; @class HYPlayerViewControlView; 
+@class SSDialogView; @class DTSplashViewController; @class BHAdvertMineBannerView; @class QLJCEAdInsideVideoItem; @class QLVMChannelViewController; @class RootTabBarController; @class YTPlaybackData; @class HYWVideoListAndNoteListViewController; @class SSReadingAdSplashTask; @class HYWVideoPlayViewStatusModel; @class SSAdTask; @class QLVNUserCenterRecommendFeedViewModel; @class QLONAInnerAdRecommendBannerCell; @class JCommonServiceController; @class XCNativeAdData; @class QLTeenGuardianPromptAssistant; @class QLONAGalleryAdPosterView; @class PNMemberBNewCell; @class ZYAdInfoFlow; @class KWSearchPlayBarCell; @class ZYNativeAdV2TableViewCell; @class QNBUAPRCommonLandScapeViewModel; @class GADMobileAds; @class AppsViewCell; @class SEUserModel; @class BHHomeCustomTabBar; @class NewUserPageController; @class KWMusicFeeFlagObject; @class YTIPlayabilityStatus; @class QualityCell; @class PKBVCommonRecommendViewNaviModel; @class SSReadingAdBaseViewController; @class SSReaderManager; @class KWMusicCellViewModel; @class TADSplashManager; @class MideaHomeViewController; @class BHAdvertHomeBannerView; @class KWMoreListItem; @class EMKLaunchADViewController; @class BUAdSDKManager; @class SWCityPageVC; @class BBSAdvertLaunch; @class PNConnectionViewController; @class UITabBarButton; @class MVSingleAnimatedImageView; @class KWBgImageAndPendantTipView; @class QLVNOperationViewModel; @class VungleSDK; @class ConnectADSmallCell; @class YTPlaybackBackgroundTaskController; @class PNLaunchADShowView; @class MVSplashScreenViewController; @class YTIPlayerResponse; @class ReportTaskService; @class QNBUAVIPActivityEntryViewModel; @class TADSplashBaseViewController; @class TVKWaterMarkModel; @class MainTabBarController; @class KWMusicPackageInfo; @class CYCacheManager; @class HYPlayerViewControlView; @class HKStatisticsQuery; @class KWSplashAdInfoModel; @class QLJCEONAVideoAdPoster; @class AdsViewController; @class MediaItemInfo; @class SWTipsView; @class ZYUIFeedNativeAdTableViewCell; @class PKBVStatisticsUserInfo; @class KWStarThemeDetailViewController; @class JXSystemInfo; @class KWAudioADManager; @class HKSampleQuery; @class KWMusicFeeTipsAlertView; @class MideaTableBarViewController; @class KWAdvertisementForPlayerView; @class QNBQQPlayerPlugin; @class ADSuyiSDK; @class DWPlayerView; @class LaunchViewController; @class KWMusicFeeUserManager; @class AppDelegate; @class SSUserVipInfo; @class QLJCEONAAppList; @class NewUserPageEntryCell; @class _TtC2mh14MH_ComicReadVC; @class QADSplashWindow; @class QLJCEONARecommendList; @class JXLiveRootSubCategoryMainFrameView; @class HWQuestionsModel; @class YTSingleVideo; @class CKVCManage; @class FLPatch; @class KWMusicFeeNeedPayTipsView; @class UMConfigure; @class SSChapterEndCommentContainerView; @class KWSearchRecommandTipsView; @class NRPlayControlManager; @class KWSplashPreLoaderHelper; @class QNBUAFocusAdBlockViewModel; @class GDTSplashAdImp; @class QNBUAPRPageCarouselCell; @class PKBVUserVIPInfoModel; @class BLYDevice; @class ZYSplashFeedAdView; @class MobileTracking; @class QNBUAFocusVideoBlockViewModel; @class KHStartController; @class SEUserVipInfoModel; @class TKApp; @class PKBVVideoAlbumPlayerPresenter; @class QADSplashSDK; @class SWCityFeedVC; @class QLJCEONAAdPoster; @class OnlineAdItemInfo; @class KWKeyConfig; @class QLJCEONALeftImageRightTextAdPoster; @class QADFeedBaseViewModel; @class ADServer; 
 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$ReportTaskService(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("ReportTaskService"); } return _klass; }static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SEUserVipInfoModel(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SEUserVipInfoModel"); } return _klass; }
-#line 55 "/Users/zhihuashen/Documents/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
+#line 55 "/Users/zhihuashen/ Work_Projects/Jailbreak/AppsNoAd/AppsNoAd/AppsNoAd.xm"
 #pragma mark - ========================> 最右 <========================
 static ZYSplashFeedAdView* (*_logos_orig$ZuiYou$ZYSplashFeedAdView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static ZYSplashFeedAdView* _logos_method$ZuiYou$ZYSplashFeedAdView$initWithFrame$(_LOGOS_SELF_TYPE_INIT ZYSplashFeedAdView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBaiduAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithJHNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithGdtUnifiedData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdDataWithBuAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdV2DataWithCusNativeAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$ZuiYou$XCNativeAdData$updateNativeAdData)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void _logos_method$ZuiYou$XCNativeAdData$updateNativeAdData(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$ZuiYou$XCNativeAdData$setAdData$)(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$ZuiYou$XCNativeAdData$setAdData$(_LOGOS_SELF_TYPE_NORMAL XCNativeAdData* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$ZuiYou$ZYAdInfoFlow$cellHeight)(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static double _logos_method$ZuiYou$ZYAdInfoFlow$cellHeight(_LOGOS_SELF_TYPE_NORMAL ZYAdInfoFlow* _LOGOS_SELF_CONST, SEL); static ZYUIFeedNativeAdTableViewCell* (*_logos_orig$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYUIFeedNativeAdTableViewCell* _logos_method$ZuiYou$ZYUIFeedNativeAdTableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYUIFeedNativeAdTableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* (*_logos_orig$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$)(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; static ZYNativeAdV2TableViewCell* _logos_method$ZuiYou$ZYNativeAdV2TableViewCell$initWithStyle$reuseIdentifier$(_LOGOS_SELF_TYPE_INIT ZYNativeAdV2TableViewCell*, SEL, long long, id) _LOGOS_RETURN_RETAINED; 
 
@@ -1268,7 +1268,7 @@ static GDTSplashAdImp* _logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementI
 
 
 
-#pragma mark - ========================> HJDM <========================
+#pragma mark - ========================> 汇聚动漫 <========================
 static void (*_logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews)(_LOGOS_SELF_TYPE_NORMAL _TtC2mh14MH_ComicReadVC* _LOGOS_SELF_CONST, SEL); static void _logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews(_LOGOS_SELF_TYPE_NORMAL _TtC2mh14MH_ComicReadVC* _LOGOS_SELF_CONST, SEL); 
 
 @interface _TtC2mh14MH_ComicReadVC : UIViewController
@@ -1294,8 +1294,154 @@ static void _logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews(_L
 
 
 
+#pragma mark - ========================> 美的 <========================
+static void (*_logos_orig$Media$MideaHomeViewController$updateUpViewFrame)(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$Media$MideaHomeViewController$updateUpViewFrame(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST, SEL); static UIScrollView * (*_logos_orig$Media$MideaHomeViewController$scrollView)(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST, SEL); static UIScrollView * _logos_method$Media$MideaHomeViewController$scrollView(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST, SEL); static BHAdvertHomeBannerView* (*_logos_orig$Media$BHAdvertHomeBannerView$initWithFrame$viewController$)(_LOGOS_SELF_TYPE_INIT BHAdvertHomeBannerView*, SEL, struct CGRect, id) _LOGOS_RETURN_RETAINED; static BHAdvertHomeBannerView* _logos_method$Media$BHAdvertHomeBannerView$initWithFrame$viewController$(_LOGOS_SELF_TYPE_INIT BHAdvertHomeBannerView*, SEL, struct CGRect, id) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$Media$MideaTableBarViewController$addChildViewController$)(_LOGOS_SELF_TYPE_NORMAL MideaTableBarViewController* _LOGOS_SELF_CONST, SEL, UIViewController *); static void _logos_method$Media$MideaTableBarViewController$addChildViewController$(_LOGOS_SELF_TYPE_NORMAL MideaTableBarViewController* _LOGOS_SELF_CONST, SEL, UIViewController *); static BHAdvertMineBannerView* (*_logos_orig$Media$BHAdvertMineBannerView$initWithFrame$)(_LOGOS_SELF_TYPE_INIT BHAdvertMineBannerView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static BHAdvertMineBannerView* _logos_method$Media$BHAdvertMineBannerView$initWithFrame$(_LOGOS_SELF_TYPE_INIT BHAdvertMineBannerView*, SEL, struct CGRect) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$Media$BHHomeCustomTabBar$reloadTabbar$)(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST, SEL, NSArray *); static void _logos_method$Media$BHHomeCustomTabBar$reloadTabbar$(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST, SEL, NSArray *); static BHHomeCustomTabBar* (*_logos_orig$Media$BHHomeCustomTabBar$initWithItemModelArr$)(_LOGOS_SELF_TYPE_INIT BHHomeCustomTabBar*, SEL, NSArray *) _LOGOS_RETURN_RETAINED; static BHHomeCustomTabBar* _logos_method$Media$BHHomeCustomTabBar$initWithItemModelArr$(_LOGOS_SELF_TYPE_INIT BHHomeCustomTabBar*, SEL, NSArray *) _LOGOS_RETURN_RETAINED; static void (*_logos_orig$Media$BHHomeCustomTabBar$updateItemFrame)(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST, SEL); static void _logos_method$Media$BHHomeCustomTabBar$updateItemFrame(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$Media$UITabBarButton$layoutSubviews)(_LOGOS_SELF_TYPE_NORMAL UITabBarButton* _LOGOS_SELF_CONST, SEL); static void _logos_method$Media$UITabBarButton$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL UITabBarButton* _LOGOS_SELF_CONST, SEL); 
+
+@interface BHAdvertHomeBannerView : UIView
+
+@end
+
+@interface MideaHomeViewController : UIViewController
+
+@property (strong) UIView *advertiseView;
+@property (strong) UIScrollView *scrollView;
+
+- (void)updateUpViewFrame;
+
+@end
+
+@interface UIView (YYAdd)
+
+@property (nonatomic) CGFloat left;        
+@property (nonatomic) CGFloat top;         
+@property (nonatomic) CGFloat right;       
+@property (nonatomic) CGFloat bottom;      
+@property (nonatomic) CGFloat width;       
+@property (nonatomic) CGFloat height;      
+@property (nonatomic) CGFloat centerX;     
+@property (nonatomic) CGFloat centerY;     
+@property (nonatomic) CGPoint origin;      
+@property (nonatomic) CGSize  size;        
+
+@end
+
+
+
+static void _logos_method$Media$MideaHomeViewController$updateUpViewFrame(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    self.advertiseView.height = 0;
+    _logos_orig$Media$MideaHomeViewController$updateUpViewFrame(self, _cmd);
+    self.advertiseView.height = 0;
+}
+
+static UIScrollView * _logos_method$Media$MideaHomeViewController$scrollView(_LOGOS_SELF_TYPE_NORMAL MideaHomeViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    id view = _logos_orig$Media$MideaHomeViewController$scrollView(self, _cmd);
+    ((UIScrollView *)view).scrollEnabled = NO;
+    return view;
+}
+
+
+
+
+
+static BHAdvertHomeBannerView* _logos_method$Media$BHAdvertHomeBannerView$initWithFrame$viewController$(_LOGOS_SELF_TYPE_INIT BHAdvertHomeBannerView* __unused self, SEL __unused _cmd, struct CGRect arg1, id arg2) _LOGOS_RETURN_RETAINED {
+    id view = _logos_orig$Media$BHAdvertHomeBannerView$initWithFrame$viewController$(self, _cmd, arg1, arg2);
+    ((UIView *)view).clipsToBounds = YES;
+    return view;
+}
+
+
+
+
+
+static void _logos_method$Media$MideaTableBarViewController$addChildViewController$(_LOGOS_SELF_TYPE_NORMAL MideaTableBarViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, UIViewController * vc) {
+    NSArray *titles = @[@"首页", @"场景", @"我的"];
+    if (![titles containsObject:vc.tabBarItem.title])return;
+    _logos_orig$Media$MideaTableBarViewController$addChildViewController$(self, _cmd, vc);
+}
+
+
+
+
+
+static BHAdvertMineBannerView* _logos_method$Media$BHAdvertMineBannerView$initWithFrame$(_LOGOS_SELF_TYPE_INIT BHAdvertMineBannerView* __unused self, SEL __unused _cmd, struct CGRect arg1) _LOGOS_RETURN_RETAINED {
+    id view = _logos_orig$Media$BHAdvertMineBannerView$initWithFrame$(self, _cmd, arg1);
+    ((UIView *)view).height = 0;
+    ((UIView *)view).clipsToBounds = YES;
+    return view;
+}
+
+
+
+@interface BHTabItemModel : NSObject
+
+@property(copy, nonatomic) NSString *title;
+
+@end
+
+@interface BHHomeCustomTabBar : UITabBar
+
+@end
+
+
+
+static void _logos_method$Media$BHHomeCustomTabBar$reloadTabbar$(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, NSArray * arg1) {
+    NSMutableArray *array = [@[] mutableCopy];
+    [arg1 enumerateObjectsUsingBlock:^(BHTabItemModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSArray *titles = @[@"首页", @"场景", @"我的"];
+        if ([titles containsObject:obj.title] ) {
+            [array addObject:obj];
+        }
+    }];
+    _logos_orig$Media$BHHomeCustomTabBar$reloadTabbar$(self, _cmd, array);
+}
+
+static BHHomeCustomTabBar* _logos_method$Media$BHHomeCustomTabBar$initWithItemModelArr$(_LOGOS_SELF_TYPE_INIT BHHomeCustomTabBar* __unused self, SEL __unused _cmd, NSArray * arg1) _LOGOS_RETURN_RETAINED {
+    NSMutableArray *array = [@[] mutableCopy];
+    [arg1 enumerateObjectsUsingBlock:^(BHTabItemModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSArray *titles = @[@"首页", @"场景", @"我的"];
+        if ([titles containsObject:obj.title] ) {
+            [array addObject:obj];
+        }
+    }];
+    return _logos_orig$Media$BHHomeCustomTabBar$initWithItemModelArr$(self, _cmd, array);
+}
+
+static void _logos_method$Media$BHHomeCustomTabBar$updateItemFrame(_LOGOS_SELF_TYPE_NORMAL BHHomeCustomTabBar* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$Media$BHHomeCustomTabBar$updateItemFrame(self, _cmd);
+    NSArray *list = [self.subviews bk_select:^BOOL(id obj) {
+        return [obj isKindOfClass:NSClassFromString(@"UITabBarButton")];
+    }];
+    [list enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        CGFloat width = self.width/list.count;
+        obj.width = width;
+        obj.left = idx * width;
+    }];
+}
+
+
+
+@interface UITabBarButton : UIView
+
+@end
+
+
+
+static void _logos_method$Media$UITabBarButton$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL UITabBarButton* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
+    _logos_orig$Media$UITabBarButton$layoutSubviews(self, _cmd);
+    
+    UIView *view = [self.subviews bk_select:^BOOL(id obj) {
+        return [obj isKindOfClass:NSClassFromString(@"BHAnimatedBaseView")];
+    }].firstObject;
+    
+    view.centerX = self.width*0.5;
+}
+
+
+
+
+
 #pragma mark - ========================> 初始化 <========================
-static __attribute__((constructor)) void _logosLocalCtor_e2e83711(int __unused argc, char __unused **argv, char __unused **envp) {
+static __attribute__((constructor)) void _logosLocalCtor_2ffeef33(int __unused argc, char __unused **argv, char __unused **envp) {
     {Class _logos_class$HookAdSDK$BUAdSDKManager = objc_getClass("BUAdSDKManager"); { MSHookMessageEx(_logos_class$HookAdSDK$BUAdSDKManager, @selector(setAppID:), (IMP)&_logos_method$HookAdSDK$BUAdSDKManager$setAppID$, (IMP*)&_logos_orig$HookAdSDK$BUAdSDKManager$setAppID$);}Class _logos_class$HookAdSDK$ADSuyiSDK = objc_getClass("ADSuyiSDK"); Class _logos_metaclass$HookAdSDK$ADSuyiSDK = object_getClass(_logos_class$HookAdSDK$ADSuyiSDK); { MSHookMessageEx(_logos_metaclass$HookAdSDK$ADSuyiSDK, @selector(initWithAppId:completionBlock:), (IMP)&_logos_meta_method$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$, (IMP*)&_logos_meta_orig$HookAdSDK$ADSuyiSDK$initWithAppId$completionBlock$);}Class _logos_class$HookAdSDK$GDTSplashAdImp = objc_getClass("GDTSplashAdImp"); { MSHookMessageEx(_logos_class$HookAdSDK$GDTSplashAdImp, @selector(initWithPlacementId:serverType:), (IMP)&_logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$, (IMP*)&_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$serverType$);}{ MSHookMessageEx(_logos_class$HookAdSDK$GDTSplashAdImp, @selector(initWithPlacementId:), (IMP)&_logos_method$HookAdSDK$GDTSplashAdImp$initWithPlacementId$, (IMP*)&_logos_orig$HookAdSDK$GDTSplashAdImp$initWithPlacementId$);}}
 
     if ([BundleId isEqualToString:Eleme]) {
@@ -1358,6 +1504,9 @@ static __attribute__((constructor)) void _logosLocalCtor_e2e83711(int __unused a
         {Class _logos_class$YouTube$YTSingleVideo = objc_getClass("YTSingleVideo"); { MSHookMessageEx(_logos_class$YouTube$YTSingleVideo, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTSingleVideo$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTSingleVideo$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackData = objc_getClass("YTPlaybackData"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackData, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackData$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackData$isPlayableInBackground);}Class _logos_class$YouTube$YTPlaybackBackgroundTaskController = objc_getClass("YTPlaybackBackgroundTaskController"); { MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(isContentPlayableInBackground), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$isContentPlayableInBackground);}{ MSHookMessageEx(_logos_class$YouTube$YTPlaybackBackgroundTaskController, @selector(setContentPlayableInBackground:), (IMP)&_logos_method$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$, (IMP*)&_logos_orig$YouTube$YTPlaybackBackgroundTaskController$setContentPlayableInBackground$);}Class _logos_class$YouTube$YTIPlayerResponse = objc_getClass("YTIPlayerResponse"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayerResponse, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayerResponse$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayerResponse$isPlayableInBackground);}Class _logos_class$YouTube$YTIPlayabilityStatus = objc_getClass("YTIPlayabilityStatus"); { MSHookMessageEx(_logos_class$YouTube$YTIPlayabilityStatus, @selector(isPlayableInBackground), (IMP)&_logos_method$YouTube$YTIPlayabilityStatus$isPlayableInBackground, (IMP*)&_logos_orig$YouTube$YTIPlayabilityStatus$isPlayableInBackground);}} } else if ([BundleId isEqualToString:HJDM]) {
 
 
+        {Class _logos_class$HJDM$_TtC2mh14MH_ComicReadVC = objc_getClass("_TtC2mh14MH_ComicReadVC"); { MSHookMessageEx(_logos_class$HJDM$_TtC2mh14MH_ComicReadVC, @selector(viewWillLayoutSubviews), (IMP)&_logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews, (IMP*)&_logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews);}} } else if ([BundleId isEqualToString:Media]) {
 
 
-        {Class _logos_class$HJDM$_TtC2mh14MH_ComicReadVC = objc_getClass("_TtC2mh14MH_ComicReadVC"); { MSHookMessageEx(_logos_class$HJDM$_TtC2mh14MH_ComicReadVC, @selector(viewWillLayoutSubviews), (IMP)&_logos_method$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews, (IMP*)&_logos_orig$HJDM$_TtC2mh14MH_ComicReadVC$viewWillLayoutSubviews);}} }  }
+
+
+        {Class _logos_class$Media$MideaHomeViewController = objc_getClass("MideaHomeViewController"); { MSHookMessageEx(_logos_class$Media$MideaHomeViewController, @selector(updateUpViewFrame), (IMP)&_logos_method$Media$MideaHomeViewController$updateUpViewFrame, (IMP*)&_logos_orig$Media$MideaHomeViewController$updateUpViewFrame);}{ MSHookMessageEx(_logos_class$Media$MideaHomeViewController, @selector(scrollView), (IMP)&_logos_method$Media$MideaHomeViewController$scrollView, (IMP*)&_logos_orig$Media$MideaHomeViewController$scrollView);}Class _logos_class$Media$BHAdvertHomeBannerView = objc_getClass("BHAdvertHomeBannerView"); { MSHookMessageEx(_logos_class$Media$BHAdvertHomeBannerView, @selector(initWithFrame:viewController:), (IMP)&_logos_method$Media$BHAdvertHomeBannerView$initWithFrame$viewController$, (IMP*)&_logos_orig$Media$BHAdvertHomeBannerView$initWithFrame$viewController$);}Class _logos_class$Media$MideaTableBarViewController = objc_getClass("MideaTableBarViewController"); { MSHookMessageEx(_logos_class$Media$MideaTableBarViewController, @selector(addChildViewController:), (IMP)&_logos_method$Media$MideaTableBarViewController$addChildViewController$, (IMP*)&_logos_orig$Media$MideaTableBarViewController$addChildViewController$);}Class _logos_class$Media$BHAdvertMineBannerView = objc_getClass("BHAdvertMineBannerView"); { MSHookMessageEx(_logos_class$Media$BHAdvertMineBannerView, @selector(initWithFrame:), (IMP)&_logos_method$Media$BHAdvertMineBannerView$initWithFrame$, (IMP*)&_logos_orig$Media$BHAdvertMineBannerView$initWithFrame$);}Class _logos_class$Media$BHHomeCustomTabBar = objc_getClass("BHHomeCustomTabBar"); { MSHookMessageEx(_logos_class$Media$BHHomeCustomTabBar, @selector(reloadTabbar:), (IMP)&_logos_method$Media$BHHomeCustomTabBar$reloadTabbar$, (IMP*)&_logos_orig$Media$BHHomeCustomTabBar$reloadTabbar$);}{ MSHookMessageEx(_logos_class$Media$BHHomeCustomTabBar, @selector(initWithItemModelArr:), (IMP)&_logos_method$Media$BHHomeCustomTabBar$initWithItemModelArr$, (IMP*)&_logos_orig$Media$BHHomeCustomTabBar$initWithItemModelArr$);}{ MSHookMessageEx(_logos_class$Media$BHHomeCustomTabBar, @selector(updateItemFrame), (IMP)&_logos_method$Media$BHHomeCustomTabBar$updateItemFrame, (IMP*)&_logos_orig$Media$BHHomeCustomTabBar$updateItemFrame);}Class _logos_class$Media$UITabBarButton = objc_getClass("UITabBarButton"); { MSHookMessageEx(_logos_class$Media$UITabBarButton, @selector(layoutSubviews), (IMP)&_logos_method$Media$UITabBarButton$layoutSubviews, (IMP*)&_logos_orig$Media$UITabBarButton$layoutSubviews);}} }  }
