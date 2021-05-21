@@ -55,6 +55,21 @@
 #pragma mark - ========================> 最右 <========================
 %group ZuiYou
 
+@interface XCBUSplashAD : NSObject
+
+- (void)closeAd;
+- (void)showAd;
+
+@end
+
+%hook XCBUSplashAD
+
+- (void)showAd {
+    [self closeAd];
+}
+
+%end
+
 %hook ZYSplashFeedAdView
 
 - (id)initWithFrame:(struct CGRect)arg1 {
